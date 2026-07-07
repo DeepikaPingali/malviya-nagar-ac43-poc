@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Malviya Nagar (AC-43) — Civic Data POC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --panel: #ffffff;
+    --border: #e0ddd6;
+    --text: #2a2a28;
+    --muted: #6b6862;
+    --accent: #8b2f2f;
+    --ok: #2f7a3d;
+    --warn: #a8721c;
+    --bad: #a33a3a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--text); background: var(--bg); }
+  #app { display: flex; height: 100vh; width: 100vw; overflow: hidden; }
+  #sidebar {
+    width: 380px; min-width: 380px; background: var(--panel); border-right: 1px solid var(--border);
+    overflow-y: auto; padding: 16px; font-size: 13.5px; line-height: 1.5;
+  }
+  #map { flex: 1; height: 100%; cursor: default; }
+  #map.note-mode { cursor: crosshair; }
+  h1 { font-size: 16px; margin: 0 0 4px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 22px 0 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+  h2:first-of-type { margin-top: 0; }
+  .subtitle { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+  .badge { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
+  .badge-ok { background: #e6f3e8; color: var(--ok); }
+  .badge-needs_verification { background: #fbf0dd; color: var(--warn); }
+  .badge-unavailable, .badge-error { background: #f7e3e3; color: var(--bad); }
+  .card { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; margin-bottom: 10px; background: #fdfdfc; }
+  .card-title { font-weight: 600; display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+  .note-text { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; margin-top: 6px; }
+  th, td { text-align: left; padding: 3px 4px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+  .discrepancy { background: #fbf0dd; border: 1px solid #e8cf9e; border-radius: 8px; padding: 8px 10px; font-size: 12px; margin-top: 8px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; margin: 3px 0; font-size: 12px; }
+  .legend-swatch { width: 11px; height: 11px; border-radius: 50%; flex: none; border: 1px solid rgba(0,0,0,0.2); }
+  .btn { display: inline-block; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--border); background: #fff; cursor: pointer; font-size: 12.5px; font-weight: 600; }
+  .btn:hover { background: #f1f0ec; }
+  .btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn.small { padding: 3px 8px; font-size: 11px; font-weight: 500; }
+  #noteHint { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .leaflet-popup-content { font-size: 12.5px; max-height: 260px; overflow-y: auto; }
+  .leaflet-popup-content table { margin-top: 4px; }
+  .prov-line { color: var(--muted); font-size: 11px; margin-bottom: 6px; padding-bottom: 6px; border-bottom: 1px dashed var(--border); }
+  .prov-line b { color: var(--text); }
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <h1>Malviya Nagar &mdash; AC-43</h1>
+    <div class="subtitle">South Delhi &middot; New Delhi Lok Sabha constituency &middot; static POC, all data via <code>/scripts</code> fetchers</div>
+
+    <div id="pipelineStatus" class="card">Loading pipeline status&hellip;</div>
+
+    <h2>Election Results</h2>
+    <div id="resultsPanel">Loading&hellip;</div>
+
+    <h2>MCD Wards (148 / 149 / 150)</h2>
+    <div id="wardsPanel">Loading&hellip;</div>
+
+    <h2>Map Legend &mdash; Civic Assets</h2>
+    <div id="legendPanel"></div>
+
+    <h2>Add a Note</h2>
+    <button id="noteModeBtn" class="btn">+ Add note (click the map)</button>
+    <button id="clearNotesBtn" class="btn small" style="margin-left:6px;">Clear notes</button>
+    <div id="noteHint">
+      Session-only placeholder for a future community contribution layer. Notes live in
+      <code>sessionStorage</code> in this browser tab only &mdash; they are not saved to any
+      file, server, or the <code>/data</code> pipeline, and disappear when the tab closes.
+    </div>
+
+    <h2>Data Sources &amp; Pipeline Health</h2>
+    <div id="sourcesPanel">Loading&hellip;</div>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+const CIVIC_COLORS = {
+  hospital: "#c0392b", clinic: "#c0392b", doctors: "#c0392b", dentist: "#c0392b", pharmacy: "#e07b7b",
+  school: "#2e6da4", college: "#2e6da4", university: "#2e6da4", kindergarten: "#7ba7d1", library: "#2e6da4",
+  police: "#8e5b2d", fire_station: "#8e5b2d", courthouse: "#8e5b2d", ambulance_station: "#8e5b2d",
+  townhall: "#6b4d8f", post_office: "#6b4d8f", community_centre: "#6b4d8f", social_facility: "#6b4d8f", public_building: "#6b4d8f",
+  marketplace: "#b8860b",
+  toilets: "#5a5a55", drinking_water: "#2f9e9e", waste_transfer_station: "#5a5a55",
+  grave_yard: "#5a5a55", crematorium: "#5a5a55", shelter: "#5a5a55",
+};
+const CIVIC_CATEGORY_LABELS = {
+  hospital: "Healthcare", clinic: "Healthcare", doctors: "Healthcare", dentist: "Healthcare", pharmacy: "Healthcare (pharmacy)",
+  school: "Education", college: "Education", university: "Education", kindergarten: "Education", library: "Education",
+  police: "Safety / Emergency", fire_station: "Safety / Emergency", courthouse: "Safety / Emergency", ambulance_station: "Safety / Emergency",
+  townhall: "Government / Civic", post_office: "Government / Civic", community_centre: "Government / Civic", social_facility: "Government / Civic", public_building: "Government / Civic",
+  marketplace: "Commerce",
+  toilets: "Utility", drinking_water: "Utility", waste_transfer_station: "Utility", grave_yard: "Utility", crematorium: "Utility", shelter: "Utility",
+};
+function civicColor(props) {
+  if (props.power === "substation") return "#b8860b";
+  if (props.man_made === "water_works") return "#2f9e9e";
+  return CIVIC_COLORS[props.amenity] || "#777";
+}
+function civicCategory(props) {
+  if (props.power === "substation") return "Power (substation)";
+  if (props.man_made === "water_works") return "Water infrastructure";
+  return CIVIC_CATEGORY_LABELS[props.amenity] || (props.amenity || "Other");
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function statusBadge(status) {
+  if (!status) return "";
+  return `<span class="badge badge-${escapeHtml(status)}">${escapeHtml(status.replace("_", " "))}</span>`;
+}
+
+function provenancePopup(props, extraRows) {
+  let html = `<div class="prov-line">`;
+  html += `<b>Source:</b> ${escapeHtml(props._source || "unknown")}<br>`;
+  if (props._status) html += `<b>Status:</b> ${statusBadge(props._status)}<br>`;
+  if (props._fetched_at) html += `<b>Fetched:</b> ${escapeHtml(props._fetched_at)}<br>`;
+  if (props._note) html += `<b>Note:</b> ${escapeHtml(props._note)}`;
+  html += `</div>`;
+  html += extraRows;
+  return html;
+}
+
+function propsTable(props, excludeKeys) {
+  let rows = "";
+  for (const [k, v] of Object.entries(props)) {
+    if (excludeKeys.includes(k) || v === null || v === undefined || v === "") continue;
+    rows += `<tr><th>${escapeHtml(k)}</th><td>${escapeHtml(v)}</td></tr>`;
+  }
+  return `<table>${rows}</table>`;
+}
+
+const PROV_KEYS = ["_source", "_status", "_fetched_at", "_note"];
+
+async function loadJSON(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+  return res.json();
+}
+
+async function main() {
+  const map = L.map("map", { zoomControl: true }).setView([28.5464, 77.1999], 14);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 20,
+  }).addTo(map);
+
+  const overlays = {};
+
+  // --- Boundary --------------------------------------------------------
+  try {
+    const boundary = await loadJSON("data/boundary.geojson");
+    const layer = L.geoJSON(boundary, {
+      style: { color: "#8b2f2f", weight: 3, fill: true, fillOpacity: 0.03 },
+      onEachFeature: (f, l) => {
+        const extra = propsTable(f.properties, PROV_KEYS);
+        l.bindPopup(`<b>${escapeHtml(f.properties.AC_NAME || "AC boundary")}</b>` + provenancePopup(f.properties, extra));
+      },
+    }).addTo(map);
+    overlays["AC-43 Boundary"] = layer;
+    map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+  } catch (e) {
+    console.error("boundary layer failed to load", e);
+  }
+
+  // --- Roads -------------------------------------------------------------
+  try {
+    const roads = await loadJSON("data/osm_roads.geojson");
+    const layer = L.geoJSON(roads, {
+      style: f => {
+        const hw = f.properties.highway;
+        const major = ["primary", "primary_link", "secondary", "secondary_link", "trunk"].includes(hw);
+        return { color: major ? "#555" : "#a6a39c", weight: major ? 2.5 : 1, opacity: 0.8 };
+      },
+      onEachFeature: (f, l) => {
+        const extra = propsTable(f.properties, PROV_KEYS);
+        l.bindPopup(`<b>${escapeHtml(f.properties.name || f.properties.highway || "Road")}</b>` + provenancePopup(f.properties, extra));
+      },
+    }).addTo(map);
+    overlays["Roads (" + roads.features.length + ")"] = layer;
+  } catch (e) {
+    console.error("roads layer failed to load", e);
+  }
+
+  // --- Metro ---------------------------------------------------------------
+  try {
+    const metro = await loadJSON("data/osm_metro.geojson");
+    const layer = L.geoJSON(metro, {
+      pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+        radius: 6, color: "#fff", weight: 1.5, fillColor: "#7b2d8e", fillOpacity: 1,
+      }),
+      onEachFeature: (f, l) => {
+        const extra = propsTable(f.properties, PROV_KEYS);
+        l.bindPopup(`<b>${escapeHtml(f.properties.name || "Metro station")}</b>` + provenancePopup(f.properties, extra));
+      },
+    }).addTo(map);
+    overlays["Metro Stations"] = layer;
+  } catch (e) {
+    console.error("metro layer failed to load", e);
+  }
+
+  // --- Civic assets ----------------------------------------------------
+  try {
+    const civic = await loadJSON("data/osm_civic.geojson");
+    const layer = L.geoJSON(civic, {
+      pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+        radius: 5, color: "#fff", weight: 1, fillColor: civicColor(f.properties), fillOpacity: 0.9,
+      }),
+      style: f => ({ color: civicColor(f.properties), weight: 1.5, fillOpacity: 0.15 }),
+      onEachFeature: (f, l) => {
+        const extra = propsTable(f.properties, PROV_KEYS);
+        const label = f.properties.name || civicCategory(f.properties);
+        l.bindPopup(`<b>${escapeHtml(label)}</b><div style="color:#777;font-size:11px;margin-bottom:4px;">${escapeHtml(civicCategory(f.properties))}</div>` + provenancePopup(f.properties, extra));
+      },
+    });
+    overlays["Civic Assets (" + civic.features.length + ")"] = layer;
+
+    const legendEl = document.getElementById("legendPanel");
+    const seen = new Set();
+    civic.features.forEach(f => seen.add(civicCategory(f.properties)));
+    const colorByLabel = {};
+    civic.features.forEach(f => { colorByLabel[civicCategory(f.properties)] = civicColor(f.properties); });
+    legendEl.innerHTML = [...seen].sort().map(label =>
+      `<div class="legend-item"><span class="legend-swatch" style="background:${colorByLabel[label]}"></span>${escapeHtml(label)}</div>`
+    ).join("");
+  } catch (e) {
+    console.error("civic layer failed to load", e);
+  }
+
+  L.control.layers(null, overlays, { collapsed: false, position: "topright" }).addTo(map);
+
+  // --- Election results panel (non-spatial: no ward/AC geometry to plot beyond the boundary) ---
+  try {
+    const results = await loadJSON("data/results.json");
+    const el = document.getElementById("resultsPanel");
+    const mla = results.current_mla || {};
+    let html = `<div class="card">`;
+    html += `<div class="card-title"><span>Current MLA</span>${statusBadge(results._status)}</div>`;
+    html += `<div>${escapeHtml(mla.name || "unknown")} &mdash; ${escapeHtml(mla.party || "")}</div>`;
+    html += `<div class="note-text">Source: ${escapeHtml(results._source || "unknown")}</div>`;
+    if (results._note) html += `<div class="note-text">${escapeHtml(results._note)}</div>`;
+    html += `</div>`;
+    html += `<details><summary>Full election history (${(results.elections||[]).length} elections)</summary>`;
+    (results.elections || []).forEach(e => {
+      html += `<div class="card"><div class="card-title"><span>${e.year}</span><span class="note-text">${escapeHtml(e.result_type||"")}</span></div>`;
+      html += `<table><tr><th>Candidate</th><th>Party</th><th>Votes</th><th>%</th></tr>`;
+      (e.candidates||[]).forEach(c => {
+        html += `<tr${c.is_winner ? ' style="font-weight:600"' : ''}><td>${escapeHtml(c.candidate||"")}</td><td>${escapeHtml(c.party||"")}</td><td>${escapeHtml(c.votes||"")}</td><td>${escapeHtml(c.percentage||"")}</td></tr>`;
+      });
+      html += `</table></div>`;
+    });
+    html += `</details>`;
+    el.innerHTML = html;
+  } catch (e) {
+    document.getElementById("resultsPanel").innerHTML = `<div class="card">Could not load results.json</div>`;
+    console.error(e);
+  }
+
+  // --- MCD wards panel (non-spatial: no authoritative ward-boundary polygons exist) ---
+  try {
+    const wards = await loadJSON("data/mcd_wards.json");
+    const el = document.getElementById("wardsPanel");
+    let html = `<div class="card"><div class="card-title"><span>2022 MCD Ward Councillors</span>${statusBadge(wards._status)}</div>`;
+    html += `<table><tr><th>Ward</th><th>Winner</th><th>Party</th><th>Cases</th><th>Assets (Rs)</th></tr>`;
+    (wards.wards || []).forEach(w => {
+      html += `<tr><td>${w.ward_no} ${escapeHtml(w.ward_name)}</td><td><a href="${escapeHtml(w.myneta_profile_url)}" target="_blank" rel="noopener">${escapeHtml(w.winner)}</a></td><td>${escapeHtml(w.party)}</td><td>${w.criminal_cases}</td><td>${escapeHtml(w.total_assets_rupees||"")}</td></tr>`;
+    });
+    html += `</table><div class="note-text">Source: ${escapeHtml(wards._source||"unknown")}</div>`;
+    if (wards._note && wards._note.includes("DISCREPANCY")) {
+      const discrepancyText = wards._note.split("DISCREPANCY:")[1] || wards._note;
+      html += `<div class="discrepancy"><b>Data discrepancy found:</b> ${escapeHtml(discrepancyText.trim())}</div>`;
+    }
+    html += `</div>`;
+    el.innerHTML = html;
+    el.innerHTML += `<div class="note-text">No official geometry exists for individual MCD ward boundaries in the sources this pipeline checked, so wards are shown here as a table, not a map layer, to avoid guessing polygons.</div>`;
+  } catch (e) {
+    document.getElementById("wardsPanel").innerHTML = `<div class="card">Could not load mcd_wards.json</div>`;
+    console.error(e);
+  }
+
+  // --- Pipeline / manifest status ---------------------------------------
+  try {
+    const manifest = await loadJSON("data/manifest.json");
+    const el = document.getElementById("pipelineStatus");
+    el.innerHTML = `<div class="card-title"><span>Pipeline status</span>${statusBadge(manifest.overall_status)}</div><div class="note-text">Last run: ${escapeHtml(manifest.pipeline_run_at)}</div>`;
+
+    const sourcesEl = document.getElementById("sourcesPanel");
+    let html = `<div class="card"><b>Fetcher steps</b><table><tr><th>Script</th><th>Exit</th><th>Time</th></tr>`;
+    (manifest.steps || []).forEach(s => {
+      html += `<tr><td>${escapeHtml(s.name)}</td><td>${s.ok ? "OK" : "FAILED (" + s.exit_code + ")"}</td><td>${s.duration_s}s</td></tr>`;
+    });
+    html += `</table></div>`;
+    (manifest.layers || []).forEach(l => {
+      html += `<div class="card"><div class="card-title"><span>${escapeHtml(l.file)}</span>${statusBadge(l._status)}</div>`;
+      html += `<div class="note-text">${escapeHtml(l._source || "")}</div>`;
+      if (l._note) html += `<div class="note-text">${escapeHtml(l._note)}</div>`;
+      html += `</div>`;
+    });
+    sourcesEl.innerHTML = html;
+  } catch (e) {
+    document.getElementById("pipelineStatus").innerHTML = `Could not load data/manifest.json &mdash; run <code>scripts/fetch_all.sh</code> first.`;
+    document.getElementById("sourcesPanel").innerHTML = "";
+    console.error(e);
+  }
+
+  // --- Add-a-note tool (session-only placeholder) -------------------------
+  const NOTES_KEY = "malviya_nagar_poc_notes";
+  const notesLayer = L.layerGroup().addTo(map);
+  let noteMode = false;
+
+  function pinIcon() {
+    return L.divIcon({
+      className: "",
+      html: `<div style="width:16px;height:16px;border-radius:50% 50% 50% 0;background:#c9962c;border:2px solid #fff;transform:rotate(-45deg);box-shadow:0 1px 3px rgba(0,0,0,0.4)"></div>`,
+      iconSize: [16, 16],
+      iconAnchor: [8, 16],
+    });
+  }
+
+  function loadNotes() {
+    try { return JSON.parse(sessionStorage.getItem(NOTES_KEY) || "[]"); }
+    catch { return []; }
+  }
+  function saveNotes(notes) {
+    sessionStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+  }
+  function renderNote(note) {
+    const marker = L.marker([note.lat, note.lng], { icon: pinIcon() }).addTo(notesLayer);
+    marker.bindPopup(
+      `<div class="prov-line"><b>Session note</b> &mdash; not saved to the pipeline</div>` +
+      `<div>${escapeHtml(note.text)}</div>` +
+      `<div class="note-text">${escapeHtml(new Date(note.createdAt).toLocaleString())}</div>` +
+      `<button class="btn small" data-delete-note="${note.id}" style="margin-top:6px;">Delete</button>`
+    );
+    marker.on("popupopen", (ev) => {
+      const btn = ev.popup.getElement().querySelector("[data-delete-note]");
+      if (btn) btn.addEventListener("click", () => {
+        const notes = loadNotes().filter(n => n.id !== note.id);
+        saveNotes(notes);
+        notesLayer.removeLayer(marker);
+      });
+    });
+  }
+  loadNotes().forEach(renderNote);
+
+  const noteModeBtn = document.getElementById("noteModeBtn");
+  noteModeBtn.addEventListener("click", () => {
+    noteMode = !noteMode;
+    noteModeBtn.classList.toggle("active", noteMode);
+    document.getElementById("map").classList.toggle("note-mode", noteMode);
+  });
+
+  map.on("click", (ev) => {
+    if (!noteMode) return;
+    const text = prompt("Note text (session-only, not saved anywhere permanent):");
+    if (!text) return;
+    const note = { id: Date.now() + "-" + Math.random().toString(36).slice(2), lat: ev.latlng.lat, lng: ev.latlng.lng, text, createdAt: new Date().toISOString() };
+    const notes = loadNotes();
+    notes.push(note);
+    saveNotes(notes);
+    renderNote(note);
+    noteMode = false;
+    noteModeBtn.classList.remove("active");
+    document.getElementById("map").classList.remove("note-mode");
+  });
+
+  document.getElementById("clearNotesBtn").addEventListener("click", () => {
+    if (!confirm("Clear all session notes? This cannot be undone.")) return;
+    saveNotes([]);
+    notesLayer.clearLayers();
+  });
+}
+
+main();
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "ac_name": "Malviya Nagar",
+  "ac_no": 43,
+  "wards": [
+    {
+      "ward_no": 148,
+      "ward_name": "HAUZ KHAS",
+      "winner": "Kamal Bhardwaj",
+      "party": "AAP",
+      "criminal_cases": 1,
+      "education": "Graduate Professional",
+      "total_assets_rupees": "46,14,647",
+      "liabilities_rupees": "0",
+      "myneta_candidate_id": "5940",
+      "myneta_profile_url": "https://www.myneta.info/Delhi2022/candidate.php?candidate_id=5940"
+    },
+    {
+      "ward_no": 149,
+      "ward_name": "MALVIYA NAGAR",
+      "winner": "Leena Kumar",
+      "party": "AAP",
+      "criminal_cases": 0,
+      "education": "Graduate",
+      "total_assets_rupees": "1,54,37,167",
+      "liabilities_rupees": "13,95,405",
+      "myneta_candidate_id": "5947",
+      "myneta_profile_url": "https://www.myneta.info/Delhi2022/candidate.php?candidate_id=5947"
+    },
+    {
+      "ward_no": 150,
+      "ward_name": "GREEN PARK",
+      "winner": "Sarita Phogaat",
+      "party": "AAP",
+      "criminal_cases": 0,
+      "education": "8th Pass",
+      "total_assets_rupees": "3,07,44,635",
+      "liabilities_rupees": "0",
+      "myneta_candidate_id": "6286",
+      "myneta_profile_url": "https://www.myneta.info/Delhi2022/candidate.php?candidate_id=6286"
+    }
+  ],
+  "_source": "MyNeta Delhi 2022 winners list (https://www.myneta.info/Delhi2022/index.php?action=show_winners&sort=default)",
+  "_fetched_at": "2026-07-07T07:27:59Z",
+  "_status": "ok",
+  "_note": "Cross-checked against the official SEC Delhi result-summary PDF (data/raw/sec_ward_result_summary.pdf, page 7): ward numbers and winners match exactly. DISCREPANCY: Wikipedia's Malviya Nagar AC article lists ward 148 as 'Malviya Nagar', but MyNeta and the SEC PDF both agree ward 149 is Malviya Nagar and 148 is Hauz Khas -- this file uses the two agreeing primary sources, not Wikipedia's prose table."
+}

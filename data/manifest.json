@@ -1,0 +1,80 @@
+{
+  "pipeline_run_at": "2026-07-07T07:27:44Z",
+  "overall_status": "partial",
+  "steps": [
+    {
+      "name": "fetch_boundary.sh",
+      "exit_code": 0,
+      "duration_s": 1,
+      "ok": true
+    },
+    {
+      "name": "fetch_osm.py",
+      "exit_code": 0,
+      "duration_s": 13,
+      "ok": true
+    },
+    {
+      "name": "fetch_results.py",
+      "exit_code": 0,
+      "duration_s": 1,
+      "ok": true
+    },
+    {
+      "name": "fetch_mcd_wards.py",
+      "exit_code": 0,
+      "duration_s": 10,
+      "ok": true
+    }
+  ],
+  "layers": [
+    {
+      "file": "boundary.geojson",
+      "_source": "datameet/maps assembly-constituencies/India_AC.shp (github.com/datameet/maps) @ b3fbbde",
+      "_status": "needs_verification",
+      "_fetched_at": "2026-07-07T07:27:44Z",
+      "_note": "simplify method: ogr2ogr -simplify 0.0001deg (Douglas-Peucker; mapshaper unavailable, install node/npm to use mapshaper instead). AC_NO in source = 43; original request referred to AC-46; matched by AC_NAME='Malviya Nagar' + ST_NAME='DELHI', not by AC number.",
+      "feature_count": 1
+    },
+    {
+      "file": "mcd_wards.json",
+      "_source": "MyNeta Delhi 2022 winners list (https://www.myneta.info/Delhi2022/index.php?action=show_winners&sort=default)",
+      "_status": "ok",
+      "_fetched_at": "2026-07-07T07:27:59Z",
+      "_note": "Cross-checked against the official SEC Delhi result-summary PDF (data/raw/sec_ward_result_summary.pdf, page 7): ward numbers and winners match exactly. DISCREPANCY: Wikipedia's Malviya Nagar AC article lists ward 148 as 'Malviya Nagar', but MyNeta and the SEC PDF both agree ward 149 is Malviya Nagar and 148 is Hauz Khas -- this file uses the two agreeing primary sources, not Wikipedia's prose table.",
+      "feature_count": null
+    },
+    {
+      "file": "osm_civic.geojson",
+      "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+      "_status": "ok",
+      "_fetched_at": "2026-07-07T07:27:58Z",
+      "_note": "Overpass bbox query, 312 raw elements (310 node/way features kept). 2 relation(s) skipped (multipolygon reconstruction not implemented) -- see osm_ids [8800378, 20982995].",
+      "feature_count": 310
+    },
+    {
+      "file": "osm_metro.geojson",
+      "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+      "_status": "ok",
+      "_fetched_at": "2026-07-07T07:27:55Z",
+      "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept).",
+      "feature_count": 8
+    },
+    {
+      "file": "osm_roads.geojson",
+      "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+      "_status": "ok",
+      "_fetched_at": "2026-07-07T07:27:49Z",
+      "_note": "Overpass bbox query, 4220 raw elements (4220 node/way features kept).",
+      "feature_count": 4220
+    },
+    {
+      "file": "results.json",
+      "_source": "Wikipedia: en.wikipedia.org/wiki/Malviya_Nagar,_Delhi_Assembly_constituency (parsed from wikitext, not HTML scrape)",
+      "_status": "needs_verification",
+      "_fetched_at": "2026-07-07T07:27:58Z",
+      "_note": "TCPD and ECI were both attempted first and failed (see logs / data/raw/); Wikipedia wikitext used as the working fallback.",
+      "feature_count": null
+    }
+  ]
+}

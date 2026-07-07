@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "name": "India_AC",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 43,
+        "AC_NAME": "Malviya Nagar",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.16467297778,
+        "Shape_Area": 0.00122788349,
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-07T07:27:44Z",
+        "_status": "needs_verification",
+        "_note": "simplify method: ogr2ogr -simplify 0.0001deg (Douglas-Peucker; mapshaper unavailable, install node/npm to use mapshaper instead). AC_NO in source = 43; original request referred to AC-46; matched by AC_NAME='Malviya Nagar' + ST_NAME='DELHI', not by AC number."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21731947361485,
+              28.56424354500365
+            ],
+            [
+              77.22333714049671,
+              28.557586228121977
+            ],
+            [
+              77.21277563368858,
+              28.548265658033756
+            ],
+            [
+              77.20961879117431,
+              28.539178336111377
+            ],
+            [
+              77.21777855773433,
+              28.535377901868742
+            ],
+            [
+              77.21808884632327,
+              28.52578645777885
+            ],
+            [
+              77.21606925499219,
+              28.525030582095724
+            ],
+            [
+              77.18458778349947,
+              28.52598957775683
+            ],
+            [
+              77.17641347310337,
+              28.5390307681555
+            ],
+            [
+              77.18322113414808,
+              28.550445725290047
+            ],
+            [
+              77.19617358214515,
+              28.56536785494262
+            ],
+            [
+              77.2018719474325,
+              28.567859161371246
+            ],
+            [
+              77.20357893801764,
+              28.559216555099965
+            ],
+            [
+              77.21185326921307,
+              28.558453330157135
+            ],
+            [
+              77.21731947361485,
+              28.56424354500365
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "_source": "datameet/maps assembly-constituencies/India_AC.shp (github.com/datameet/maps) @ b3fbbde",
+  "_fetched_at": "2026-07-07T07:27:44Z",
+  "_status": "needs_verification",
+  "_note": "simplify method: ogr2ogr -simplify 0.0001deg (Douglas-Peucker; mapshaper unavailable, install node/npm to use mapshaper instead). AC_NO in source = 43; original request referred to AC-46; matched by AC_NAME='Malviya Nagar' + ST_NAME='DELHI', not by AC number."
+}

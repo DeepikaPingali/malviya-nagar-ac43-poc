@@ -1,0 +1,724 @@
+{
+  "constituency": {
+    "name": "Malviya Nagar",
+    "ac_no": 43,
+    "state": "Delhi",
+    "district": "South Delhi",
+    "loksabha_constituency": "New Delhi"
+  },
+  "current_mla": {
+    "name": "Satish Upadhyay",
+    "party": "Bharatiya Janata Party",
+    "since_election_year": "2025"
+  },
+  "elections": [
+    {
+      "year": 2025,
+      "winner_candidate": "Satish Upadhyay",
+      "winner_party": "Bharatiya Janata Party",
+      "winner_votes": "39,564",
+      "result_type": "gain",
+      "previous_winning_party": "Aam Aadmi Party",
+      "majority": {
+        "votes": "2,131",
+        "percentage": "2.61"
+      },
+      "turnout": {
+        "votes": "85,035",
+        "percentage": ""
+      },
+      "candidates": [
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Satish Upadhyay",
+          "votes": "39,564",
+          "percentage": "46.53",
+          "change": "+8.77",
+          "is_winner": true
+        },
+        {
+          "party": "Aam Aadmi Party",
+          "candidate": "Somnath Bharti",
+          "votes": "37,433",
+          "percentage": "44.02",
+          "change": "-13.95",
+          "is_winner": false
+        },
+        {
+          "party": "Indian National Congress",
+          "candidate": "Jitendra Kumar Kochar",
+          "votes": "6,770",
+          "percentage": "7.96",
+          "change": "+4.78",
+          "is_winner": false
+        },
+        {
+          "party": "Independent politician",
+          "candidate": "Meghnad S.",
+          "votes": "192",
+          "percentage": "0.23",
+          "change": "New",
+          "is_winner": false
+        },
+        {
+          "party": "NOTA",
+          "candidate": "None of the above",
+          "votes": "532",
+          "percentage": "0.63",
+          "change": "+0.02",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "winner_candidate": "Somnath Bharti",
+      "winner_party": "Aam Aadmi Party",
+      "winner_votes": "52,043",
+      "result_type": "hold",
+      "previous_winning_party": null,
+      "majority": {
+        "votes": "18,144",
+        "percentage": "20.21"
+      },
+      "turnout": {
+        "votes": "89,825",
+        "percentage": "58.92"
+      },
+      "candidates": [
+        {
+          "party": "Aam Aadmi Party",
+          "candidate": "Somnath Bharti",
+          "votes": "52,043",
+          "percentage": "57.97",
+          "change": "+2.99",
+          "is_winner": true
+        },
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Shailender Singh",
+          "votes": "33,899",
+          "percentage": "37.76",
+          "change": "-0.15",
+          "is_winner": false
+        },
+        {
+          "party": "Indian National Congress",
+          "candidate": "Neetu Verma Soin",
+          "votes": "2,856",
+          "percentage": "3.18",
+          "change": "-2.78",
+          "is_winner": false
+        },
+        {
+          "party": "None of the above",
+          "candidate": "None of the above",
+          "votes": "549",
+          "percentage": "0.61",
+          "change": "+0.15",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "winner_candidate": "Somnath Bharti",
+      "winner_party": "Aam Aadmi Party",
+      "winner_votes": "51,196",
+      "result_type": "hold",
+      "previous_winning_party": null,
+      "majority": {
+        "votes": "15,897",
+        "percentage": "17.07"
+      },
+      "turnout": {
+        "votes": "93,156",
+        "percentage": "66.55"
+      },
+      "candidates": [
+        {
+          "party": "Aam Aadmi Party",
+          "candidate": "Somnath Bharti",
+          "votes": "51,196",
+          "percentage": "54.98",
+          "change": "+15.55",
+          "is_winner": true
+        },
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Dr. Nandini Sharma",
+          "votes": "35,299",
+          "percentage": "37.91",
+          "change": "+7.98",
+          "is_winner": false
+        },
+        {
+          "party": "Indian National Congress",
+          "candidate": "Dr. Yoganand Shastri",
+          "votes": "5,555",
+          "percentage": "5.96",
+          "change": "-19.10",
+          "is_winner": false
+        },
+        {
+          "party": "Bahujan Samaj Party",
+          "candidate": "Dr. Suman Dharmvir",
+          "votes": "293",
+          "percentage": "0.31",
+          "change": "-0.60",
+          "is_winner": false
+        },
+        {
+          "party": "Navyug Party",
+          "candidate": "Markandey Sharma",
+          "votes": "184",
+          "percentage": "0.20",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Somnath",
+          "votes": "129",
+          "percentage": "0.14",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Ramakant Sharma",
+          "votes": "74",
+          "percentage": "0.08",
+          "change": "",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "winner_candidate": "Somnath Bharti",
+      "winner_party": "Aam Aadmi Party",
+      "winner_votes": "32,258",
+      "result_type": "gain",
+      "previous_winning_party": "Indian National Congress",
+      "majority": {
+        "votes": "7,772",
+        "percentage": "9.50"
+      },
+      "turnout": {
+        "votes": "81,895",
+        "percentage": "65.74"
+      },
+      "candidates": [
+        {
+          "party": "Aam Aadmi Party",
+          "candidate": "Somnath Bharti",
+          "votes": "32,258",
+          "percentage": "39.43",
+          "change": "",
+          "is_winner": true
+        },
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Arti Mehra",
+          "votes": "24,486",
+          "percentage": "29.93",
+          "change": "-11.07",
+          "is_winner": false
+        },
+        {
+          "party": "Indian National Congress",
+          "candidate": "Kiran Walia",
+          "votes": "20,500",
+          "percentage": "25.06",
+          "change": "-21.49",
+          "is_winner": false
+        },
+        {
+          "party": "Adarshwaadi Congress Party",
+          "candidate": "Kishor",
+          "votes": "2,389",
+          "percentage": "2.92",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Bahujan Samaj Party",
+          "candidate": "Vijender",
+          "votes": "741",
+          "percentage": "0.91",
+          "change": "-9.26",
+          "is_winner": false
+        },
+        {
+          "party": "Samajwadi Party",
+          "candidate": "Chahat Miyan",
+          "votes": "247",
+          "percentage": "0.30",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Desiya Murpokku Dravida Kazhagam",
+          "candidate": "Sharmila",
+          "votes": "184",
+          "percentage": "0.22",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Rajeev Kumar",
+          "votes": "134",
+          "percentage": "0.16",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Peace Party of India",
+          "candidate": "Rafik",
+          "votes": "129",
+          "percentage": "0.16",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Bharatiya Bahujan Party",
+          "candidate": "Mohd Yusuf",
+          "votes": "93",
+          "percentage": "0.11",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Nationalist Congress Party",
+          "candidate": "Sunil Atree",
+          "votes": "88",
+          "percentage": "0.11",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Naya Daur Party",
+          "candidate": "Hannan Ahmed",
+          "votes": "47",
+          "percentage": "0.06",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Bharat Kumar Shahoo",
+          "votes": "45",
+          "percentage": "0.06",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Asankhya Samaj Party",
+          "candidate": "Kiran",
+          "votes": "36",
+          "percentage": "0.04",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Jammu & Kashmir National Panthers Party",
+          "candidate": "Prem Singh",
+          "votes": "32",
+          "percentage": "0.04",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Lok Jan Shakti Party",
+          "candidate": "Javed Farooqui",
+          "votes": "30",
+          "percentage": "0.04",
+          "change": "-0.48",
+          "is_winner": false
+        },
+        {
+          "party": "None of the above",
+          "candidate": "None",
+          "votes": "375",
+          "percentage": "0.46",
+          "change": "",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "winner_candidate": "Kiran Walia",
+      "winner_party": "Indian National Congress",
+      "winner_votes": "31,283",
+      "result_type": "hold",
+      "previous_winning_party": null,
+      "majority": {
+        "votes": "3,730",
+        "percentage": "5.55"
+      },
+      "turnout": {
+        "votes": "67,201",
+        "percentage": "55.9"
+      },
+      "candidates": [
+        {
+          "party": "Indian National Congress",
+          "candidate": "Kiran Walia",
+          "votes": "31,283",
+          "percentage": "46.55",
+          "change": "-1.55",
+          "is_winner": true
+        },
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Ram Bhaj",
+          "votes": "27,551",
+          "percentage": "41.00",
+          "change": "+1.44",
+          "is_winner": false
+        },
+        {
+          "party": "Bahujan Samaj Party",
+          "candidate": "Shri Pal Saini",
+          "votes": "6,832",
+          "percentage": "10.17",
+          "change": "+5.25",
+          "is_winner": false
+        },
+        {
+          "party": "Lok Jan Shakti Party",
+          "candidate": "Javed Farooqui",
+          "votes": "352",
+          "percentage": "0.52",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Rafik",
+          "votes": "309",
+          "percentage": "0.46",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Rajiv Malhotra",
+          "votes": "244",
+          "percentage": "0.36",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Ajit John",
+          "votes": "231",
+          "percentage": "0.34",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "National Jankranti Dal",
+          "candidate": "Hanif Mohammad Khan",
+          "votes": "218",
+          "percentage": "0.32",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Jammu & Kashmir National Panthers Party",
+          "candidate": "Rajeev Khosla",
+          "votes": "106",
+          "percentage": "0.16",
+          "change": "-0.12",
+          "is_winner": false
+        },
+        {
+          "party": "National Secular Party",
+          "candidate": "Tulsi Prasad Yadav",
+          "votes": "75",
+          "percentage": "0.11",
+          "change": "",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "winner_candidate": "Dr Yoganand Shastri",
+      "winner_party": "Indian National Congress",
+      "winner_votes": "25,448",
+      "result_type": "hold",
+      "previous_winning_party": null,
+      "majority": {
+        "votes": "4,520",
+        "percentage": "8.54"
+      },
+      "turnout": {
+        "votes": "52,903",
+        "percentage": "47.65"
+      },
+      "candidates": [
+        {
+          "party": "Indian National Congress",
+          "candidate": "Dr Yoganand Shastri",
+          "votes": "25,448",
+          "percentage": "48.10",
+          "change": "-7.09",
+          "is_winner": true
+        },
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Monika Arora",
+          "votes": "20,928",
+          "percentage": "39.56",
+          "change": "-1.41",
+          "is_winner": false
+        },
+        {
+          "party": "Nationalist Congress Party",
+          "candidate": "Sukhbir Singh Panwar",
+          "votes": "3,256",
+          "percentage": "6.15",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Bahujan Samaj Party",
+          "candidate": "Iqbal Khan",
+          "votes": "2,601",
+          "percentage": "4.92",
+          "change": "+2.41",
+          "is_winner": false
+        },
+        {
+          "party": "Samajwadi Party",
+          "candidate": "Chetan Kumar",
+          "votes": "221",
+          "percentage": "0.42",
+          "change": "-0.02",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Sunil Sodhi",
+          "votes": "209",
+          "percentage": "0.40",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Jammu & Kashmir National Panthers Party",
+          "candidate": "Sanjoy Sachdev",
+          "votes": "149",
+          "percentage": "0.28",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Rashtravadi Janata Party",
+          "candidate": "Virender Singh",
+          "votes": "91",
+          "percentage": "0.17",
+          "change": "",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "winner_candidate": "Dr Yoganand Shastri",
+      "winner_party": "Indian National Congress",
+      "winner_votes": "30,910",
+      "result_type": "gain",
+      "previous_winning_party": "Bharatiya Janata Party",
+      "majority": {
+        "votes": "7,964",
+        "percentage": "14.22"
+      },
+      "turnout": {
+        "votes": "56,004",
+        "percentage": "44.61"
+      },
+      "candidates": [
+        {
+          "party": "Indian National Congress",
+          "candidate": "Dr Yoganand Shastri",
+          "votes": "30,910",
+          "percentage": "55.19",
+          "change": "+12.78",
+          "is_winner": true
+        },
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Rajendra Gupta",
+          "votes": "22,946",
+          "percentage": "40.97",
+          "change": "-2.02",
+          "is_winner": false
+        },
+        {
+          "party": "Bahujan Samaj Party",
+          "candidate": "Pitambar Singh",
+          "votes": "1,406",
+          "percentage": "2.51",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Janata Dal",
+          "candidate": "Mohd Feroz Khan",
+          "votes": "308",
+          "percentage": "0.55",
+          "change": "-9.53",
+          "is_winner": false
+        },
+        {
+          "party": "Samajwadi Party",
+          "candidate": "Mohd Umar",
+          "votes": "247",
+          "percentage": "0.44",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Akhil Bharatiya Shivsena Rashtrawadi",
+          "candidate": "Shailender Choudhary",
+          "votes": "72",
+          "percentage": "0.13",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Awami Party",
+          "candidate": "Wahid Hussain",
+          "votes": "70",
+          "percentage": "0.12",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Satish Kuamr",
+          "votes": "45",
+          "percentage": "0.08",
+          "change": "",
+          "is_winner": false
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "winner_candidate": "Rajendra Gupta",
+      "winner_party": "Bharatiya Janata Party",
+      "winner_votes": "19,319",
+      "result_type": "hold",
+      "previous_winning_party": null,
+      "majority": {
+        "votes": "258",
+        "percentage": "0.58"
+      },
+      "turnout": {
+        "votes": "44,940",
+        "percentage": "54.99"
+      },
+      "candidates": [
+        {
+          "party": "Bharatiya Janata Party",
+          "candidate": "Rajendra Gupta",
+          "votes": "19,319",
+          "percentage": "42.99",
+          "change": "",
+          "is_winner": true
+        },
+        {
+          "party": "Indian National Congress",
+          "candidate": "Yoga Nand Shastri",
+          "votes": "19,061",
+          "percentage": "42.41",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Janata Dal",
+          "candidate": "Ranjit Shastri",
+          "votes": "4,531",
+          "percentage": "10.08",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Kailash Chand Panwar",
+          "votes": "1,114",
+          "percentage": "2.48",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Akhil Bharatiya Janata Vikas Party",
+          "candidate": "Daler Singh",
+          "votes": "341",
+          "percentage": "0.76",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Desh Bhakt Party",
+          "candidate": "Modh Feroj Khan",
+          "votes": "209",
+          "percentage": "0.47",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Shiv Sena",
+          "candidate": "Ranjeet Kapoor",
+          "votes": "111",
+          "percentage": "0.25",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "R K Gupta",
+          "votes": "107",
+          "percentage": "0.24",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Ravi Kumar",
+          "votes": "63",
+          "percentage": "0.14",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Independent (politician)",
+          "candidate": "Deepak",
+          "votes": "52",
+          "percentage": "0.12",
+          "change": "",
+          "is_winner": false
+        },
+        {
+          "party": "Shiromani Akali Dal (Simranjit Singh Mann)",
+          "candidate": "Birender Singh",
+          "votes": "32",
+          "percentage": "0.07",
+          "change": "",
+          "is_winner": false
+        }
+      ]
+    }
+  ],
+  "_source": "Wikipedia: en.wikipedia.org/wiki/Malviya_Nagar,_Delhi_Assembly_constituency (parsed from wikitext, not HTML scrape)",
+  "_fetched_at": "2026-07-07T07:27:58Z",
+  "_status": "needs_verification",
+  "_note": "TCPD and ECI were both attempted first and failed (see logs / data/raw/); Wikipedia wikitext used as the working fallback."
+}
