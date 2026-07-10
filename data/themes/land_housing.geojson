@@ -1,0 +1,620 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khirki Extension",
+        "theme": "land_housing",
+        "claim": "Unauthorised colony; eligible for ownership rights under PM-UDAY (2019 Act).",
+        "status_tag": "unauthorised_colony",
+        "confidence": "high",
+        "geometry_basis": "approximate",
+        "_source": "DDA PM-UDAY scheme; PRS - NCT of Delhi (Recognition of Property Rights...) Act 2019",
+        "_source_url": "https://dda.gov.in/pm_uday/scheme",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "hand-drawn approximation; anchored near OSM node 'Khirki' (id 541347299, place=neighbourhood); Overpass search of bbox (28.49-28.60N, 77.14-77.27E) found no feature specifically tagged 'Khirki Extension' or 'Khidki Extension' -- only 'Khirki Village', 'Khirki Masjid', and road names."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2198147,
+              28.5323123
+            ],
+            [
+              77.2194622,
+              28.5332655
+            ],
+            [
+              77.2185393,
+              28.5338546
+            ],
+            [
+              77.2173985,
+              28.5338546
+            ],
+            [
+              77.2164756,
+              28.5332655
+            ],
+            [
+              77.2161231,
+              28.5323123
+            ],
+            [
+              77.2164756,
+              28.5313591
+            ],
+            [
+              77.2173985,
+              28.53077
+            ],
+            [
+              77.2185393,
+              28.53077
+            ],
+            [
+              77.2194622,
+              28.5313591
+            ],
+            [
+              77.2198147,
+              28.5323123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hauz Rani",
+        "theme": "land_housing",
+        "claim": "Urban village; farmland acquired in the 1950s to build the Malviya Nagar refugee colony.",
+        "status_tag": "urban_village",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "FindEasy - Villages in Delhi; Wikipedia (Malviya Nagar)",
+        "_source_url": "https://www.findeasy.in/villages-in-delhi/",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "polygon: OSM relation 3674227 (boundary=administrative, admin_level=10, 3 outer ways stitched), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2124544,
+              28.5299383
+            ],
+            [
+              77.2117669,
+              28.5299962
+            ],
+            [
+              77.2114585,
+              28.5297903
+            ],
+            [
+              77.2098262,
+              28.5294038
+            ],
+            [
+              77.2096874,
+              28.5292375
+            ],
+            [
+              77.2093361,
+              28.5290697
+            ],
+            [
+              77.2076822,
+              28.5287046
+            ],
+            [
+              77.2068223,
+              28.5289389
+            ],
+            [
+              77.2068488,
+              28.5285512
+            ],
+            [
+              77.2063457,
+              28.5284273
+            ],
+            [
+              77.2064424,
+              28.5279804
+            ],
+            [
+              77.2072662,
+              28.5280217
+            ],
+            [
+              77.2081979,
+              28.5281019
+            ],
+            [
+              77.2089028,
+              28.5281699
+            ],
+            [
+              77.2101496,
+              28.5282889
+            ],
+            [
+              77.2108739,
+              28.5283326
+            ],
+            [
+              77.2116563,
+              28.5284225
+            ],
+            [
+              77.2121898,
+              28.5285488
+            ],
+            [
+              77.2126515,
+              28.5286897
+            ],
+            [
+              77.2129086,
+              28.5288184
+            ],
+            [
+              77.2134725,
+              28.5289908
+            ],
+            [
+              77.213854,
+              28.5291317
+            ],
+            [
+              77.2148741,
+              28.5294159
+            ],
+            [
+              77.215275,
+              28.5294936
+            ],
+            [
+              77.2152308,
+              28.5299041
+            ],
+            [
+              77.2148962,
+              28.5298263
+            ],
+            [
+              77.2146419,
+              28.5297996
+            ],
+            [
+              77.2146336,
+              28.5299113
+            ],
+            [
+              77.2145369,
+              28.5299526
+            ],
+            [
+              77.2144539,
+              28.5299478
+            ],
+            [
+              77.2143682,
+              28.5299478
+            ],
+            [
+              77.2141858,
+              28.5299575
+            ],
+            [
+              77.2137656,
+              28.5298579
+            ],
+            [
+              77.2131671,
+              28.529767
+            ],
+            [
+              77.2127566,
+              28.5297189
+            ],
+            [
+              77.2125806,
+              28.5297327
+            ],
+            [
+              77.2124544,
+              28.5299383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Begumpur",
+        "theme": "land_housing",
+        "claim": "Urban village; among lands acquired for post-Partition rehabilitation colonies.",
+        "status_tag": "urban_village",
+        "confidence": "medium",
+        "geometry_basis": "approximate",
+        "_source": "FindEasy - Villages in Delhi",
+        "_source_url": "https://www.findeasy.in/villages-in-delhi/",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "hand-drawn approximation; anchored near OSM node 'Begumpur' (id 5586450402); no admin/place boundary polygon exists for Begumpur in OSM within the search bbox, only point features (mosque, school, park)."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2116839,
+              28.5369782
+            ],
+            [
+              77.211351,
+              28.5378784
+            ],
+            [
+              77.2104793,
+              28.5384348
+            ],
+            [
+              77.2094019,
+              28.5384348
+            ],
+            [
+              77.2085302,
+              28.5378784
+            ],
+            [
+              77.2081973,
+              28.5369782
+            ],
+            [
+              77.2085302,
+              28.536078
+            ],
+            [
+              77.2094019,
+              28.5355216
+            ],
+            [
+              77.2104793,
+              28.5355216
+            ],
+            [
+              77.211351,
+              28.536078
+            ],
+            [
+              77.2116839,
+              28.5369782
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panchsheel Enclave",
+        "theme": "land_housing",
+        "claim": "Planned colony; among the ~69 affluent unauthorised colonies excluded from PM-UDAY conferral.",
+        "status_tag": "affluent_excluded",
+        "confidence": "medium",
+        "geometry_basis": "surveyed",
+        "_source": "DDA PM-UDAY FAQs (69 affluent UCs excluded)",
+        "_source_url": "https://dda.gov.in/pm_uday/FAQs",
+        "_fetched_at": "2026-07-10",
+        "_status": "needs_verification",
+        "_note": "polygon: OSM relation 3670134 (boundary=administrative, admin_level=10), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2275357,
+              28.5422387
+            ],
+            [
+              77.2311673,
+              28.5419623
+            ],
+            [
+              77.2313812,
+              28.5420895
+            ],
+            [
+              77.2292665,
+              28.5466397
+            ],
+            [
+              77.2278567,
+              28.5461918
+            ],
+            [
+              77.2275357,
+              28.5422387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarvodaya Enclave",
+        "theme": "land_housing",
+        "claim": "Planned/regularised affluent colony.",
+        "status_tag": "planned_regularised",
+        "confidence": "medium",
+        "geometry_basis": "surveyed",
+        "_source": "Wikipedia (Malviya Nagar)",
+        "_source_url": "https://en.wikipedia.org/wiki/Malviya_Nagar_(Delhi)",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "polygon: OSM way 1388932886 (place=neighbourhood, closed ring), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.198901,
+              28.5384121
+            ],
+            [
+              77.1991175,
+              28.5383018
+            ],
+            [
+              77.199029,
+              28.5379835
+            ],
+            [
+              77.199004,
+              28.537668
+            ],
+            [
+              77.1993349,
+              28.5376655
+            ],
+            [
+              77.1993205,
+              28.5366295
+            ],
+            [
+              77.2039304,
+              28.5357955
+            ],
+            [
+              77.2042624,
+              28.5370496
+            ],
+            [
+              77.2043371,
+              28.5371512
+            ],
+            [
+              77.2045951,
+              28.5384327
+            ],
+            [
+              77.2045698,
+              28.5393058
+            ],
+            [
+              77.2039368,
+              28.5390093
+            ],
+            [
+              77.2036012,
+              28.5389311
+            ],
+            [
+              77.2022336,
+              28.5386382
+            ],
+            [
+              77.2018689,
+              28.5385986
+            ],
+            [
+              77.2000753,
+              28.5389989
+            ],
+            [
+              77.1993753,
+              28.5391875
+            ],
+            [
+              77.198901,
+              28.5384121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shivalik",
+        "theme": "land_housing",
+        "claim": "Planned residential colony.",
+        "status_tag": "planned_regularised",
+        "confidence": "medium",
+        "geometry_basis": "surveyed",
+        "_source": "Wikipedia (Malviya Nagar)",
+        "_source_url": "https://en.wikipedia.org/wiki/Malviya_Nagar_(Delhi)",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "polygon: OSM relation 3662631 (boundary=administrative, admin_level=10, 4 outer ways stitched), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2109216,
+              28.5377564
+            ],
+            [
+              77.2102363,
+              28.5370246
+            ],
+            [
+              77.2089927,
+              28.5357827
+            ],
+            [
+              77.2084447,
+              28.5367457
+            ],
+            [
+              77.2083485,
+              28.536726
+            ],
+            [
+              77.2083109,
+              28.5367183
+            ],
+            [
+              77.2079367,
+              28.5368035
+            ],
+            [
+              77.2077416,
+              28.5370289
+            ],
+            [
+              77.2075991,
+              28.5373369
+            ],
+            [
+              77.2070806,
+              28.5374122
+            ],
+            [
+              77.2057664,
+              28.5329096
+            ],
+            [
+              77.2051334,
+              28.5326551
+            ],
+            [
+              77.2051978,
+              28.5292995
+            ],
+            [
+              77.2058855,
+              28.5291367
+            ],
+            [
+              77.2063523,
+              28.5292042
+            ],
+            [
+              77.207101,
+              28.5293243
+            ],
+            [
+              77.2074148,
+              28.5293586
+            ],
+            [
+              77.2073578,
+              28.5296437
+            ],
+            [
+              77.2071245,
+              28.53075
+            ],
+            [
+              77.2071191,
+              28.5311727
+            ],
+            [
+              77.2076537,
+              28.531229
+            ],
+            [
+              77.2075789,
+              28.5315766
+            ],
+            [
+              77.2074987,
+              28.5319335
+            ],
+            [
+              77.2075254,
+              28.5321495
+            ],
+            [
+              77.2066487,
+              28.5328587
+            ],
+            [
+              77.2070336,
+              28.5331968
+            ],
+            [
+              77.2130533,
+              28.5390469
+            ],
+            [
+              77.2127209,
+              28.5404888
+            ],
+            [
+              77.2125394,
+              28.5406715
+            ],
+            [
+              77.2119157,
+              28.5409371
+            ],
+            [
+              77.2118175,
+              28.540801
+            ],
+            [
+              77.2117494,
+              28.5405054
+            ],
+            [
+              77.2117834,
+              28.5402863
+            ],
+            [
+              77.2121287,
+              28.5393915
+            ],
+            [
+              77.2121501,
+              28.5389031
+            ],
+            [
+              77.2109216,
+              28.5377564
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "_theme_note": "PM-UDAY confers ownership but not automatic building-plan approval; as of 31 Mar 2026 only ~40,000 conveyance deeds issued Delhi-wide (PIB)."
+}

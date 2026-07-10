@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sri Aurobindo Marg CAAQMS",
+        "theme": "air",
+        "claim": "DPCC continuous monitor; ~AQI 137 in cleaner spells, but 399-657 (severe) in peak winter (Dec 2025). Live feed = AQICN station A567721.",
+        "status_tag": "aq_station",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "AQICN / DPCC; The Statesman Feb 2026",
+        "_source_url": "https://aqicn.org/station/india-south-delhi-delhi-sri-aurobindo-marg/",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.194,
+          28.531
+        ]
+      }
+    }
+  ]
+}

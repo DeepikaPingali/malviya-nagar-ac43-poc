@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khirki Extension",
+        "theme": "sanitation",
+        "claim": "Unauthorised-colony pocket; residents report lack of sewer infrastructure and rainwater mixing with drains outfalling to Najafgarh drain.",
+        "status_tag": "sewer_gap",
+        "confidence": "medium",
+        "geometry_basis": "approximate",
+        "_source": "DDA public consultation record (MPD-2041 RWA meeting)",
+        "_source_url": "https://online.dda.org.in",
+        "_fetched_at": "2026-07-10",
+        "_status": "needs_verification",
+        "_note": "hand-drawn approximation; anchored near OSM node 'Khirki' (id 541347299, place=neighbourhood); Overpass search of bbox (28.49-28.60N, 77.14-77.27E) found no feature specifically tagged 'Khirki Extension' or 'Khidki Extension' -- only 'Khirki Village', 'Khirki Masjid', and road names."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2198147,
+              28.5323123
+            ],
+            [
+              77.2194622,
+              28.5332655
+            ],
+            [
+              77.2185393,
+              28.5338546
+            ],
+            [
+              77.2173985,
+              28.5338546
+            ],
+            [
+              77.2164756,
+              28.5332655
+            ],
+            [
+              77.2161231,
+              28.5323123
+            ],
+            [
+              77.2164756,
+              28.5313591
+            ],
+            [
+              77.2173985,
+              28.53077
+            ],
+            [
+              77.2185393,
+              28.53077
+            ],
+            [
+              77.2194622,
+              28.5313591
+            ],
+            [
+              77.2198147,
+              28.5323123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hauz Rani",
+        "theme": "sanitation",
+        "claim": "Urban-village pocket with sanitation/hygiene stress raised in civic consultations.",
+        "status_tag": "sewer_gap",
+        "confidence": "low",
+        "geometry_basis": "surveyed",
+        "_source": "DDA public consultation record",
+        "_source_url": "https://online.dda.org.in",
+        "_fetched_at": "2026-07-10",
+        "_status": "needs_verification",
+        "_note": "polygon: OSM relation 3674227 (boundary=administrative, admin_level=10, 3 outer ways stitched), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2124544,
+              28.5299383
+            ],
+            [
+              77.2117669,
+              28.5299962
+            ],
+            [
+              77.2114585,
+              28.5297903
+            ],
+            [
+              77.2098262,
+              28.5294038
+            ],
+            [
+              77.2096874,
+              28.5292375
+            ],
+            [
+              77.2093361,
+              28.5290697
+            ],
+            [
+              77.2076822,
+              28.5287046
+            ],
+            [
+              77.2068223,
+              28.5289389
+            ],
+            [
+              77.2068488,
+              28.5285512
+            ],
+            [
+              77.2063457,
+              28.5284273
+            ],
+            [
+              77.2064424,
+              28.5279804
+            ],
+            [
+              77.2072662,
+              28.5280217
+            ],
+            [
+              77.2081979,
+              28.5281019
+            ],
+            [
+              77.2089028,
+              28.5281699
+            ],
+            [
+              77.2101496,
+              28.5282889
+            ],
+            [
+              77.2108739,
+              28.5283326
+            ],
+            [
+              77.2116563,
+              28.5284225
+            ],
+            [
+              77.2121898,
+              28.5285488
+            ],
+            [
+              77.2126515,
+              28.5286897
+            ],
+            [
+              77.2129086,
+              28.5288184
+            ],
+            [
+              77.2134725,
+              28.5289908
+            ],
+            [
+              77.213854,
+              28.5291317
+            ],
+            [
+              77.2148741,
+              28.5294159
+            ],
+            [
+              77.215275,
+              28.5294936
+            ],
+            [
+              77.2152308,
+              28.5299041
+            ],
+            [
+              77.2148962,
+              28.5298263
+            ],
+            [
+              77.2146419,
+              28.5297996
+            ],
+            [
+              77.2146336,
+              28.5299113
+            ],
+            [
+              77.2145369,
+              28.5299526
+            ],
+            [
+              77.2144539,
+              28.5299478
+            ],
+            [
+              77.2143682,
+              28.5299478
+            ],
+            [
+              77.2141858,
+              28.5299575
+            ],
+            [
+              77.2137656,
+              28.5298579
+            ],
+            [
+              77.2131671,
+              28.529767
+            ],
+            [
+              77.2127566,
+              28.5297189
+            ],
+            [
+              77.2125806,
+              28.5297327
+            ],
+            [
+              77.2124544,
+              28.5299383
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

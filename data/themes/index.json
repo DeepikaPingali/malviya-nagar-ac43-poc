@@ -1,0 +1,9 @@
+{
+  "files": [
+    "air.geojson",
+    "enforcement.geojson",
+    "land_housing.geojson",
+    "sanitation.geojson",
+    "water.geojson"
+  ]
+}

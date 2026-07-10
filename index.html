@@ -73,6 +73,10 @@
     <h2>Map Legend &mdash; Civic Assets</h2>
     <div id="legendPanel"></div>
 
+    <h2>Thematic Civic-Issues Layers</h2>
+    <div class="note-text">Solid fill = surveyed (real) boundary. Dashed white outline = approximate (hand-drawn) boundary, or a point. Toggle a layer on in the map controls (top right) to see its legend here.</div>
+    <div id="themeLegends"></div>
+
     <h2>Add a Note</h2>
     <button id="noteModeBtn" class="btn">+ Add note (click the map)</button>
     <button id="clearNotesBtn" class="btn small" style="margin-left:6px;">Clear notes</button>
@@ -116,6 +120,76 @@ function civicCategory(props) {
   if (props.power === "substation") return "Power (substation)";
   if (props.man_made === "water_works") return "Water infrastructure";
   return CIVIC_CATEGORY_LABELS[props.amenity] || (props.amenity || "Other");
+}
+
+// Central color map for thematic civic-issues layers: theme -> status_tag -> color.
+// Adding a new /data/themes/<theme>.geojson requires adding its entry here to get
+// real colors (an unmapped status_tag falls back to grey with a console warning).
+const THEME_COLORS = {
+  land_housing: {
+    unauthorised_colony: "#d98a1f",
+    affluent_excluded: "#8b8b8b",
+    planned_regularised: "#3a8f4f",
+    urban_village: "#b5651d",
+  },
+  water: {
+    pilot_working: "#2f9e9e",
+    pilot_incomplete: "#c98a3a",
+  },
+  sanitation: {
+    sewer_gap: "#a0522d",
+  },
+  air: {
+    aq_station: "#e05b5b",
+  },
+  enforcement: {
+    demolition_zone: "#7a3b3b",
+  },
+};
+
+function themeStatusColor(theme, statusTag) {
+  const color = (THEME_COLORS[theme] || {})[statusTag];
+  if (!color) {
+    console.warn(`no color mapped for theme "${theme}" status_tag "${statusTag}" -- falling back to grey`);
+    return "#888888";
+  }
+  return color;
+}
+
+function humanizeThemeName(key) {
+  return key.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function themeFeatureStyle(f) {
+  const props = f.properties;
+  const color = themeStatusColor(props.theme, props.status_tag);
+  const surveyed = props.geometry_basis === "surveyed";
+  return {
+    fillColor: color,
+    fillOpacity: surveyed ? 0.6 : 0.35,
+    color: surveyed ? color : "#ffffff",
+    weight: surveyed ? 1.5 : 2,
+    dashArray: surveyed ? null : "4 3",
+  };
+}
+
+function themeProvenancePopup(props) {
+  let html = `<div class="prov-line">`;
+  html += `<b>Claim:</b> ${escapeHtml(props.claim || "")}<br>`;
+  html += `<b>Confidence:</b> ${escapeHtml(props.confidence || "unknown")}`;
+  if (props._status) html += ` ${statusBadge(props._status)}`;
+  html += `<br><b>Geometry:</b> ${escapeHtml(props.geometry_basis || "unknown")}`;
+  if (props.geometry_basis && props.geometry_basis !== "surveyed") {
+    html += ` <span style="color:var(--warn);font-weight:600;">(not a surveyed boundary)</span>`;
+  }
+  html += `<br><b>Source:</b> `;
+  html += props._source_url
+    ? `<a href="${escapeHtml(props._source_url)}" target="_blank" rel="noopener">${escapeHtml(props._source || "source")}</a>`
+    : escapeHtml(props._source || "unknown");
+  if (props._fetched_at) html += `<br><b>Fetched:</b> ${escapeHtml(props._fetched_at)}`;
+  html += `</div>`;
+  if (props._note) html += `<div class="note-text">${escapeHtml(props._note)}</div>`;
+  return html;
 }
 
 function escapeHtml(s) {
@@ -242,6 +316,60 @@ async function main() {
     ).join("");
   } catch (e) {
     console.error("civic layer failed to load", e);
+  }
+
+  // --- Thematic civic-issues layers (data-driven: one overlay + legend per ---
+  // --- /data/themes/<theme>.geojson, discovered via data/themes/index.json) ---
+  const themeLegendEls = {}; // theme key -> legend <div>
+  try {
+    const themeIndex = await loadJSON("data/themes/index.json");
+    const legendsContainer = document.getElementById("themeLegends");
+
+    for (const filename of themeIndex.files || []) {
+      const theme = filename.replace(/\.geojson$/, "");
+      try {
+        const themeGj = await loadJSON(`data/themes/${filename}`);
+        const label = humanizeThemeName(theme);
+
+        const layer = L.geoJSON(themeGj, {
+          style: themeFeatureStyle,
+          pointToLayer: (f, latlng) => L.circleMarker(latlng, { radius: 7, ...themeFeatureStyle(f) }),
+          onEachFeature: (f, l) => {
+            l.bindPopup(`<b>${escapeHtml(f.properties.name || label)}</b>` + themeProvenancePopup(f.properties));
+          },
+        });
+        overlays[`${label} (${themeGj.features.length})`] = layer;
+
+        // Legend: one entry per distinct status_tag actually present in this file.
+        const legendEl = document.createElement("div");
+        legendEl.className = "card";
+        legendEl.style.display = "none";
+        const seenTags = [...new Set(themeGj.features.map(f => f.properties.status_tag))].sort();
+        let legendHtml = `<div class="card-title"><span>${escapeHtml(label)}</span></div>`;
+        legendHtml += seenTags.map(tag =>
+          `<div class="legend-item"><span class="legend-swatch" style="background:${themeStatusColor(theme, tag)}"></span>${escapeHtml(tag.replace(/_/g, " "))}</div>`
+        ).join("");
+        if (themeGj._theme_note) {
+          legendHtml += `<div class="note-text">${escapeHtml(themeGj._theme_note)}</div>`;
+        }
+        legendEl.innerHTML = legendHtml;
+        legendsContainer.appendChild(legendEl);
+        themeLegendEls[L.stamp(layer)] = legendEl;
+      } catch (e) {
+        console.error(`theme layer '${filename}' failed to load`, e);
+      }
+    }
+
+    map.on("overlayadd", (ev) => {
+      const el = themeLegendEls[L.stamp(ev.layer)];
+      if (el) el.style.display = "";
+    });
+    map.on("overlayremove", (ev) => {
+      const el = themeLegendEls[L.stamp(ev.layer)];
+      if (el) el.style.display = "none";
+    });
+  } catch (e) {
+    console.error("theme layers index failed to load", e);
   }
 
   L.control.layers(null, overlays, { collapsed: false, position: "topright" }).addTo(map);

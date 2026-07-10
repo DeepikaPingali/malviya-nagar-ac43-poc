@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Navjeevan Vihar",
+        "theme": "water",
+        "claim": "Among the only pockets with true 24x7 supply under the DJB-SUEZ pilot (783 houses total).",
+        "status_tag": "pilot_working",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "Outlook/PTI Jan 2024; Deccan Herald/PTI",
+        "_source_url": "https://www.outlookindia.com/making-a-difference/world-news-delhis-5-per-cent-houses-have-24x7-water-supply-after-8-years-of-launching-of-govts-pilot-project-news-393590",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "polygon: OSM relation 3657109 (boundary=administrative, admin_level=10, 2 outer ways stitched), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2030682,
+              28.5324111
+            ],
+            [
+              77.2000554,
+              28.5340719
+            ],
+            [
+              77.1994153,
+              28.5344056
+            ],
+            [
+              77.1991946,
+              28.5340438
+            ],
+            [
+              77.1990654,
+              28.533832
+            ],
+            [
+              77.1990526,
+              28.5336145
+            ],
+            [
+              77.1985277,
+              28.532516
+            ],
+            [
+              77.1990099,
+              28.5323586
+            ],
+            [
+              77.1995945,
+              28.5320999
+            ],
+            [
+              77.1999103,
+              28.5318937
+            ],
+            [
+              77.2003115,
+              28.53162
+            ],
+            [
+              77.2004736,
+              28.5315638
+            ],
+            [
+              77.2008662,
+              28.5318149
+            ],
+            [
+              77.2013143,
+              28.5319874
+            ],
+            [
+              77.2017581,
+              28.5321186
+            ],
+            [
+              77.2022318,
+              28.5322198
+            ],
+            [
+              77.2030682,
+              28.5324111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Geetanjali Enclave",
+        "theme": "water",
+        "claim": "Second working 24x7 pocket of the DJB-SUEZ pilot.",
+        "status_tag": "pilot_working",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "Outlook/PTI Jan 2024",
+        "_source_url": "https://www.outlookindia.com/making-a-difference/world-news-delhis-5-per-cent-houses-have-24x7-water-supply-after-8-years-of-launching-of-govts-pilot-project-news-393590",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "polygon: OSM way 275273205 (place=neighbourhood, closed ring), fetched via Overpass API."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1996564,
+              28.5303663
+            ],
+            [
+              77.2023359,
+              28.5290249
+            ],
+            [
+              77.2025808,
+              28.5289983
+            ],
+            [
+              77.2037636,
+              28.5284427
+            ],
+            [
+              77.2044674,
+              28.5282552
+            ],
+            [
+              77.2041782,
+              28.5292345
+            ],
+            [
+              77.20405,
+              28.5295052
+            ],
+            [
+              77.204233,
+              28.5324695
+            ],
+            [
+              77.2018403,
+              28.531928
+            ],
+            [
+              77.2013878,
+              28.531826
+            ],
+            [
+              77.2010241,
+              28.5316754
+            ],
+            [
+              77.2006368,
+              28.5314573
+            ],
+            [
+              77.2001231,
+              28.5310601
+            ],
+            [
+              77.1996564,
+              28.5303663
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malviya Nagar UGR command (rest of area)",
+        "theme": "water",
+        "claim": "24x7 pilot launched 2013 for ~400,000 residents; ~5% of 50,000 households covered by 2024; losses still high, worsened by pipe damage during gas-line laying.",
+        "status_tag": "pilot_incomplete",
+        "confidence": "high",
+        "geometry_basis": "approximate",
+        "_source": "SUEZ MNWS; Outlook/PTI; DJB About Us",
+        "_source_url": "https://www.suez.com/en/india/success-stories/malviya-nagar-water-services-improved-services-for-all",
+        "_fetched_at": "2026-07-10",
+        "_status": "ok",
+        "_note": "hand-drawn approximation of the broader UGR command area minus the two named 24x7 pilot pockets; no authoritative DJB command-area polygon was found."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1965,
+              28.5455
+            ],
+            [
+              77.2005,
+              28.547
+            ],
+            [
+              77.207,
+              28.546
+            ],
+            [
+              77.211,
+              28.543
+            ],
+            [
+              77.21,
+              28.538
+            ],
+            [
+              77.206,
+              28.533
+            ],
+            [
+              77.201,
+              28.53
+            ],
+            [
+              77.197,
+              28.531
+            ],
+            [
+              77.194,
+              28.535
+            ],
+            [
+              77.1935,
+              28.541
+            ],
+            [
+              77.1965,
+              28.5455
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

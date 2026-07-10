@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khirki Extension",
+        "theme": "enforcement",
+        "claim": "Recurring MCD South Zone demolition/sealing of unauthorised construction (MCD reported 473 demolition + 157 sealing actions in one year across South Delhi incl. here).",
+        "status_tag": "demolition_zone",
+        "confidence": "medium",
+        "geometry_basis": "approximate",
+        "_source": "MCD South Zone statements (The Logical Indian)",
+        "_source_url": "https://thelogicalindian.com",
+        "_fetched_at": "2026-07-10",
+        "_status": "needs_verification",
+        "_note": "hand-drawn approximation; anchored near OSM node 'Khirki' (id 541347299, place=neighbourhood); Overpass search of bbox (28.49-28.60N, 77.14-77.27E) found no feature specifically tagged 'Khirki Extension' or 'Khidki Extension' -- only 'Khirki Village', 'Khirki Masjid', and road names."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2198147,
+              28.5323123
+            ],
+            [
+              77.2194622,
+              28.5332655
+            ],
+            [
+              77.2185393,
+              28.5338546
+            ],
+            [
+              77.2173985,
+              28.5338546
+            ],
+            [
+              77.2164756,
+              28.5332655
+            ],
+            [
+              77.2161231,
+              28.5323123
+            ],
+            [
+              77.2164756,
+              28.5313591
+            ],
+            [
+              77.2173985,
+              28.53077
+            ],
+            [
+              77.2185393,
+              28.53077
+            ],
+            [
+              77.2194622,
+              28.5313591
+            ],
+            [
+              77.2198147,
+              28.5323123
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
