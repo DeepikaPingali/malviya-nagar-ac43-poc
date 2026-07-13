@@ -1,0 +1,1199 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AIIMS",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: AIIMS Hospital (record ID(s) 173).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2127789,
+          28.5691841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ambedkar",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Adjoining Ambedkar Stadium (record ID(s) 180).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "OSM name match is generic/ambiguous for this term -- point may not be the exact traffic-police location; spot-check before relying on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1751926,
+          28.641083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anuvrat",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Anuvrat Marg (record ID(s) 1, 160).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1899159,
+          28.5267043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashram",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Ashram Chowk / Close to Ashram Chiwk / Close to Ashram Chowk / Near Ashram Chowk (record ID(s) 162, 234, 44, 9).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "OSM name match is generic/ambiguous for this term -- point may not be the exact traffic-police location; spot-check before relying on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2011381,
+          28.5394584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "August Kranti",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: August Kranti Chowk / August Kranti Marg (record ID(s) 146, 159).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2095372,
+          28.5465235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baba Kharak Singh",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Baba Kharak Singh Marg (record ID(s) 193).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2124366,
+          28.6296063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangla Sahib",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Bangla Sahib Road (record ID(s) 201).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2110288,
+          28.6272106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basant",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Basant Road (record ID(s) 205).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1600415,
+          28.5750592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhairon",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Bhairon Road (record ID(s) 30).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2437352,
+          28.6125394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhishma Pitamah",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: On Bhishma Pitamah Marg (record ID(s) 63).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2294036,
+          28.5754811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chirag Delhi",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Chirag Delhi Flyover (record ID(s) 116, 89).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2280694,
+          28.5381411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Defence Colony",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Defence Colony- Water logging Found 7/7/15 (record ID(s) 0_3).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2330402,
+          28.5713575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhaula Kuan",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: underpass sardar petal road near DhaulaKuanRoad (record ID(s) 43).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1617158,
+          28.5918719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "G.T",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: G.T Road (record ID(s) 24).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "OSM name match is generic/ambiguous for this term -- point may not be the exact traffic-police location; spot-check before relying on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2226609,
+          28.6329741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hansraj Gupta",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Hansraj Gupta Marg (record ID(s) 53_1, 53_2, 8).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23214,
+          28.5566263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hansraj Sethi",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Hansraj Sethi (record ID(s) 161).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2520005,
+          28.5432157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hanuman",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Hanuman Marg (record ID(s) 105, 54, 61).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2139376,
+          28.6283213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoshiar Singh",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Hoshiar Singh Marg (record ID(s) 163).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1904915,
+          28.5794826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indraprastha Apollo",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Adjacent to Indraprastha Apollo (record ID(s) 232, 94).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2299848,
+          28.5420683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jangpura",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Jangpura- Waterlogging Found 7/7/15 (record ID(s) 0_4).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2393458,
+          28.5830411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Janpath",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Janpath Road (record ID(s) 209).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2192877,
+          28.6240472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lala Lajpat Rai",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: On Lala Lajpat Rai Marg (record ID(s) 41, 74).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2404572,
+          28.5952485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maharaja Ranjeet Singh",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: On Maharaja Ranjeet Singh Marg (record ID(s) 134).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2267246,
+          28.6291205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malviya Nagar",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Malviya Nagar (record ID(s) 0_1).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2124474,
+          28.5339201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandir",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Mandir Marg (record ID(s) 218, 219, 233).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1984447,
+          28.6316797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mathura",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Mathura Road (record ID(s) 126_1, 196, 21_3, 29).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2458771,
+          28.5900174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minto",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Minto Road (record ID(s) 65).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2223102,
+          28.6364941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Minto Bridge",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Under Minto Bridge (record ID(s) 153).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2223102,
+          28.6364941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Modi",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Modi Flyover (record ID(s) 21_1).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "OSM name match is generic/ambiguous for this term -- point may not be the exact traffic-police location; spot-check before relying on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2522654,
+          28.5476278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moolchand",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Adjacent to Moolchand Hospital / Moolchand Flyover (record ID(s) 10, 235, 95).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2342783,
+          28.5644043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moti Bagh",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Moti Bagh Flyover (record ID(s) 12, 214, 96).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1727967,
+          28.5819215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "National",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Adjacent to National Stadium (record ID(s) 1811).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "OSM name match is generic/ambiguous for this term -- point may not be the exact traffic-police location; spot-check before relying on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2182694,
+          28.6114967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nauroji Nagar",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: on Nauroji Nagar Marg (record ID(s) 64).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1938655,
+          28.5685157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Netaji Subhash",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Netaji Subhash Marg (record ID(s) 210).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2311367,
+          28.6128408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niti",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Niti Marg (record ID(s) 150).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2175785,
+          28.5579007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panchkuian Road",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Panchkuian Road _1 (record ID(s) 140).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2066329,
+          28.6401007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panchsheel",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Panchsheel (record ID(s) 178).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2140757,
+          28.5433525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Press Enclave",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Press Enclave Road (record ID(s) 55).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2073934,
+          28.5268702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qila Rai Pithora",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Near Qila Rai Pithora Road (record ID(s) 56).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1952549,
+          28.5313177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qutub",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Qutub Road (record ID(s) 108, 38).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1900541,
+          28.5390979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rani Jhansi",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Rani Jhansi Road (record ID(s) 27).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2051546,
+          28.6494799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rao Tula Ram",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Rao Tula Ram Marg (record ID(s) 113, 114, 25, 32_1, 32_2, 57).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1655221,
+          28.5738361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ridge",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Ridge Road (record ID(s) 23, 39).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1886256,
+          28.6325686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ring",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Ring Road (record ID(s) 226).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1385845,
+          28.6713543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safdarjung",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Safdarjung Hospital (record ID(s) 115).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.210903,
+          28.5929662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Satya Niketan",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Near Satya Niketan Footover Bridge (record ID(s) 174).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1689581,
+          28.587462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Savitri",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Savitri Cinema Outer ring road (record ID(s) 106).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2302126,
+          28.5343792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shaheed Jeet Singh",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Shaheed Jeet Singh Marg (record ID(s) 5).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1926328,
+          28.5380092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanti Path",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Shanti Path (record ID(s) 148).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1842608,
+          28.5846827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sikandar",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Sikandar Road (record ID(s) 152).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2215535,
+          28.5962198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siri Fort",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Siri Fort Complex (record ID(s) 197).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2246983,
+          28.5521464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Avenue",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: South Avenue (record ID(s) 211).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.199121,
+          28.6099984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Extension",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: South Extension (record ID(s) 0_2).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2205602,
+          28.5685434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vinay",
+        "theme": "waterlogging",
+        "claim": "Traffic Police-reported waterlogging location: Vinay Marg (record ID(s) 204).",
+        "status_tag": "waterlogging_hotspot",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "Delhi Traffic Police waterlogging-location list, via DDA public-consultation record Appendix III",
+        "_source_url": "https://dda.gov.in/sites/default/files/qac/APPENDIX%20III06092018.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1936964,
+          28.5863987
+        ]
+      }
+    }
+  ],
+  "_theme_note": "Sourced from the Delhi Traffic Police's own itemized waterlogging list (DDA Appendix III), not the 2025/2026 news-reported '445 hotspots' figure (that fuller list isn't public). The source list covers all of NCT Delhi (~162 entries); shown here are the subset whose named landmark/road could be geocoded to a real OSM feature within the New Delhi PC boundary via an Overpass poly-filtered search -- about half the ~106 distinct location names in-PC matched; the rest either lack an OSM feature with a close-enough name, or are genuinely outside this PC (the poly filter would have excluded them either way)."
+}

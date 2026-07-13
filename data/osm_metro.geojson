@@ -4,6 +4,205 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Patel Nagar",
+        "name:hi": "\u092a\u091f\u0947\u0932 \u0928\u0917\u0930",
+        "name:kn": "\u0caa\u0c9f\u0cc7\u0cb2\u0ccd \u0ca8\u0c97\u0cb0\u0ccd",
+        "name:ur": "\u067e\u0679\u06cc\u0644 \u0646\u06af\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PTN",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7144412",
+        "wikipedia": "en:Patel Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 268217229,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1692817,
+          28.6450127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karol Bagh",
+        "name:fa": "\u0642\u0631\u0648\u0644 \u0628\u0627\u063a",
+        "name:hi": "\u0915\u0930\u094b\u0932 \u092c\u093e\u0917",
+        "name:kn": "\u0c95\u0cb0\u0ccb\u0cb2\u0ccd \u0cad\u0cbe\u0c97\u0ccd",
+        "name:ur": "\u0642\u0631\u0648\u0644 \u0628\u0627\u063a",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KB",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6373014",
+        "wikipedia": "en:Karol Bagh metro station",
+        "_osm_type": "node",
+        "_osm_id": 345234441,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1885235,
+          28.6440122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kirti Nagar (Blue Line)",
+        "name:fa": "\u06a9\u06cc\u0631\u062a\u06cc \u0646\u06af\u0631",
+        "name:hi": "\u0915\u0940\u0930\u094d\u0924\u093f \u0928\u0917\u0930",
+        "name:ru": "\u041a\u0438\u0440\u0442\u0438-\u041d\u0430\u0433\u0430\u0440",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KNR",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q12419759",
+        "wikipedia": "en:Kirti Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 347676531,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1506635,
+          28.655746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "internet_access:fee": "no",
+        "name": "Shadipur",
+        "name:fa": "\u0634\u0627\u062f\u06cc \u067e\u0648\u0631",
+        "name:hi": "\u0936\u093e\u0926\u0940\u092a\u0941\u0930",
+        "name:kn": "\u0cb7\u0cbe\u0ca6\u0cbf\u0caa\u0cc1\u0cb0\u0ccd",
+        "name:ur": "\u0634\u0627\u062f\u06cc \u067e\u0648\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SP",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q11306954",
+        "wikipedia": "en:Shadipur metro station",
+        "_osm_type": "node",
+        "_osm_id": 347676595,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1582587,
+          28.6515829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moti Nagar",
+        "name:fa": "\u0645\u0648\u062a\u06cc \u0646\u06af\u0631",
+        "name:hi": "\u092e\u094b\u0924\u0940 \u0928\u0917\u0930",
+        "name:ur": "\u0645\u0648\u062a\u06cc \u0646\u06af\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MGN",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q6917665",
+        "wikipedia": "en:Moti Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 347676947,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1424288,
+          28.657859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi Aerocity",
+        "name:fa": "\u0634\u0647\u0631 \u0647\u0648\u0627\u06cc\u06cc \u062f\u0647\u0644\u06cc",
+        "name:hi": "\u0926\u093f\u0932\u094d\u0932\u0940 \u090f\u0930\u094b\u0938\u093f\u091f\u0940",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "DACY",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q5253729",
+        "wikipedia": "en:Delhi Aerocity metro station",
+        "_osm_type": "node",
+        "_osm_id": 554257763,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1207949,
+          28.5487786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "internet_access": "no",
         "name": "Hauz Khas (Yellow Line)",
         "name:ar": "\u062d\u0648\u0636 \u062e\u0627\u0635",
@@ -30,15 +229,180 @@
         "_osm_type": "node",
         "_osm_id": 554257787,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           77.2067072,
           28.5442564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shivaji Stadium",
+        "name:fa": "\u0648\u0631\u0632\u0634\u06af\u0627\u0647 \u0634\u06cc\u0648\u0627\u062c\u06cc",
+        "name:hi": "\u0936\u093f\u0935\u093e\u091c\u0940 \u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e",
+        "name:kn": "\u0cb6\u0cbf\u0cb5\u0cbe\u0c9c\u0cbf \u0cb8\u0ccd\u0c9f\u0cc7\u0ca1\u0cbf\u0caf\u0cae\u0ccd",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SJSU",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q11308729",
+        "wikipedia": "en:Shivaji Stadium metro station",
+        "_osm_type": "node",
+        "_osm_id": 554257833,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2113218,
+          28.6288963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "IGI Airport",
+        "name:fa": "\u0641\u0631\u0648\u062f\u06af\u0627\u0647 \u0628\u06cc\u0646\u200c\u0627\u0644\u0645\u0644\u0644\u06cc \u0627\u06cc\u0646\u062f\u06cc\u0631\u0627 \u06af\u0627\u0646\u062f\u06cc",
+        "name:hi": "\u0906\u0908.\u091c\u0940.\u0906\u0908 \u090f\u092f\u0930\u092a\u094b\u0930\u094d\u091f",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "APOT",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q4698881",
+        "wikipedia": "en:IGI Airport metro station",
+        "_osm_type": "node",
+        "_osm_id": 927873494,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0866995,
+          28.5564626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhaula Kuan",
+        "name:fa": "\u062f\u06be\u0648\u0644\u0627 \u06a9\u0648\u0627\u0646",
+        "name:hi": "\u0927\u094c\u0932\u093e \u0915\u0941\u0906\u0901",
+        "name:ur": "\u062f\u06be\u0648\u0644\u06c1 \u06a9\u0646\u0648\u0627\u06ba",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "DKV",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q5269438",
+        "_osm_type": "node",
+        "_osm_id": 927873513,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1617158,
+          28.5918719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kirti Nagar (Green Line)",
+        "name:fa": "\u06a9\u06cc\u0631\u062a\u06cc \u0646\u06af\u0631",
+        "name:hi": "\u0915\u0940\u0930\u094d\u0924\u093f \u0928\u0917\u0930",
+        "name:ru": "\u041a\u0438\u0440\u0442\u0438-\u041d\u0430\u0433\u0430\u0440",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KRTN",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q12419759",
+        "wikipedia": "en:Kirti Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 1824659702,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1513605,
+          28.6545409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Satguru Ramsingh Marg",
+        "name:fa": "\u0633\u062a \u06af\u0648\u0631\u0648 \u0631\u0627\u0645\u0633\u06cc\u0646\u06af \u0645\u0627\u0631\u06af",
+        "name:hi": "\u0938\u0924\u0917\u0941\u0930\u0941 \u0930\u093e\u092e \u0938\u093f\u0902\u0939 \u092e\u093e\u0930\u094d\u0917",
+        "name:ru": "\u0421\u0430\u0442\u0433\u0443\u0440\u0443 \u0420\u0430\u043c \u0421\u0438\u043d\u0433 \u041c\u0430\u0440\u0433",
+        "name:ur": "\u0633\u062a \u06af\u0631\u0648 \u0631\u0627\u0645 \u0633\u0646\u06af\u06be \u0645\u0627\u0631\u06af",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7426116",
+        "wikipedia": "en:Satguru Ram Singh Marg metro station",
+        "_osm_type": "node",
+        "_osm_id": 1824659742,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1577026,
+          28.6620531
         ]
       }
     },
@@ -65,15 +429,171 @@
         "_osm_type": "node",
         "_osm_id": 2832938172,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           77.2050447,
           28.5433691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Munirka",
+        "name:fa": "\u0645\u0646\u06cc\u0631\u06a9\u0627",
+        "name:hi": "\u092e\u0941\u0928\u093f\u0930\u0915\u093e",
+        "name:ur": "\u0645\u0646\u06cc\u0631\u06a9\u0627",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MIRK",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172590",
+        "wikipedia": "en:Munirka metro station",
+        "_osm_type": "node",
+        "_osm_id": 2832938185,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1750592,
+          28.5568967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vasant Vihar",
+        "name:fa": "\u0648\u0633\u0646\u062a \u0648\u06cc\u0647\u0627\u0631",
+        "name:hi": "\u0935\u0938\u0902\u0924 \u0935\u093f\u0939\u093e\u0930",
+        "name:ur": "\u0648\u0633\u0646\u062a \u0648\u06c1\u0627\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "VTVR",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172570",
+        "wikipedia": "en:Vasant Vihar metro station",
+        "_osm_type": "node",
+        "_osm_id": 2832938196,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1611168,
+          28.557827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shankar Vihar",
+        "name:fa": "\u0634\u0646\u06a9\u0631 \u0648\u06cc\u0647\u0627\u0631",
+        "name:hi": "\u0936\u0902\u0915\u0930 \u0935\u093f\u0939\u093e\u0930",
+        "name:ur": "\u0634\u0646\u06a9\u0631 \u0648\u06c1\u0627\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SKVR",
+        "station": "subway",
+        "subway": "yes",
+        "_osm_type": "node",
+        "_osm_id": 2832938301,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1402814,
+          28.5608462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sadar Bazar Cantonment",
+        "name:fa": "\u0627\u0631\u062f\u0648\u06af\u0627\u0647 \u0635\u062f\u0631 \u0628\u0627\u0632\u0627\u0631",
+        "name:hi": "\u0938\u0926\u0930 \u092c\u093e\u091c\u093c\u093e\u0930 \u091b\u093e\u0935\u0928\u0940",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SABR",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "no",
+        "wikipedia": "en:Sadar Bazar Cantonment metro station",
+        "_osm_type": "node",
+        "_osm_id": 2832938307,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1111279,
+          28.5771145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greater Kailash",
+        "name:fa": "\u06a9\u0627\u06cc\u0644\u0627\u0634 \u0628\u0632\u0631\u06af",
+        "name:hi": "\u0917\u094d\u0930\u0947\u091f\u0930 \u0915\u0948\u0932\u093e\u0936 \u0939\u0949\u0938\u094d\u092a\u093f\u091f\u0932",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "GKEI",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28169988",
+        "wikipedia": "en:Greater Kailash metro station",
+        "_osm_type": "node",
+        "_osm_id": 2833058716,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2384925,
+          28.5419077
         ]
       }
     },
@@ -98,9 +618,9 @@
         "_osm_type": "node",
         "_osm_id": 2833058721,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
@@ -129,15 +649,561 @@
         "_osm_type": "node",
         "_osm_id": 2833058722,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           77.1855231,
           28.5503805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal 1 IGI Airport",
+        "name:fa": "\u062a\u0631\u0645\u06cc\u0646\u0627\u0644 \u06f1 \u0641\u0631\u0648\u062f\u06af\u0627\u0647 \u0628\u06cc\u0646\u200c\u0627\u0644\u0645\u0644\u0644\u06cc \u0627\u06cc\u0646\u062f\u06cc\u0631\u0627 \u06af\u0627\u0646\u062f\u06cc",
+        "name:hi": "\u091f\u0930\u094d\u092e\u093f\u0928\u0932 1 \u0906\u0908\u091c\u0940\u0906\u0908 \u090f\u092f\u0930\u092a\u094b\u0930\u094d\u091f",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "IGDA",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172567",
+        "wikipedia": "en:Terminal 1-IGI Airport metro station",
+        "_osm_type": "node",
+        "_osm_id": 2833058753,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1226566,
+          28.564835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chirag Delhi",
+        "name:ar": "\u0634\u064a\u0631\u0627\u062c \u062f\u064a\u0644\u064a",
+        "name:fa": "\u0686\u0631\u0627\u063a \u062f\u0647\u0644\u06cc",
+        "name:hi": "\u091a\u093f\u0930\u093e\u0917 \u0926\u093f\u0932\u094d\u0932\u0940",
+        "name:ur": "\u0686\u0631\u0627\u063a \u062f\u06c1\u0644\u06cc",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "CDLI",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172603",
+        "wikipedia": "en:Chirag Delhi metro station",
+        "_osm_type": "node",
+        "_osm_id": 3832323219,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2303164,
+          28.5411108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Secretariat",
+        "name:fa": "\u062f\u0628\u06cc\u0631\u062e\u0627\u0646\u0647 \u0645\u0631\u06a9\u0632\u06cc",
+        "name:hi": "\u0938\u0947\u0902\u091f\u094d\u0930\u0932 \u0938\u0947\u0915\u094d\u0930\u0947\u091f\u0947\u0930\u093f\u090f\u091f",
+        "name:kn": "\u0cb8\u0cc6\u0c82\u0c9f\u0ccd\u0cb0\u0cb2\u0ccd \u0cb8\u0cc6\u0c95\u0ccd\u0cb0\u0cc6\u0c9f\u0cb0\u0cbf\u0cb8\u0ccd\u0c9f\u0ccd",
+        "name:ru": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0435\u043a\u0440\u0435\u0442\u0430\u0440\u0438\u0430\u0442",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "CTST",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wikidata": "Q5061812",
+        "wikipedia": "en:Central Secretariat metro station",
+        "_osm_type": "node",
+        "_osm_id": 5453646586,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2122822,
+          28.6158794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajendra Place",
+        "name:fa": "\u0631\u0627\u062c\u0646\u062f\u0631\u0627 \u067e\u0644\u06cc\u0633",
+        "name:hi": "\u0930\u093e\u091c\u0947\u0902\u0926\u094d\u0930 \u092a\u094d\u0932\u0947\u0938",
+        "name:kn": "\u0cb0\u0cbe\u0c9c\u0cc7\u0c82\u0ca6\u0ccd\u0cb0 \u0caa\u0ccd\u0caf\u0cbe\u0cb2\u0cc7\u0cb8\u0ccd",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/23)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "RP",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7286033",
+        "wikipedia": "en:Rajendra Place metro station",
+        "_osm_type": "node",
+        "_osm_id": 5781445033,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1782756,
+          28.6424955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nehru Enclave",
+        "name:fa": "\u0646\u0647\u0631\u0648 \u0627\u0646\u06a9\u0644\u0627\u0648",
+        "name:hi": "\u0928\u0947\u0939\u0930\u0942 \u090f\u0928\u094d\u0915\u094d\u0932\u0947\u0935",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "NUEE",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172606",
+        "wikipedia": "en:Nehru Enclave metro station",
+        "_osm_type": "node",
+        "_osm_id": 5795235047,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2515057,
+          28.5460584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sir M. Vishweshwaraiah Moti Bagh",
+        "name:fa": "\u0633\u0631 \u0645. \u0648\u06cc\u0634\u0648\u0650\u0634\u0648\u0627\u0631\u0627\u06cc\u0627 \u0645\u0648\u062a\u06cc \u0628\u0627\u063a",
+        "name:hi": "\u0938\u0930 \u090f\u092e. \u0935\u093f\u0936\u094d\u0935\u0947\u0936\u094d\u0935\u0930\u092f\u094d\u092f\u093e \u092e\u094b\u0924\u0940 \u092c\u093e\u0917",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SVMB",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q30591952",
+        "wikipedia": "en:Sir Vishweshwaraiah Moti Bagh metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453544485,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.175741,
+          28.5785326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bhikaji Cama Place",
+        "name:fa": "\u0645\u06cc\u062f\u0627\u0646 \u0628\u06be\u06cc\u06a9\u0627\u062c\u06cc \u06a9\u0627\u0645\u0627",
+        "name:hi": "\u092d\u0940\u0915\u093e\u091c\u0940 \u0915\u093e\u092e\u093e \u092a\u094d\u0932\u0947\u0938",
+        "name:ur": "\u0628\u06be\u06cc\u06a9\u0627\u062c\u06cc \u06a9\u0627\u0645\u0627 \u067e\u0644\u06cc\u0633 \u06af\u06cc\u0644",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BKCP",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172666",
+        "wikipedia": "en:Bhikaji Cama Place metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453544486,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1878709,
+          28.5702618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dilli Haat - INA (Pink Line)",
+        "name:fa": "\u062f\u0647\u0644\u06cc \u0647\u0627\u062a - \u0627\u06cc\u0646\u0627 (\u062e\u0637 \u0635\u0648\u0631\u062a\u06cc)",
+        "name:hi": "\u0926\u093f\u0932\u094d\u0932\u0940 \u0939\u093e\u091f - \u0906\u0908 \u090f\u0928 \u090f",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "INA",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q17055892",
+        "wikipedia": "en:Dilli Haat - INA metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453544487,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2075857,
+          28.5736524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajpat Nagar (Pink Line)",
+        "name:ar": "\u0644\u0627\u062c\u0628\u062a \u0646\u063a\u0631",
+        "name:hi": "\u0932\u093e\u091c\u092a\u0924 \u0928\u0917\u0930",
+        "name:ru": "\u041b\u0430\u0434\u0436\u043f\u0430\u0442-\u041d\u0430\u0433\u0430\u0440",
+        "name:ur": "\u0644\u0627\u062c\u067e\u062a \u0646\u06af\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6474492",
+        "wikipedia": "en:Lajpat Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453544488,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2385055,
+          28.56958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Extension",
+        "name:fa": "\u0627\u0645\u062a\u062f\u0627\u062f \u062c\u0646\u0648\u0628\u06cc",
+        "name:hi": "\u0938\u093e\u0909\u0925 \u090f\u0915\u094d\u0938\u091f\u0947\u0902\u0936\u0928",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172660",
+        "wikipedia": "en:South Extension metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453544489,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2205677,
+          28.5685664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dilli Haat - INA (Yellow Line)",
+        "name:fa": "\u062f\u0647\u0644\u06cc \u0647\u0627\u062a - \u0627\u06cc\u0646\u0627 (\u062e\u0637 \u0632\u0631\u062f)",
+        "name:hi": "\u0926\u093f\u0932\u094d\u0932\u0940 \u0939\u093e\u091f - \u0906\u0908 \u090f\u0928 \u090f",
+        "name:ru": "\u0418\u041d\u0410",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q17055892",
+        "wikipedia": "en:Dilli Haat - INA metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453992653,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2093017,
+          28.5741769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajpat Nagar (Violet Line)",
+        "name:ar": "\u0644\u0627\u062c\u0628\u062a \u0646\u063a\u0631",
+        "name:fa": "\u0644\u0627\u062c\u067e\u062a \u0646\u06af\u0631",
+        "name:hi": "\u0932\u093e\u091c\u092a\u0924 \u0928\u0917\u0930",
+        "name:ru": "\u041b\u0430\u0434\u0436\u043f\u0430\u0442-\u041d\u0430\u0433\u0430\u0440",
+        "name:ur": "\u0644\u0627\u062c\u067e\u062a \u0646\u06af\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "LJPN",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6474492",
+        "wikipedia": "en:Lajpat Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 6453992654,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2364011,
+          28.5705968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "alt_name": "Delhi Cantonment",
+        "alt_name:ur": "\u062f\u0644\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc;\u062f\u06c1\u0644\u06cc \u06a9\u06cc\u0646\u0679;\u062f\u0644\u06cc \u06a9\u06cc\u0646\u0679",
+        "name": "Delhi Cantt",
+        "name:fa": "\u0627\u0631\u062f\u0648\u06af\u0627\u0647 \u062f\u0647\u0644\u06cc",
+        "name:hi": "\u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0948\u0902\u091f",
+        "name:ur": "\u062f\u06c1\u0644\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "public_transport:version": "2",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172737",
+        "wikipedia": "en:Delhi Cantonment metro station",
+        "_osm_type": "node",
+        "_osm_id": 6458165644,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1404187,
+          28.6086201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarojini Nagar",
+        "name:fa": "\u0633\u0631\u0648\u062c\u0646\u06cc \u0646\u06af\u0631",
+        "name:hi": "\u0938\u0930\u094b\u091c\u093f\u0928\u0940 \u0928\u0917\u0930",
+        "name:ur": "\u0633\u0631\u0648\u062c\u0646\u06cc \u0646\u06af\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SOJI",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172662",
+        "wikipedia": "en:Sarojini Nagar metro station",
+        "_osm_type": "node",
+        "_osm_id": 6458202842,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1980786,
+          28.575817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punjabi Bagh West",
+        "name:fa": "\u067e\u0646\u062c\u0627\u0628\u06cc \u0628\u0627\u063a \u063a\u0631\u0628\u06cc",
+        "name:hi": "\u092a\u0902\u091c\u093e\u092c\u0940 \u092c\u093e\u0917 \u092a\u0936\u094d\u091a\u093f\u092e",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PBGW",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28178866",
+        "wikipedia": "en:Punjabi Bagh West metro station",
+        "_osm_type": "node",
+        "_osm_id": 6458202843,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1391976,
+          28.6727671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naraina Vihar",
+        "name:fa": "\u0646\u0627\u0631\u0627\u06cc\u0646\u0627 \u0648\u06cc\u0647\u0627\u0631",
+        "name:hi": "\u0928\u093e\u0930\u093e\u092f\u0923\u093e \u0935\u093f\u0939\u093e\u0930",
+        "name:ur": "\u0646\u0627\u0631\u0627\u0626\u0646\u0627 \u0648\u06c1\u0627\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "NAVR",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q28172747",
+        "wikipedia": "en:Naraina Vihar metro station",
+        "_osm_type": "node",
+        "_osm_id": 6458202844,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1364438,
+          28.6243852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashok Park Main",
+        "name:fa": "\u0627\u0634\u0648\u06a9 \u067e\u0627\u0631\u06a9 \u0645\u06cc\u0646",
+        "name:hi": "\u0905\u0936\u094b\u0915 \u092a\u093e\u0930\u094d\u0915 \u092e\u0947\u0928",
+        "name:ru": "\u0413\u043b\u0430\u0432\u043d\u044b\u0439 \u043f\u0430\u0440\u043a \u0410\u0448\u043e\u043a",
+        "name:ur": "\u0627\u0634\u0648\u06a9 \u067e\u0627\u0631\u06a9 \u0645\u06cc\u0646",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "APMN",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q4207354",
+        "wikipedia": "en:Ashok Park Main metro station",
+        "_osm_type": "node",
+        "_osm_id": 6465991435,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.155291,
+          28.6716045
         ]
       }
     },
@@ -161,15 +1227,214 @@
         "_osm_type": "node",
         "_osm_id": 6485904396,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           77.1945546,
           28.5470121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jhandewalan",
+        "name:fa": "\u062c\u0646\u062f\u0647\u200c\u0648\u0627\u0644\u0627\u0646",
+        "name:hi": "\u091d\u0902\u0921\u0947\u0935\u093e\u0932\u093e\u0928",
+        "name:kn": "\u0c9d\u0cbe\u0c82\u0ca1\u0cc6\u0cb5\u0cbe\u0cb2\u0ca8\u0ccd",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "JW",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6190836",
+        "wikipedia": "en:Jhandewalan metro station",
+        "_osm_type": "node",
+        "_osm_id": 6539894849,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1999165,
+          28.6443188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramakrishna Ashram Marg",
+        "name:fa": "\u0631\u0627\u0645\u0627\u06a9\u0631\u06cc\u0634\u0646\u0627 \u0622\u0634\u0631\u0627\u0645 \u0645\u0627\u0631\u06af",
+        "name:hi": "\u0930\u093e\u092e\u0915\u0943\u0937\u094d\u0923 \u0906\u0936\u094d\u0930\u092e \u092e\u093e\u0930\u094d\u0917",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "RKAM",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7288800",
+        "wikipedia": "en:Ramakrishna Ashram Marg metro station",
+        "_osm_type": "node",
+        "_osm_id": 6539894850,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2085787,
+          28.6392436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajiv Chowk",
+        "name:fa": "\u0631\u0627\u062c\u06cc\u0648 \u0686\u0648\u06a9",
+        "name:hi": "\u0930\u093e\u091c\u0940\u0935 \u091a\u094c\u0915",
+        "name:kn": "\u0cb0\u0cbe\u0c9c\u0cc0\u0cb5\u0ccd \u0c9a\u0ccc\u0c95\u0ccd",
+        "name:ru": "\u0420\u0430\u0434\u0436\u0438\u0432-\u0427\u043e\u043a",
+        "name:ur": "\u0631\u0627\u062c\u06cc\u0648 \u0686\u0648\u06a9",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "RCK",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7286183",
+        "_osm_type": "node",
+        "_osm_id": 6539894851,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2193123,
+          28.6327062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barakhambha Road",
+        "name:fa": "\u062c\u0627\u062f\u0647 \u0628\u0627\u0631\u0627\u062e\u0645\u0628\u0627",
+        "name:hi": "\u092c\u093e\u0930\u093e\u0916\u092e\u094d\u092c\u093e \u0930\u094b\u0921",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BKRM",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q4858265",
+        "wikipedia": "en:Barakhamba Road metro station",
+        "_osm_type": "node",
+        "_osm_id": 6539894855,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2250046,
+          28.6297676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandi House",
+        "name:hi": "\u092e\u0902\u0921\u0940 \u0939\u093e\u0909\u0938",
+        "name:kn": "\u0cae\u0c82\u0ca1\u0cbf \u0cb9\u0ccc\u0cb8\u0ccd",
+        "name:ru": "\u0414\u043e\u043c \u041c\u0430\u043d\u0434\u0438",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MDHS",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6748047",
+        "wikipedia": "en:Mandi House metro station",
+        "_osm_type": "node",
+        "_osm_id": 6539894856,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2341966,
+          28.6256122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supreme Court",
+        "name:fa": "\u062f\u06cc\u0648\u0627\u0646 \u0639\u0627\u0644\u06cc \u06a9\u0634\u0648\u0631",
+        "name:hi": "\u0938\u0941\u092a\u094d\u0930\u0940\u092e \u0915\u094b\u0930\u094d\u091f",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PTMD",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q7237614",
+        "wikipedia": "en:Supreme Court metro station",
+        "_osm_type": "node",
+        "_osm_id": 6539894857,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2425278,
+          28.6234752
         ]
       }
     },
@@ -200,9 +1465,9 @@
         "_osm_type": "node",
         "_osm_id": 7018301883,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
@@ -238,9 +1503,9 @@
         "_osm_type": "node",
         "_osm_id": 7018316585,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
@@ -277,9 +1542,9 @@
         "_osm_type": "node",
         "_osm_id": 7018316591,
         "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-        "_fetched_at": "2026-07-07T07:27:55Z",
+        "_fetched_at": "2026-07-12T16:55:57Z",
         "_status": "ok",
-        "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
       },
       "geometry": {
         "type": "Point",
@@ -288,10 +1553,626 @@
           28.5290656
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patel Chowk",
+        "name:hi": "\u092a\u091f\u0947\u0932 \u091a\u094c\u0915",
+        "name:ru": "\u041f\u0430\u0442\u0435\u043b \u0428\u043e\u0443\u043a",
+        "name:ur": "\u067e\u0679\u06cc\u0644 \u0686\u0648\u06a9",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PTCK",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7144407",
+        "wikipedia": "en:Patel Chowk metro station",
+        "_osm_type": "node",
+        "_osm_id": 7018886726,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.214031,
+          28.6229664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "alt_name": "Udyog Bhawan",
+        "alt_name:fa": "\u0627\u0648\u062f\u06cc\u0648\u06af \u0628\u06be\u0648\u0646",
+        "alt_name:hi": "\u0909\u0926\u094d\u092f\u094b\u0917 \u092d\u0935\u0928",
+        "alt_name:ru": "\u0423\u0434\u044c\u0451\u0433 \u0411\u0445\u0430\u0432\u0430\u043d",
+        "alt_name:ur": "\u0627\u064f\u062f\u06cc\u0648\u06af \u0628\u06be\u0648\u0646",
+        "name": "Seva Teerth",
+        "name:hi": "\u0938\u0947\u0935\u093e \u0924\u0940\u0930\u094d\u0925",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7877392",
+        "wikipedia": "en:Seva Teerth metro station",
+        "_osm_type": "node",
+        "_osm_id": 7018886727,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.211796,
+          28.6095136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lok Kalyan Marg",
+        "name:fa": "\u0644\u0648\u06a9 \u06a9\u0644\u06cc\u0627\u0646 \u0645\u0627\u0631\u06af",
+        "name:hi": "\u0932\u094b\u0915 \u0915\u0932\u094d\u092f\u093e\u0923 \u092e\u093e\u0930\u094d\u0917",
+        "name:kn": "\u0cb2\u0ccb\u0c95\u0ccd \u0c95\u0cb2\u0ccd\u0caf\u0cbe\u0ca3\u0ccd",
+        "name:ru": "\u041b\u043e\u043a \u041a\u0430\u043b\u044c\u044f\u043d \u041c\u0430\u0440\u0433",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "old_name": "Race Course",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7278893",
+        "wikipedia": "en:Lok Kalyan Marg metro station",
+        "_osm_type": "node",
+        "_osm_id": 7018886728,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2110967,
+          28.5973513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jor Bagh",
+        "name:fa": "\u062c\u0648\u0631 \u0628\u0627\u063a",
+        "name:hi": "\u091c\u094b\u0930 \u092c\u093e\u0917",
+        "name:kn": "\u0c9c\u0ccb\u0cb0\u0ccd \u0cad\u0cbe\u0c97\u0ccd",
+        "name:ru": "\u0414\u0436\u043e\u0440 \u0411\u0430\u0445",
+        "name:ur": "\u062c\u0648\u0631 \u0628\u0627\u063a",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "JB",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6276226",
+        "wikipedia": "en:Jor Bagh metro station",
+        "_osm_type": "node",
+        "_osm_id": 7018886729,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2125273,
+          28.5865094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kailash Colony",
+        "name:fa": "\u0645\u0633\u062a\u0639\u0645\u0631\u0647 \u06a9\u0627\u06cc\u0644\u0627\u0634",
+        "name:hi": "\u0915\u0948\u0932\u093e\u0936 \u0915\u0949\u0932\u094b\u0928\u0940",
+        "name:ru": "\u041a\u043e\u043b\u043e\u043d\u0438\u044f \u041a\u0430\u0439\u043b\u0430\u0448",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KHCY",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q17067477",
+        "wikipedia": "en:Kailash Colony metro station",
+        "_osm_type": "node",
+        "_osm_id": 7267374895,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2419637,
+          28.5553298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khan Market",
+        "name:fa": "\u062e\u0627\u0646 \u0628\u0627\u0632\u0627\u0631",
+        "name:hi": "\u0916\u093e\u0928 \u092e\u093e\u0930\u094d\u0915\u093f\u091f",
+        "name:ru": "\u0420\u044b\u043d\u043e\u043a \u0425\u0430\u043d",
+        "name:ur": "\u062e\u0627\u0646 \u0628\u0627\u0632\u0627\u0631",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "_osm_type": "node",
+        "_osm_id": 7282286731,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2291281,
+          28.6022446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajiv Chowk",
+        "name:fa": "\u0631\u0627\u062c\u06cc\u0648 \u0686\u0648\u06a9",
+        "name:hi": "\u0930\u093e\u091c\u0940\u0935 \u091a\u094c\u0915",
+        "name:kn": "\u0cb0\u0cbe\u0c9c\u0cc0\u0cb5\u0ccd \u0c9a\u0ccc\u0c95\u0ccd",
+        "name:ml": "\u0d30\u0d3e\u0d1c\u0d40\u0d35\u0d4d \u0d1a\u0d57\u0d15\u0d4d\u0d15\u0d4d",
+        "name:ru": "\u0420\u0430\u0434\u0436\u0438\u0432-\u0427\u043e\u043a",
+        "name:ur": "\u0631\u0627\u062c\u06cc\u0648 \u0686\u0648\u06a9",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "RCK",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7286183",
+        "wikipedia": "en:Rajiv Chowk metro station",
+        "_osm_type": "node",
+        "_osm_id": 8018558072,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2196985,
+          28.6327786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moolchand",
+        "name:fa": "\u0645\u0648\u0644\u0686\u0646\u062f",
+        "name:hi": "\u092e\u0942\u0932\u091a\u0902\u0926",
+        "name:ru": "\u041c\u0443\u043b\u0447\u0430\u043d\u0434",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6907367",
+        "wikipedia": "en:Moolchand metro station",
+        "_osm_type": "node",
+        "_osm_id": 9584236504,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2342555,
+          28.5644044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jangpura",
+        "name:fa": "\u062c\u0646\u06af \u067e\u0648\u0631\u06c1",
+        "name:hi": "\u091c\u0902\u0917\u092a\u0941\u0930\u093e",
+        "name:ru": "\u0414\u0436\u0430\u043d\u0433\u043f\u0443\u0440\u0430",
+        "name:ur": "\u062c\u0646\u06af \u067e\u0648\u0631\u06c1",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "opening_hours": "Mo-Su 06:00-23:15",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q6154100",
+        "wikipedia": "en:Jangpura metro station",
+        "_osm_type": "node",
+        "_osm_id": 9584236505,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2393151,
+          28.5830386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jawaharlal Nehru Stadium",
+        "name:fa": "\u0648\u0631\u0632\u0634\u06af\u0627\u0647 \u062c\u0648\u0627\u0647\u0631 \u0644\u0639\u0644 \u0646\u0647\u0631\u0648",
+        "name:hi": "\u091c\u0935\u093e\u0939\u0930 \u0932\u093e\u0932 \u0928\u0947\u0939\u0930\u0942 \u0938\u094d\u091f\u0947\u0921\u093f\u092f\u092e",
+        "name:ru": "\u0421\u0442\u0430\u0434\u0438\u043e\u043d \u0438\u043c\u0435\u043d\u0438 \u0414\u0436\u0430\u0432\u0430\u0445\u0430\u0440\u043b\u0430\u043b\u0430 \u041d\u0435\u0440\u0443",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6165993",
+        "wikipedia": "en:Jawaharlal Nehru Stadium metro station",
+        "_osm_type": "node",
+        "_osm_id": 9584236506,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2337833,
+          28.5882347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Janpath",
+        "name:en": "Janpath",
+        "name:fa": "\u062c\u0646 \u067e\u062a",
+        "name:hi": "\u091c\u0928\u092a\u0925",
+        "name:kn": "\u0c9c\u0ca8\u0ccd\u0caa\u0ca4\u0ccd",
+        "name:ru": "\u0414\u0436\u0430\u043d\u043f\u0430\u0442",
+        "name:ur": "\u062c\u0646 \u067e\u062a\u06be",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "JNPH",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q16850982",
+        "wikipedia": "en:Janpath metro station",
+        "_osm_type": "node",
+        "_osm_id": 9584236507,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2192587,
+          28.6240485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandi House",
+        "name:fa": "\u062e\u0627\u0646\u0647 \u0645\u0646\u062f\u06cc",
+        "name:hi": "\u092e\u0902\u0921\u0940 \u0939\u093e\u0909\u0938",
+        "name:kn": "\u0cae\u0c82\u0ca1\u0cbf \u0cb9\u0ccc\u0cb8\u0ccd",
+        "name:ru": "\u0414\u043e\u043c \u041c\u0430\u043d\u0434\u0438",
+        "network": "Delhi Metro",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MDHS",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q6748047",
+        "wikipedia": "en:Mandi House metro station",
+        "_osm_type": "node",
+        "_osm_id": 9920295123,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2341926,
+          28.6255149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "yes",
+        "name": "Patel Chowk",
+        "name:fa": "\u067e\u062a\u0644 \u0686\u0648\u06a9",
+        "name:hi": "\u092a\u091f\u0947\u0932 \u091a\u094c\u0915",
+        "name:ru": "\u041f\u0430\u0442\u0435\u043b \u0428\u043e\u0443\u043a",
+        "network": "Delhi Metro",
+        "network:wikidata": "Q271195",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "operator:wikidata": "Q1029339",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PTCK",
+        "station": "subway",
+        "subway": "yes",
+        "_osm_type": "way",
+        "_osm_id": 351418783,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2145288,
+              28.6235494
+            ],
+            [
+              77.2146617,
+              28.623476
+            ],
+            [
+              77.2144534,
+              28.6231854
+            ],
+            [
+              77.2143205,
+              28.6232588
+            ],
+            [
+              77.2145288,
+              28.6235494
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building": "transportation",
+        "building:levels": "2",
+        "layer": "1",
+        "level": "1",
+        "name": "Durgabai Deshmukh South Campus",
+        "name:fa": "\u067e\u0631\u062f\u06cc\u0633 \u062c\u0646\u0648\u0628\u06cc \u062f\u0648\u0631\u06af\u0627\u0628\u0627\u06cc \u062f\u0634\u0645\u0648\u06a9",
+        "name:hi": "\u0926\u0941\u0930\u094d\u0917\u093e\u092c\u093e\u0908 \u0926\u0947\u0936\u092e\u0941\u0916 \u0938\u093e\u0909\u0925 \u0915\u0948\u0902\u092a\u0938",
+        "network": "Delhi Metro",
+        "nohousenumber": "yes",
+        "note": "Contributors are requested to not edit the \"network\" and the \"operator\" tags. (2023/06/22)",
+        "operator": "Delhi Metro Rail Corporation Limited",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "DDSC",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q38739199",
+        "wikipedia": "en:Durgabai Deshmukh South Campus metro station",
+        "_osm_type": "way",
+        "_osm_id": 662484598,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.1693455,
+              28.5896816
+            ],
+            [
+              77.1694502,
+              28.5897366
+            ],
+            [
+              77.1697288,
+              28.5893278
+            ],
+            [
+              77.1697638,
+              28.5893461
+            ],
+            [
+              77.1697492,
+              28.5893675
+            ],
+            [
+              77.169807,
+              28.5893979
+            ],
+            [
+              77.1698704,
+              28.5893049
+            ],
+            [
+              77.1698395,
+              28.5892886
+            ],
+            [
+              77.1697677,
+              28.5892505
+            ],
+            [
+              77.1697226,
+              28.5892268
+            ],
+            [
+              77.1698029,
+              28.589109
+            ],
+            [
+              77.1697508,
+              28.5890816
+            ],
+            [
+              77.1699024,
+              28.5888591
+            ],
+            [
+              77.169744,
+              28.5887759
+            ],
+            [
+              77.1696073,
+              28.5889767
+            ],
+            [
+              77.1695114,
+              28.5889264
+            ],
+            [
+              77.1691305,
+              28.5894856
+            ],
+            [
+              77.1689233,
+              28.5893768
+            ],
+            [
+              77.1688826,
+              28.5894366
+            ],
+            [
+              77.1691627,
+              28.5895837
+            ],
+            [
+              77.1689708,
+              28.5898653
+            ],
+            [
+              77.1691545,
+              28.5899618
+            ],
+            [
+              77.1693455,
+              28.5896816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "highway": "path",
+        "network:wikidata": "Q1055811",
+        "operator:wikidata": "Q908666",
+        "station": "subway",
+        "_osm_type": "way",
+        "_osm_id": 1372976809,
+        "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+        "_fetched_at": "2026-07-12T16:55:57Z",
+        "_status": "ok",
+        "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.227254,
+            28.6000072
+          ],
+          [
+            77.2271496,
+            28.6001361
+          ]
+        ]
+      }
     }
   ],
   "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
-  "_fetched_at": "2026-07-07T07:27:55Z",
+  "_fetched_at": "2026-07-12T16:55:57Z",
   "_status": "ok",
-  "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept)."
+  "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept)."
 }

@@ -614,6 +614,164 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arakpur Bagh Mochi, Moti Bagh",
+        "theme": "land_housing",
+        "claim": "Unauthorised colony pocket in the Moti Bagh area; notified under DDA's PM-UDAY 1,731-colony list, eligible for ownership rights under the 2019 Act.",
+        "status_tag": "unauthorised_colony",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies (entry 1041: 'Arakpur Bagh Mochi Moti Bagh 2, Delhi-21')",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "point placed at the 'Moti Bagh' OSM node (28.58192, 77.17280), within R.K. Puram AC -- 'Arakpur Bagh Mochi' itself isn't separately mapped in OSM. A PC-wide search of the full 1,731-colony list against the other 9 assembly segments (Karol Bagh, Patel Nagar, Moti Nagar, Rajinder Nagar, Kasturba Nagar, R.K. Puram, Greater Kailash, Delhi Cantt, New Delhi) found no other reliably-matched entries -- most listed colonies sit in outer Delhi (Nangloi, Najafgarh, Burari, etc.), well outside this PC, which is predominantly planned/institutional Lutyens-era development rather than the unauthorised-colony belt."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1728,
+          28.58192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baljeet Nagar & Punjabi Basti",
+        "theme": "land_housing",
+        "claim": "Unauthorised colony pocket in Patel Nagar; notified under DDA's PM-UDAY 1,731-colony list (two separate list entries: 'Baljeet Nagar and Punjabi basti', and 'Baljeet Nagar & Punjabi Basti Extn. Near Nepali Mandir'), eligible for ownership rights under the 2019 Act. Also flagged in DJB's own Summer Action Plan as a JICA-area water-deficit tail-end pocket -- cross-confirmed by two independent government sources.",
+        "status_tag": "unauthorised_colony",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1605162,
+          28.6563217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basai Darapur",
+        "theme": "land_housing",
+        "claim": "Urban village pocket in Moti Nagar; notified under DDA's PM-UDAY list as 'Extended Abadi of Village, Basai Dara Pur', eligible for ownership rights under the 2019 Act.",
+        "status_tag": "unauthorised_colony",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1327816,
+          28.6572257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anand Parbat",
+        "theme": "land_housing",
+        "claim": "Unauthorised colony pocket at the Moti Nagar/Karol Bagh boundary; notified under DDA's PM-UDAY list ('Anand Parbat Delhi').",
+        "status_tag": "unauthorised_colony",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "needs_verification",
+        "_note": "PM-UDAY entry has no further address qualifier beyond 'Anand Parbat Delhi'; the postal zone (110005) is associated with Karol Bagh, but the matched OSM point geographically falls just inside Moti Nagar AC, not Karol Bagh AC -- placed per the polygon check, not the postal zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17041,
+          28.66023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gautam Nagar (Yusuf Sarai)",
+        "theme": "land_housing",
+        "claim": "Urban village pocket in Kasturba Nagar, near Yusuf Sarai/Green Park; notified under DDA's PM-UDAY list ('Gautam Nagar Village Yusuf Sarai').",
+        "status_tag": "unauthorised_colony",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.21245,
+          28.56212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lado Sarai Extension",
+        "theme": "land_housing",
+        "claim": "Notified under DDA's PM-UDAY list ('Lado Sarai Extn.'). Lado Sarai is colloquially associated with the separate Mehrauli constituency, but this specific OSM-matched point falls just inside the Malviya Nagar AC polygon, right at the boundary.",
+        "status_tag": "unauthorised_colony",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "needs_verification",
+        "_note": "right at the Malviya Nagar AC boundary edge -- worth field-verifying which side of the line this colony actually sits on before relying on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.18976,
+          28.52732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prem Nagar, Karol Bagh (Zone)",
+        "theme": "land_housing",
+        "claim": "Notified under DDA's PM-UDAY list ('Prem Nagar, Karol Bagh (Zone) New Delhi-8'). The overwhelming majority of PM-UDAY's ~40 'Prem Nagar' entries are in Kirari/Nangloi (far outside this PC) -- this specific one is pincode-anchored to 110008 (Patel Nagar), which is the only reason it's included here.",
+        "status_tag": "unauthorised_colony",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
+        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "needs_verification",
+        "_note": "no distinguishing address detail beyond the zone/pincode -- could not be geocoded to a specific OSM feature; placed at the Patel Nagar AC centroid as an honest placeholder."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17441019385544,
+          28.65415815743307
+        ]
+      }
     }
   ],
   "_theme_note": "PM-UDAY confers ownership but not automatic building-plan approval; as of 31 Mar 2026 only ~40,000 conveyance deeds issued Delhi-wide (PIB)."

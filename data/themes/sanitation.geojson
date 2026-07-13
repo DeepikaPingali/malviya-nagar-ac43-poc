@@ -238,6 +238,479 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shadipur, Ranjeet Nagar (Gali No. 19, 12A, 10 & Shiv Chowk)",
+        "theme": "sanitation",
+        "claim": "Sewer line up-gradation/realignment estimated at Rs 1.40 Cr; taken up in DJB action plan 2026-27.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Patel Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_24_patel_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "anchored to the 'Shadipur' OSM neighbourhood node; the DJB entry covers specific galis nearby."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1536389,
+          28.6526021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baba Faridpuri, near Military Station",
+        "theme": "sanitation",
+        "claim": "Sewer line re-alignment/up-gradation work in progress; financial bid opened and under award.",
+        "status_tag": "sewer_gap",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Patel Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_24_patel_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "no specific-enough OSM match for 'Baba Faridpuri' -- placed at the Patel Nagar AC centroid as an honest placeholder."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17441019385544,
+          28.65415815743307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Road No-5, East Punjabi Bagh",
+        "theme": "sanitation",
+        "claim": "Sewer line settlement work completed.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Moti Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_25_moti_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "anchored to the 'Punjabi Bagh West' OSM neighbourhood node, not the specific road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1420875,
+          28.6703201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pandav Nagar (A & B Block)",
+        "theme": "sanitation",
+        "claim": "Area silted up due to the West Delhi trunk sewer line running below capacity; regular desilting with available SCMs (sewer cleaning machines) ongoing pending trunk-line desilting.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Rajinder Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_39_rajinder_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1536755,
+          28.6500237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "TC Camp, Rajinder Nagar",
+        "theme": "sanitation",
+        "claim": "Sewer line replacement/up-gradation; tenders invited, targeted completion 31 May 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Rajinder Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_39_rajinder_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "'TC Camp' too generic/informal to geocode reliably -- placed at the Rajinder Nagar AC centroid."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1665710273873,
+          28.632688036904682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Budh Nagar (A to F Block)",
+        "theme": "sanitation",
+        "claim": "Sewer line replacement/up-gradation; tenders invited, targeted completion 31 May 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Rajinder Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_39_rajinder_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1440854,
+          28.6325424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C-Block, Lajpat Nagar-II",
+        "theme": "sanitation",
+        "claim": "Sewer line replacement; work order issued, targeted completion 31 Mar 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Kasturba Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_42_kasturba_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2431796,
+          28.5700938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pillanji Village",
+        "theme": "sanitation",
+        "claim": "Sewer line replacement; work order issued, targeted completion 30 Apr 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Kasturba Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_42_kasturba_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "no OSM match found for 'Pillanji' (tried Pillanji/Pilanji/Pillangi/Pilangi spellings) -- placed at the Kasturba Nagar AC centroid."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23243356842511,
+          28.568617153741055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mohammadpur Village",
+        "theme": "sanitation",
+        "claim": "Old sewer line replacement + desilting in progress, targeted completion 31 Mar 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC R.K. Puram",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_44_r_k_puram_1.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1869544,
+          28.5653336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vasant Vihar",
+        "theme": "sanitation",
+        "claim": "Old sewer line replacement + desilting in progress, targeted completion 31 Mar 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC R.K. Puram",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_44_r_k_puram_1.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1628475,
+          28.5602932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Satya Niketan",
+        "theme": "sanitation",
+        "claim": "Old sewer line replacement + desilting in progress, targeted completion 31 Aug 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC R.K. Puram",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_44_r_k_puram_1.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1689581,
+          28.587462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "W-Block, GK-II",
+        "theme": "sanitation",
+        "claim": "Sewer line replacement, targeted completion 30 May 2026.",
+        "status_tag": "sewer_gap",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "'W-Block, GK-II' too fine-grained to geocode reliably -- placed at the Greater Kailash AC centroid."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23568238800063,
+          28.53766171845734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kushak Nallah",
+        "theme": "sanitation",
+        "claim": "Storm drain now carrying unsewered domestic waste from nearby unsewered pockets; residents describe it as built for a much smaller population, clogging within a month and overflowing onto streets. A feeder of the Barapullah drain system; NGT has ordered 100% desilting of Barapullah, Kushak, and Sunehri drains.",
+        "status_tag": "sewer_gap",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "OpenStreetMap contributors via Overpass API (waterway=drain, name='Kushak Nallah drain')",
+        "_source_url": "https://www.openstreetmap.org/",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "9 separate OSM way segments combined into one MultiLineString. Barapullah and Sunehri drains were searched for but not found as named OSM features within the New Delhi PC boundary -- their main channels likely run mostly through neighbouring constituencies (South East Delhi), so they aren't included here rather than guessed at."
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              77.2117996,
+              28.5731338
+            ],
+            [
+              77.2121189,
+              28.57314
+            ],
+            [
+              77.2133098,
+              28.5731632
+            ],
+            [
+              77.214248,
+              28.573208
+            ],
+            [
+              77.2146856,
+              28.5733054
+            ],
+            [
+              77.2150195,
+              28.5734433
+            ],
+            [
+              77.2153709,
+              28.5736553
+            ]
+          ],
+          [
+            [
+              77.2248235,
+              28.5795496
+            ],
+            [
+              77.2277015,
+              28.5793141
+            ],
+            [
+              77.2289139,
+              28.579267
+            ],
+            [
+              77.2356479,
+              28.5794745
+            ]
+          ],
+          [
+            [
+              77.2155977,
+              28.5737922
+            ],
+            [
+              77.2182178,
+              28.5755722
+            ],
+            [
+              77.219013,
+              28.5761125
+            ],
+            [
+              77.2201293,
+              28.5767659
+            ]
+          ],
+          [
+            [
+              77.2212384,
+              28.5776053
+            ],
+            [
+              77.2215152,
+              28.5778938
+            ],
+            [
+              77.221812,
+              28.5783438
+            ],
+            [
+              77.2223012,
+              28.5793205
+            ],
+            [
+              77.2224329,
+              28.5794649
+            ],
+            [
+              77.2226125,
+              28.5795912
+            ],
+            [
+              77.2228241,
+              28.5796875
+            ],
+            [
+              77.2230472,
+              28.5797198
+            ],
+            [
+              77.2232359,
+              28.5796976
+            ],
+            [
+              77.2234018,
+              28.5796234
+            ],
+            [
+              77.2235525,
+              28.5796103
+            ],
+            [
+              77.2237419,
+              28.5796404
+            ],
+            [
+              77.2248235,
+              28.5795496
+            ]
+          ],
+          [
+            [
+              77.2356479,
+              28.5794745
+            ],
+            [
+              77.2358984,
+              28.5794695
+            ],
+            [
+              77.2361437,
+              28.5795358
+            ],
+            [
+              77.2363871,
+              28.5797164
+            ]
+          ],
+          [
+            [
+              77.2201293,
+              28.5767659
+            ],
+            [
+              77.2205376,
+              28.5770528
+            ],
+            [
+              77.2211066,
+              28.5775014
+            ]
+          ],
+          [
+            [
+              77.2211066,
+              28.5775014
+            ],
+            [
+              77.2212384,
+              28.5776053
+            ]
+          ],
+          [
+            [
+              77.2154739,
+              28.5737175
+            ],
+            [
+              77.2155977,
+              28.5737922
+            ]
+          ],
+          [
+            [
+              77.2153709,
+              28.5736553
+            ],
+            [
+              77.2154739,
+              28.5737175
+            ]
+          ]
+        ]
+      }
     }
   ]
 }

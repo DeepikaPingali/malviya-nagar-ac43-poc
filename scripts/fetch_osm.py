@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """fetch_osm.py
 
-Pulls OpenStreetMap data for the Malviya Nagar AC bounding box via the
-Overpass API and writes three toggleable layers:
+Pulls OpenStreetMap data for the full New Delhi PC (all 10 assembly
+segments, not just Malviya Nagar) via the Overpass API and writes three
+toggleable layers:
 
     data/osm_roads.geojson   -- all highway=* ways
     data/osm_metro.geojson   -- metro stations (railway=station + station=subway)
@@ -12,8 +13,11 @@ Overpass API and writes three toggleable layers:
                                 not unfiltered amenity=*, which is dominated
                                 by restaurants and ATMs)
 
-The bbox is *derived* from data/boundary.geojson (not hardcoded) so it stays
-correct if the boundary is ever replaced with a more authoritative source.
+The query area is the actual PC polygon (Overpass "poly" filter), not its
+bounding-box rectangle -- derived from the parliamentary_constituency
+feature in data/boundary.geojson (not hardcoded), so results don't spill
+into neighbouring constituencies and stay correct if the boundary is ever
+replaced with a more authoritative source.
 
 Only stdlib is used (no requests/overpy available on this machine) --
 urllib.request talks to the Overpass API directly and a small hand-rolled
@@ -41,21 +45,26 @@ OVERPASS_MIRRORS = [
     "https://lz4.overpass-api.de/api/interpreter",
 ]
 USER_AGENT = "malviya-nagar-poc/0.1 (civic-mapping proof of concept; contact via repo issues)"
-TIMEOUT_S = 90
+TIMEOUT_S = 240
 
 
 def log(msg):
     print(f"[fetch_osm] {msg}")
 
 
-def load_bbox():
+def load_pc_poly():
+    """Return an Overpass 'poly' filter string ("lat lon lat lon ...") for
+    the parliamentary_constituency feature in boundary.geojson."""
     with open(BOUNDARY_PATH) as f:
         gj = json.load(f)
-    coords = gj["features"][0]["geometry"]["coordinates"][0]
-    lons = [c[0] for c in coords]
-    lats = [c[1] for c in coords]
-    # Overpass bbox order is (south, west, north, east)
-    return min(lats), min(lons), max(lats), max(lons)
+    pc = next(
+        (f for f in gj["features"] if f["properties"].get("feature_type") == "parliamentary_constituency"),
+        None,
+    )
+    if pc is None:
+        raise RuntimeError("no parliamentary_constituency feature found in boundary.geojson")
+    coords = pc["geometry"]["coordinates"][0]  # outer ring, [lon, lat] pairs
+    return " ".join(f"{lat} {lon}" for lon, lat in coords)
 
 
 def run_overpass(query):
@@ -167,23 +176,22 @@ def fetch_layer(name, query, out_filename):
 
 
 def main():
-    south, west, north, east = load_bbox()
-    bbox = f"{south},{west},{north},{east}"
-    log(f"AC bbox (derived from boundary.geojson): {bbox}")
+    poly = load_pc_poly()
+    log(f"New Delhi PC polygon filter (derived from boundary.geojson, {len(poly.split())//2} vertices)")
 
     roads_query = f"""
-    [out:json][timeout:60];
+    [out:json][timeout:180];
     (
-      way["highway"]({bbox});
+      way["highway"](poly:"{poly}");
     );
     out geom;
     """
 
     metro_query = f"""
-    [out:json][timeout:60];
+    [out:json][timeout:180];
     (
-      nwr["railway"="station"]["station"="subway"]({bbox});
-      nwr["station"="subway"]({bbox});
+      nwr["railway"="station"]["station"="subway"](poly:"{poly}");
+      nwr["station"="subway"](poly:"{poly}");
     );
     out geom;
     """
@@ -200,11 +208,11 @@ def main():
         "grave_yard", "crematorium", "shelter", "ambulance_station",
     ])
     civic_query = f"""
-    [out:json][timeout:60];
+    [out:json][timeout:180];
     (
-      nwr["man_made"="water_works"]({bbox});
-      nwr["power"="substation"]({bbox});
-      nwr["amenity"~"^({civic_amenity_values})$"]({bbox});
+      nwr["man_made"="water_works"](poly:"{poly}");
+      nwr["power"="substation"](poly:"{poly}");
+      nwr["amenity"~"^({civic_amenity_values})$"](poly:"{poly}");
     );
     out geom;
     """

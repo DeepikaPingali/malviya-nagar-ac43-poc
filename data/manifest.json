@@ -1,17 +1,17 @@
 {
-  "pipeline_run_at": "2026-07-07T07:27:44Z",
+  "pipeline_run_at": "2026-07-12T16:58:29Z",
   "overall_status": "partial",
   "steps": [
     {
-      "name": "fetch_boundary.sh",
+      "name": "fetch_boundary_pc.py",
       "exit_code": 0,
-      "duration_s": 1,
+      "duration_s": 3,
       "ok": true
     },
     {
       "name": "fetch_osm.py",
       "exit_code": 0,
-      "duration_s": 13,
+      "duration_s": 95,
       "ok": true
     },
     {
@@ -30,11 +30,11 @@
   "layers": [
     {
       "file": "boundary.geojson",
-      "_source": "datameet/maps assembly-constituencies/India_AC.shp (github.com/datameet/maps) @ b3fbbde",
+      "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
       "_status": "needs_verification",
-      "_fetched_at": "2026-07-07T07:27:44Z",
-      "_note": "simplify method: ogr2ogr -simplify 0.0001deg (Douglas-Peucker; mapshaper unavailable, install node/npm to use mapshaper instead). AC_NO in source = 43; original request referred to AC-46; matched by AC_NAME='Malviya Nagar' + ST_NAME='DELHI', not by AC number.",
-      "feature_count": 1
+      "_fetched_at": "2026-07-12T15:10:05Z",
+      "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+      "feature_count": 11
     },
     {
       "file": "mcd_wards.json",
@@ -48,25 +48,25 @@
       "file": "osm_civic.geojson",
       "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
       "_status": "ok",
-      "_fetched_at": "2026-07-07T07:27:58Z",
-      "_note": "Overpass bbox query, 312 raw elements (310 node/way features kept). 2 relation(s) skipped (multipolygon reconstruction not implemented) -- see osm_ids [8800378, 20982995].",
-      "feature_count": 310
+      "_fetched_at": "2026-07-12T16:56:09Z",
+      "_note": "Overpass bbox query, 1705 raw elements (1694 node/way features kept). 11 relation(s) skipped (multipolygon reconstruction not implemented) -- see osm_ids [3777629, 5247847, 5251171, 5492821, 8800378, 12184794, 19171271, 19233789, 20445762, 20819300]....",
+      "feature_count": 1694
     },
     {
       "file": "osm_metro.geojson",
       "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
       "_status": "ok",
-      "_fetched_at": "2026-07-07T07:27:55Z",
-      "_note": "Overpass bbox query, 8 raw elements (8 node/way features kept).",
-      "feature_count": 8
+      "_fetched_at": "2026-07-12T16:55:57Z",
+      "_note": "Overpass bbox query, 62 raw elements (62 node/way features kept).",
+      "feature_count": 62
     },
     {
       "file": "osm_roads.geojson",
-      "_source": "OpenStreetMap contributors via Overpass API (https://overpass-api.de/api/interpreter)",
+      "_source": "OpenStreetMap contributors via Overpass API (https://lz4.overpass-api.de/api/interpreter)",
       "_status": "ok",
-      "_fetched_at": "2026-07-07T07:27:49Z",
-      "_note": "Overpass bbox query, 4220 raw elements (4220 node/way features kept).",
-      "feature_count": 4220
+      "_fetched_at": "2026-07-12T16:55:53Z",
+      "_note": "Overpass bbox query, 28606 raw elements (28606 node/way features kept).",
+      "feature_count": 28606
     },
     {
       "file": "results.json",

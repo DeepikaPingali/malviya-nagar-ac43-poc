@@ -3,7 +3,12 @@
     "air.geojson",
     "enforcement.geojson",
     "land_housing.geojson",
+    "public_health.geojson",
+    "roads_congestion.geojson",
     "sanitation.geojson",
-    "water.geojson"
+    "solid_waste.geojson",
+    "water.geojson",
+    "waterlogging.geojson",
+    "womens_safety.geojson"
   ]
 }

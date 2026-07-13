@@ -1,13 +1,848 @@
 {
   "type": "FeatureCollection",
-  "name": "India_AC",
-  "crs": {
-    "type": "name",
-    "properties": {
-      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-    }
-  },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 25,
+        "AC_NAME": "Moti Nagar",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.16298816313,
+        "Shape_Area": 0.0008454085,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16246783272436,
+              28.671853084552254
+            ],
+            [
+              77.17294137774246,
+              28.664668215465838
+            ],
+            [
+              77.15643230980334,
+              28.6558241061976
+            ],
+            [
+              77.13450330038705,
+              28.630998397558074
+            ],
+            [
+              77.134393509353,
+              28.63081379821824
+            ],
+            [
+              77.13533971305736,
+              28.640288295368578
+            ],
+            [
+              77.12944477125922,
+              28.65062084197831
+            ],
+            [
+              77.1404636264952,
+              28.66028505291291
+            ],
+            [
+              77.1327942530524,
+              28.661053945383344
+            ],
+            [
+              77.13787105910217,
+              28.668375738949237
+            ],
+            [
+              77.12853974211544,
+              28.67453099940616
+            ],
+            [
+              77.15923187235308,
+              28.673521489725033
+            ],
+            [
+              77.16246783272436,
+              28.671853084552254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 24,
+        "AC_NAME": "Patel Nagar (SC)",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.12056724815,
+        "Shape_Area": 0.00044874057,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18547988668746,
+              28.66252330001032
+            ],
+            [
+              77.1863178533863,
+              28.657544952637522
+            ],
+            [
+              77.17363865090306,
+              28.652043673776575
+            ],
+            [
+              77.18536297302285,
+              28.646345613359415
+            ],
+            [
+              77.18387933266513,
+              28.640640939327966
+            ],
+            [
+              77.17784908606654,
+              28.639889863326573
+            ],
+            [
+              77.16248368327541,
+              28.643859647105103
+            ],
+            [
+              77.15554478776181,
+              28.649903295400804
+            ],
+            [
+              77.1595054344283,
+              28.654118666942964
+            ],
+            [
+              77.15643230980334,
+              28.6558241061976
+            ],
+            [
+              77.17294137774246,
+              28.664668215465838
+            ],
+            [
+              77.1778159109756,
+              28.66399652801738
+            ],
+            [
+              77.17444427078652,
+              28.661166850769575
+            ],
+            [
+              77.17897746363911,
+              28.65732340914809
+            ],
+            [
+              77.18547988668746,
+              28.66252330001032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 23,
+        "AC_NAME": "Karol Bagh (SC)",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.11748209976,
+        "Shape_Area": 0.00050015082,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18547988668746,
+              28.66252330001032
+            ],
+            [
+              77.20460257514878,
+              28.657441500025243
+            ],
+            [
+              77.20614773453036,
+              28.648134455740603
+            ],
+            [
+              77.21948112815159,
+              28.64000446213629
+            ],
+            [
+              77.21675597101131,
+              28.633783382996796
+            ],
+            [
+              77.20017397974544,
+              28.642038083790567
+            ],
+            [
+              77.18536297302285,
+              28.646345613359415
+            ],
+            [
+              77.17363865090306,
+              28.652043673776575
+            ],
+            [
+              77.1863178533863,
+              28.657544952637522
+            ],
+            [
+              77.18547988668746,
+              28.66252330001032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 39,
+        "AC_NAME": "Rajinder Nagar",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.2193271014,
+        "Shape_Area": 0.00157241049,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20017397974544,
+              28.642038083790567
+            ],
+            [
+              77.17175714147896,
+              28.602613147079126
+            ],
+            [
+              77.16017587451705,
+              28.602656848734625
+            ],
+            [
+              77.15760522180358,
+              28.60838137619959
+            ],
+            [
+              77.16572709183185,
+              28.619920549493827
+            ],
+            [
+              77.15421844152792,
+              28.625995588625585
+            ],
+            [
+              77.13974380013633,
+              28.617784383542528
+            ],
+            [
+              77.13450330038705,
+              28.630998397558074
+            ],
+            [
+              77.15643230980334,
+              28.6558241061976
+            ],
+            [
+              77.1595054344283,
+              28.654118666942964
+            ],
+            [
+              77.15554478776181,
+              28.649903295400804
+            ],
+            [
+              77.16248368327541,
+              28.643859647105103
+            ],
+            [
+              77.17784908606654,
+              28.639889863326573
+            ],
+            [
+              77.18387933266513,
+              28.640640939327966
+            ],
+            [
+              77.18536297302285,
+              28.646345613359415
+            ],
+            [
+              77.20017397974544,
+              28.642038083790567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 40,
+        "AC_NAME": "New Delhi",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.33083593926,
+        "Shape_Area": 0.0033412246,
+        "feature_type": "assembly_constituency",
+        "civic_body": "NDMC",
+        "water_distributor": "NDMC (buys DJB bulk supply; not a DJB distribution zone)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2211257696386,
+              28.639874769105347
+            ],
+            [
+              77.2239839922675,
+              28.633543317070462
+            ],
+            [
+              77.24459794194155,
+              28.62313498549122
+            ],
+            [
+              77.24255161016873,
+              28.60272331313047
+            ],
+            [
+              77.24872406476385,
+              28.592369189086867
+            ],
+            [
+              77.24499052839025,
+              28.591161214318618
+            ],
+            [
+              77.22883181203855,
+              28.587471109803914
+            ],
+            [
+              77.22851703673194,
+              28.577758494658838
+            ],
+            [
+              77.21138173397992,
+              28.576636901571817
+            ],
+            [
+              77.21111020077518,
+              28.571775917524633
+            ],
+            [
+              77.22204529945105,
+              28.573317680166838
+            ],
+            [
+              77.21731947361485,
+              28.56424354500365
+            ],
+            [
+              77.21185326921307,
+              28.558453330157135
+            ],
+            [
+              77.20357893801764,
+              28.559216555099965
+            ],
+            [
+              77.2018719474325,
+              28.567859161371246
+            ],
+            [
+              77.19617358214515,
+              28.56536785494262
+            ],
+            [
+              77.19111463932921,
+              28.56829004005334
+            ],
+            [
+              77.19249644855233,
+              28.579303974199092
+            ],
+            [
+              77.20248564479675,
+              28.581626182902085
+            ],
+            [
+              77.19357156827334,
+              28.604811414815003
+            ],
+            [
+              77.16919907207955,
+              28.59414730795197
+            ],
+            [
+              77.16901143033328,
+              28.594059025104002
+            ],
+            [
+              77.17175714147896,
+              28.602613147079126
+            ],
+            [
+              77.20017397974544,
+              28.642038083790567
+            ],
+            [
+              77.21675597101131,
+              28.633783382996796
+            ],
+            [
+              77.21948112815159,
+              28.64000446213629
+            ],
+            [
+              77.2211257696386,
+              28.639874769105347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 38,
+        "AC_NAME": "Delhi Cantt",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.42549029181,
+        "Shape_Area": 0.00528055815,
+        "feature_type": "assembly_constituency",
+        "civic_body": "Cantonment Board",
+        "water_distributor": "Cantonment Board (buys DJB bulk supply; not a DJB distribution zone)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                77.19357156827334,
+                28.604811414815003
+              ],
+              [
+                77.20248564479675,
+                28.581626182902085
+              ],
+              [
+                77.19249644855233,
+                28.579303974199092
+              ],
+              [
+                77.19111463932921,
+                28.56829004005334
+              ],
+              [
+                77.18137036984677,
+                28.570880118123
+              ],
+              [
+                77.16919907207955,
+                28.59414730795197
+              ],
+              [
+                77.19357156827334,
+                28.604811414815003
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                77.13974380013633,
+                28.617784383542528
+              ],
+              [
+                77.15421844152792,
+                28.625995588625585
+              ],
+              [
+                77.16572709183185,
+                28.619920549493827
+              ],
+              [
+                77.15760522180358,
+                28.60838137619959
+              ],
+              [
+                77.16017587451705,
+                28.602656848734625
+              ],
+              [
+                77.17175714147896,
+                28.602613147079126
+              ],
+              [
+                77.16901143033328,
+                28.594059025104002
+              ],
+              [
+                77.16085200821368,
+                28.574304074573433
+              ],
+              [
+                77.1545024051619,
+                28.57269556874553
+              ],
+              [
+                77.1529571189759,
+                28.55622881031138
+              ],
+              [
+                77.13412160922496,
+                28.55474190181735
+              ],
+              [
+                77.13125477738612,
+                28.549406626114944
+              ],
+              [
+                77.11712056356322,
+                28.540894978220706
+              ],
+              [
+                77.1059298307971,
+                28.545221470894205
+              ],
+              [
+                77.1016768415131,
+                28.55248647497092
+              ],
+              [
+                77.08080713634035,
+                28.55067831245418
+              ],
+              [
+                77.07448593208017,
+                28.560019638895255
+              ],
+              [
+                77.08446281120985,
+                28.572394703252996
+              ],
+              [
+                77.10365688515719,
+                28.593908783463633
+              ],
+              [
+                77.11101020175948,
+                28.602497604880625
+              ],
+              [
+                77.134393509353,
+                28.63081379821824
+              ],
+              [
+                77.13450330038705,
+                28.630998397558074
+              ],
+              [
+                77.13974380013633,
+                28.617784383542528
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 44,
+        "AC_NAME": "R.K. Puram",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.15180705913,
+        "Shape_Area": 0.00103441387,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16919907207955,
+              28.59414730795197
+            ],
+            [
+              77.18137036984677,
+              28.570880118123
+            ],
+            [
+              77.19111463932921,
+              28.56829004005334
+            ],
+            [
+              77.19617358214515,
+              28.56536785494262
+            ],
+            [
+              77.18322113414808,
+              28.550445725290047
+            ],
+            [
+              77.17562353649708,
+              28.54820826060279
+            ],
+            [
+              77.1683962913558,
+              28.5516951884822
+            ],
+            [
+              77.16246389459315,
+              28.544232243623185
+            ],
+            [
+              77.1573853231742,
+              28.54829327711309
+            ],
+            [
+              77.16027185466243,
+              28.552215190878428
+            ],
+            [
+              77.1529571189759,
+              28.55622881031138
+            ],
+            [
+              77.1545024051619,
+              28.57269556874553
+            ],
+            [
+              77.16085200821368,
+              28.574304074573433
+            ],
+            [
+              77.16901143033328,
+              28.594059025104002
+            ],
+            [
+              77.16919907207955,
+              28.59414730795197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 42,
+        "AC_NAME": "Kasturba Nagar",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.19100093629,
+        "Shape_Area": 0.00095857427,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24499052839025,
+              28.591161214318618
+            ],
+            [
+              77.24904786656583,
+              28.57719663062005
+            ],
+            [
+              77.23875691989599,
+              28.56770955735027
+            ],
+            [
+              77.25471884659754,
+              28.563862493259535
+            ],
+            [
+              77.25402618875768,
+              28.55657746397884
+            ],
+            [
+              77.24724229769396,
+              28.55340858134099
+            ],
+            [
+              77.23274697729124,
+              28.55705785393684
+            ],
+            [
+              77.22953217886703,
+              28.55130106958876
+            ],
+            [
+              77.21277563368858,
+              28.548265658033756
+            ],
+            [
+              77.22333714049671,
+              28.557586228121977
+            ],
+            [
+              77.21731947361485,
+              28.56424354500365
+            ],
+            [
+              77.22204529945105,
+              28.573317680166838
+            ],
+            [
+              77.21111020077518,
+              28.571775917524633
+            ],
+            [
+              77.21138173397992,
+              28.576636901571817
+            ],
+            [
+              77.22851703673194,
+              28.577758494658838
+            ],
+            [
+              77.22883181203855,
+              28.587471109803914
+            ],
+            [
+              77.24499052839025,
+              28.591161214318618
+            ]
+          ]
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -24,10 +859,14 @@
         "STATUS": null,
         "Shape_Leng": 0.16467297778,
         "Shape_Area": 0.00122788349,
-        "_source": "datameet/maps assembly-constituencies/India_AC.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-07T07:27:44Z",
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
         "_status": "needs_verification",
-        "_note": "simplify method: ogr2ogr -simplify 0.0001deg (Douglas-Peucker; mapshaper unavailable, install node/npm to use mapshaper instead). AC_NO in source = 43; original request referred to AC-46; matched by AC_NAME='Malviya Nagar' + ST_NAME='DELHI', not by AC number."
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -96,10 +935,953 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "ST_CODE": 7,
+        "ST_NAME": "DELHI",
+        "DT_CODE": null,
+        "DIST_NAME": null,
+        "AC_NO": 50,
+        "AC_NAME": "Greater Kailash",
+        "PC_NO": 4,
+        "PC_NAME": "NEW DELHI",
+        "PC_ID": 704,
+        "STATUS": null,
+        "Shape_Leng": 0.1608340794,
+        "Shape_Area": 0.00119139444,
+        "feature_type": "assembly_constituency",
+        "civic_body": "MCD",
+        "water_distributor": "DJB (direct distribution)",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21277563368858,
+              28.548265658033756
+            ],
+            [
+              77.22953217886703,
+              28.55130106958876
+            ],
+            [
+              77.23274697729124,
+              28.55705785393684
+            ],
+            [
+              77.24724229769396,
+              28.55340858134099
+            ],
+            [
+              77.25666269252929,
+              28.548469010936174
+            ],
+            [
+              77.25502538411422,
+              28.54336537990838
+            ],
+            [
+              77.24622015073942,
+              28.5400719483618
+            ],
+            [
+              77.25712428215996,
+              28.530334895039402
+            ],
+            [
+              77.25595998116825,
+              28.522542112128804
+            ],
+            [
+              77.24607564947172,
+              28.513667893558477
+            ],
+            [
+              77.24199697218256,
+              28.51940678589449
+            ],
+            [
+              77.23129417918307,
+              28.526087952796843
+            ],
+            [
+              77.21808884632327,
+              28.52578645777885
+            ],
+            [
+              77.21777855773433,
+              28.535377901868742
+            ],
+            [
+              77.20961879117431,
+              28.539178336111377
+            ],
+            [
+              77.21277563368858,
+              28.548265658033756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ST_NAME": "DELHI",
+        "PC_NAME": "NEW DELHI",
+        "ST_CODE": "07",
+        "PC_CODE": 4,
+        "Res": "GEN",
+        "feature_type": "parliamentary_constituency",
+        "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_status": "needs_verification",
+        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.13791370045698,
+              28.673566457625952
+            ],
+            [
+              77.15930679487275,
+              28.67159896492035
+            ],
+            [
+              77.15923187235308,
+              28.673521489725033
+            ],
+            [
+              77.16246783272436,
+              28.671853084552254
+            ],
+            [
+              77.16274393538436,
+              28.67171003748831
+            ],
+            [
+              77.17000414877248,
+              28.66939941654988
+            ],
+            [
+              77.1708939739778,
+              28.66762083093664
+            ],
+            [
+              77.1730522722446,
+              28.66479316097565
+            ],
+            [
+              77.17294137774246,
+              28.664668216365158
+            ],
+            [
+              77.17729705071838,
+              28.664095561361137
+            ],
+            [
+              77.1778159109756,
+              28.66399652801738
+            ],
+            [
+              77.17444427078652,
+              28.661166850769575
+            ],
+            [
+              77.17527893427547,
+              28.659599913405316
+            ],
+            [
+              77.1785344018412,
+              28.658787489251267
+            ],
+            [
+              77.17897746363911,
+              28.65732340914809
+            ],
+            [
+              77.1800075327215,
+              28.657354518496277
+            ],
+            [
+              77.18073196360928,
+              28.6586267300396
+            ],
+            [
+              77.18211699959988,
+              28.659464627490593
+            ],
+            [
+              77.1839111830547,
+              28.659745897655114
+            ],
+            [
+              77.18461799082769,
+              28.661474096052757
+            ],
+            [
+              77.18547988668746,
+              28.662523299111
+            ],
+            [
+              77.18532490741859,
+              28.663199994883882
+            ],
+            [
+              77.18566666688321,
+              28.664348213299434
+            ],
+            [
+              77.18862975046267,
+              28.664437554649453
+            ],
+            [
+              77.19060975813386,
+              28.66324690082388
+            ],
+            [
+              77.1939880919769,
+              28.662552575640916
+            ],
+            [
+              77.19690469679438,
+              28.66047925341485
+            ],
+            [
+              77.19879555017457,
+              28.658260312063817
+            ],
+            [
+              77.20203625446965,
+              28.657791095282846
+            ],
+            [
+              77.20409337720764,
+              28.657965333533355
+            ],
+            [
+              77.20460257514878,
+              28.657441499125923
+            ],
+            [
+              77.20462970499693,
+              28.657412490594027
+            ],
+            [
+              77.20393573324753,
+              28.655345222604012
+            ],
+            [
+              77.20419586664599,
+              28.65194156475144
+            ],
+            [
+              77.20614773453036,
+              28.648134456639923
+            ],
+            [
+              77.20668088771288,
+              28.647696214308894
+            ],
+            [
+              77.20886946885099,
+              28.64776192956947
+            ],
+            [
+              77.21096894695938,
+              28.64679942655232
+            ],
+            [
+              77.21147850283069,
+              28.643632624945724
+            ],
+            [
+              77.2144835892463,
+              28.64258482393052
+            ],
+            [
+              77.2176215280112,
+              28.64142853050231
+            ],
+            [
+              77.2189143448212,
+              28.641352554876562
+            ],
+            [
+              77.21948112815159,
+              28.64000446213629
+            ],
+            [
+              77.22102668143623,
+              28.640050752939942
+            ],
+            [
+              77.2211257696386,
+              28.639874769105347
+            ],
+            [
+              77.22240981985738,
+              28.63759144079239
+            ],
+            [
+              77.22263883761235,
+              28.63498284927914
+            ],
+            [
+              77.2239839922675,
+              28.633543317070462
+            ],
+            [
+              77.22539519223437,
+              28.63370026045868
+            ],
+            [
+              77.22677283489844,
+              28.6347647124216
+            ],
+            [
+              77.22853720402878,
+              28.632429154182148
+            ],
+            [
+              77.23137628099062,
+              28.62898773109896
+            ],
+            [
+              77.2329304048144,
+              28.628807033917553
+            ],
+            [
+              77.24459794284087,
+              28.62313498639054
+            ],
+            [
+              77.24481317398886,
+              28.620805810639695
+            ],
+            [
+              77.24281327870989,
+              28.60930213718393
+            ],
+            [
+              77.24255161106805,
+              28.60272331313047
+            ],
+            [
+              77.24872406476385,
+              28.592369189086867
+            ],
+            [
+              77.2469470835411,
+              28.591864253932215
+            ],
+            [
+              77.24499052749093,
+              28.591161215217937
+            ],
+            [
+              77.24454053012141,
+              28.590998663657444
+            ],
+            [
+              77.24461417110717,
+              28.589073555999846
+            ],
+            [
+              77.24874509451058,
+              28.585119480679566
+            ],
+            [
+              77.24904786566651,
+              28.57719663062005
+            ],
+            [
+              77.24524049315431,
+              28.576062137657573
+            ],
+            [
+              77.24491551773701,
+              28.57446697686953
+            ],
+            [
+              77.24451970182281,
+              28.57139435406623
+            ],
+            [
+              77.24422199384998,
+              28.569120825665607
+            ],
+            [
+              77.24319653379308,
+              28.569090242420828
+            ],
+            [
+              77.24301611899875,
+              28.570443193298786
+            ],
+            [
+              77.24197328314057,
+              28.570866391770608
+            ],
+            [
+              77.2405722661972,
+              28.570597433324963
+            ],
+            [
+              77.23875692079531,
+              28.56770955735027
+            ],
+            [
+              77.24400231645382,
+              28.56480751615402
+            ],
+            [
+              77.24792617725132,
+              28.562884680183913
+            ],
+            [
+              77.24787423780589,
+              28.56424377163279
+            ],
+            [
+              77.24940378945337,
+              28.564514204067336
+            ],
+            [
+              77.2502426662661,
+              28.562726537999367
+            ],
+            [
+              77.25372600585052,
+              28.56226350855411
+            ],
+            [
+              77.25469526277624,
+              28.563765422236486
+            ],
+            [
+              77.25471884659754,
+              28.56386249236016
+            ],
+            [
+              77.25716513296459,
+              28.56261822545082
+            ],
+            [
+              77.25668733035604,
+              28.56141546315314
+            ],
+            [
+              77.25467520519663,
+              28.561158272336456
+            ],
+            [
+              77.25396536221177,
+              28.560145920797652
+            ],
+            [
+              77.25456409665577,
+              28.558178985671702
+            ],
+            [
+              77.25402618875768,
+              28.55657746397884
+            ],
+            [
+              77.2524346585327,
+              28.55514189957904
+            ],
+            [
+              77.25089193631385,
+              28.554368594135383
+            ],
+            [
+              77.2493492347794,
+              28.553595272503856
+            ],
+            [
+              77.24724229679464,
+              28.55340858134099
+            ],
+            [
+              77.24687725118423,
+              28.55282865441893
+            ],
+            [
+              77.24806051797856,
+              28.551854324417604
+            ],
+            [
+              77.25103394466089,
+              28.5519429094378
+            ],
+            [
+              77.2522236604936,
+              28.550764525962165
+            ],
+            [
+              77.25294111174298,
+              28.549975912258617
+            ],
+            [
+              77.25589132782255,
+              28.55067177168496
+            ],
+            [
+              77.25666269252929,
+              28.548469010936174
+            ],
+            [
+              77.25673970507341,
+              28.546449800917628
+            ],
+            [
+              77.25677816637932,
+              28.54544133894666
+            ],
+            [
+              77.25537430757828,
+              28.546207254661113
+            ],
+            [
+              77.25445934812046,
+              28.54618002498819
+            ],
+            [
+              77.2550253832149,
+              28.54336537990838
+            ],
+            [
+              77.25233446416422,
+              28.54187181733056
+            ],
+            [
+              77.24867475763403,
+              28.541762797015508
+            ],
+            [
+              77.2462201498401,
+              28.5400719483618
+            ],
+            [
+              77.24760120902863,
+              28.537318311490935
+            ],
+            [
+              77.25066151741515,
+              28.53498641169358
+            ],
+            [
+              77.25472638471496,
+              28.533290127537384
+            ],
+            [
+              77.25602355154575,
+              28.532218143752402
+            ],
+            [
+              77.25712428215996,
+              28.530334895039402
+            ],
+            [
+              77.25556149516694,
+              28.52937972419494
+            ],
+            [
+              77.25552038895484,
+              28.527460197729965
+            ],
+            [
+              77.25701895086394,
+              28.52710093655901
+            ],
+            [
+              77.25577296265214,
+              28.52383531294936
+            ],
+            [
+              77.25579219375481,
+              28.5233310648768
+            ],
+            [
+              77.25595998116825,
+              28.522542112128804
+            ],
+            [
+              77.2533653012677,
+              28.517414340599373
+            ],
+            [
+              77.25144077816941,
+              28.517875613668707
+            ],
+            [
+              77.24607564947172,
+              28.513667894457797
+            ],
+            [
+              77.24207613320704,
+              28.51733706635258
+            ],
+            [
+              77.24199697218256,
+              28.51940678589449
+            ],
+            [
+              77.24091746916594,
+              28.520799543464193
+            ],
+            [
+              77.23515777371233,
+              28.525678009432625
+            ],
+            [
+              77.23145002989503,
+              28.5267328206632
+            ],
+            [
+              77.23129417918307,
+              28.526087952796843
+            ],
+            [
+              77.23045186246355,
+              28.52664329765014
+            ],
+            [
+              77.22783349801756,
+              28.52777880234987
+            ],
+            [
+              77.22441101016005,
+              28.527524864381064
+            ],
+            [
+              77.21865071845593,
+              28.525532542293035
+            ],
+            [
+              77.21808884632327,
+              28.52578645687953
+            ],
+            [
+              77.21606925589151,
+              28.525030582095724
+            ],
+            [
+              77.21601311031685,
+              28.525274425174644
+            ],
+            [
+              77.20940496296873,
+              28.524052555880814
+            ],
+            [
+              77.20435198985251,
+              28.523772122085802
+            ],
+            [
+              77.19404743194349,
+              28.528319589877242
+            ],
+            [
+              77.18771176748413,
+              28.523782358169342
+            ],
+            [
+              77.18458778349947,
+              28.52598957775683
+            ],
+            [
+              77.18304837258438,
+              28.5283708251535
+            ],
+            [
+              77.18049804904581,
+              28.530721492902615
+            ],
+            [
+              77.1818434096457,
+              28.533318399524546
+            ],
+            [
+              77.17974856934109,
+              28.533500601271783
+            ],
+            [
+              77.17966646123824,
+              28.533507297623714
+            ],
+            [
+              77.17948159569914,
+              28.53452282376935
+            ],
+            [
+              77.18116214801478,
+              28.535980243493498
+            ],
+            [
+              77.18111765945247,
+              28.537128510472428
+            ],
+            [
+              77.18073882633581,
+              28.537282272958578
+            ],
+            [
+              77.17641347310337,
+              28.53903076905482
+            ],
+            [
+              77.18027670340717,
+              28.543876809067513
+            ],
+            [
+              77.18300428332105,
+              28.54447093538539
+            ],
+            [
+              77.18544333374291,
+              28.548759777042108
+            ],
+            [
+              77.18322113414808,
+              28.550445725290047
+            ],
+            [
+              77.18171515822803,
+              28.551586523399408
+            ],
+            [
+              77.17773640551076,
+              28.549678760966117
+            ],
+            [
+              77.1756235373964,
+              28.54820826060279
+            ],
+            [
+              77.1683962913558,
+              28.55169518938152
+            ],
+            [
+              77.16246389459315,
+              28.544232243623185
+            ],
+            [
+              77.15816780799798,
+              28.54678424349811
+            ],
+            [
+              77.15738532407352,
+              28.54829327711309
+            ],
+            [
+              77.16027185556175,
+              28.552215190878428
+            ],
+            [
+              77.15651329015628,
+              28.55210106511214
+            ],
+            [
+              77.15656291025016,
+              28.554530246373815
+            ],
+            [
+              77.15518779647971,
+              28.556406741178193
+            ],
+            [
+              77.1529571189759,
+              28.55622881031138
+            ],
+            [
+              77.13412161012428,
+              28.55474190091803
+            ],
+            [
+              77.13322547167826,
+              28.55177516788973
+            ],
+            [
+              77.13125477738612,
+              28.549406626114944
+            ],
+            [
+              77.13110963759976,
+              28.549496274133787
+            ],
+            [
+              77.12962115529211,
+              28.54808780990453
+            ],
+            [
+              77.1195421041848,
+              28.540969122826823
+            ],
+            [
+              77.1175604894251,
+              28.54090845096431
+            ],
+            [
+              77.11712056356322,
+              28.540894977321386
+            ],
+            [
+              77.11356803823446,
+              28.541564025259618
+            ],
+            [
+              77.10841256668664,
+              28.543741890076205
+            ],
+            [
+              77.1059298307971,
+              28.545221470894205
+            ],
+            [
+              77.1016768415131,
+              28.55248647497092
+            ],
+            [
+              77.09346127741605,
+              28.553986974019665
+            ],
+            [
+              77.08972598736449,
+              28.553676947133454
+            ],
+            [
+              77.08432307544962,
+              28.550979495407432
+            ],
+            [
+              77.08080713544098,
+              28.55067831245418
+            ],
+            [
+              77.07787626108063,
+              28.552338672291967
+            ],
+            [
+              77.07754924510164,
+              28.555052304620233
+            ],
+            [
+              77.07662181834229,
+              28.556191635935306
+            ],
+            [
+              77.07479898518505,
+              28.55769339043769
+            ],
+            [
+              77.07448593208017,
+              28.560019638895255
+            ],
+            [
+              77.08446281120985,
+              28.572394703252996
+            ],
+            [
+              77.08471245581524,
+              28.5724574669386
+            ],
+            [
+              77.09961217256375,
+              28.589184139336624
+            ],
+            [
+              77.10365688515719,
+              28.593908783463633
+            ],
+            [
+              77.11101020175948,
+              28.602497604880625
+            ],
+            [
+              77.13250799614718,
+              28.627599299268297
+            ],
+            [
+              77.134393509353,
+              28.63081379911756
+            ],
+            [
+              77.13249395862937,
+              28.63552574571662
+            ],
+            [
+              77.13627231811307,
+              28.638653362063053
+            ],
+            [
+              77.13533971305736,
+              28.640288295368578
+            ],
+            [
+              77.12944477125922,
+              28.65062084197831
+            ],
+            [
+              77.12978434087466,
+              28.6507826246185
+            ],
+            [
+              77.13840896789958,
+              28.65463146576957
+            ],
+            [
+              77.14046362559588,
+              28.66028505291291
+            ],
+            [
+              77.1393102612596,
+              28.660678952371825
+            ],
+            [
+              77.13279425395172,
+              28.661053945383344
+            ],
+            [
+              77.13786554715733,
+              28.66436303232814
+            ],
+            [
+              77.13787105820285,
+              28.668375738949237
+            ],
+            [
+              77.12810774917335,
+              28.67281095426216
+            ],
+            [
+              77.12853974211544,
+              28.67453099940616
+            ],
+            [
+              77.13791370045698,
+              28.673566457625952
+            ]
+          ]
+        ]
+      }
     }
   ],
-  "_source": "datameet/maps assembly-constituencies/India_AC.shp (github.com/datameet/maps) @ b3fbbde",
-  "_fetched_at": "2026-07-07T07:27:44Z",
+  "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
+  "_fetched_at": "2026-07-12T15:10:05Z",
   "_status": "needs_verification",
-  "_note": "simplify method: ogr2ogr -simplify 0.0001deg (Douglas-Peucker; mapshaper unavailable, install node/npm to use mapshaper instead). AC_NO in source = 43; original request referred to AC-46; matched by AC_NAME='Malviya Nagar' + ST_NAME='DELHI', not by AC number."
+  "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
 }

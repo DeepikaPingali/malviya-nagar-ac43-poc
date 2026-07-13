@@ -1,0 +1,5 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "_theme_note": "No public directory of mohalla clinic / dispensary locations with functioning-status was found. The Delhi Health Department publishes a facility list in principle, but a fetchable, geocoded version wasn't located. Functioning status (open days/hours, doctor presence, medicine availability) is explicitly a field-verification task, not something any public source currently reports. This file is a scaffold pending that directory + field checks."
+}

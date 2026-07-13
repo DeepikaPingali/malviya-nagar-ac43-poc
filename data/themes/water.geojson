@@ -237,6 +237,1258 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karol Bagh (general supply)",
+        "theme": "water",
+        "claim": "Pahar Ganj, Karol Bagh, and Dev Nagar wards get ~1.5-2.25 hrs/day piped supply (5:00-6:30 AM plus a short evening window), per DJB's 2026 summer plan.",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Karol Bagh",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_23_karol_bagh_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18547988668746,
+              28.66252330001032
+            ],
+            [
+              77.20460257514878,
+              28.657441500025243
+            ],
+            [
+              77.20614773453036,
+              28.648134455740603
+            ],
+            [
+              77.21948112815159,
+              28.64000446213629
+            ],
+            [
+              77.21675597101131,
+              28.633783382996796
+            ],
+            [
+              77.20017397974544,
+              28.642038083790567
+            ],
+            [
+              77.18536297302285,
+              28.646345613359415
+            ],
+            [
+              77.17363865090306,
+              28.652043673776575
+            ],
+            [
+              77.1863178533863,
+              28.657544952637522
+            ],
+            [
+              77.18547988668746,
+              28.66252330001032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Patel Nagar (general supply)",
+        "theme": "water",
+        "claim": "Supply is tracked at individual JJC/camp level (40+ named points) rather than by colony; the JICA-assisted network upgrade (new mains, DMA formation) is in progress, targeted for completion Dec 2026.",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Patel Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_24_patel_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.18547988668746,
+              28.66252330001032
+            ],
+            [
+              77.1863178533863,
+              28.657544952637522
+            ],
+            [
+              77.17363865090306,
+              28.652043673776575
+            ],
+            [
+              77.18536297302285,
+              28.646345613359415
+            ],
+            [
+              77.18387933266513,
+              28.640640939327966
+            ],
+            [
+              77.17784908606654,
+              28.639889863326573
+            ],
+            [
+              77.16248368327541,
+              28.643859647105103
+            ],
+            [
+              77.15554478776181,
+              28.649903295400804
+            ],
+            [
+              77.1595054344283,
+              28.654118666942964
+            ],
+            [
+              77.15643230980334,
+              28.6558241061976
+            ],
+            [
+              77.17294137774246,
+              28.664668215465838
+            ],
+            [
+              77.1778159109756,
+              28.66399652801738
+            ],
+            [
+              77.17444427078652,
+              28.661166850769575
+            ],
+            [
+              77.17897746363911,
+              28.65732340914809
+            ],
+            [
+              77.18547988668746,
+              28.66252330001032
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moti Nagar (general supply)",
+        "theme": "water",
+        "claim": "Kirti Nagar, Ramesh Nagar, Rakhi Market, Karampura, and Moti Nagar/Sudarshan Park get ~4 hrs/day (4:30-8 AM plus a short evening window), per DJB's 2026 summer plan.",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Moti Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_25_moti_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16246783272436,
+              28.671853084552254
+            ],
+            [
+              77.17294137774246,
+              28.664668215465838
+            ],
+            [
+              77.15643230980334,
+              28.6558241061976
+            ],
+            [
+              77.13450330038705,
+              28.630998397558074
+            ],
+            [
+              77.134393509353,
+              28.63081379821824
+            ],
+            [
+              77.13533971305736,
+              28.640288295368578
+            ],
+            [
+              77.12944477125922,
+              28.65062084197831
+            ],
+            [
+              77.1404636264952,
+              28.66028505291291
+            ],
+            [
+              77.1327942530524,
+              28.661053945383344
+            ],
+            [
+              77.13787105910217,
+              28.668375738949237
+            ],
+            [
+              77.12853974211544,
+              28.67453099940616
+            ],
+            [
+              77.15923187235308,
+              28.673521489725033
+            ],
+            [
+              77.16246783272436,
+              28.671853084552254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajinder Nagar (general supply)",
+        "theme": "water",
+        "claim": "Supply windows vary sharply by pocket -- from under an hour a day in some Naraina/Inderpuri mohallas up to 24-hour backup at a few named points (Shiv Mandir, Sabji Mandi Chowk) -- per DJB's 2026 summer plan (28 named colony-groups).",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Rajinder Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_39_rajinder_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.20017397974544,
+              28.642038083790567
+            ],
+            [
+              77.17175714147896,
+              28.602613147079126
+            ],
+            [
+              77.16017587451705,
+              28.602656848734625
+            ],
+            [
+              77.15760522180358,
+              28.60838137619959
+            ],
+            [
+              77.16572709183185,
+              28.619920549493827
+            ],
+            [
+              77.15421844152792,
+              28.625995588625585
+            ],
+            [
+              77.13974380013633,
+              28.617784383542528
+            ],
+            [
+              77.13450330038705,
+              28.630998397558074
+            ],
+            [
+              77.15643230980334,
+              28.6558241061976
+            ],
+            [
+              77.1595054344283,
+              28.654118666942964
+            ],
+            [
+              77.15554478776181,
+              28.649903295400804
+            ],
+            [
+              77.16248368327541,
+              28.643859647105103
+            ],
+            [
+              77.17784908606654,
+              28.639889863326573
+            ],
+            [
+              77.18387933266513,
+              28.640640939327966
+            ],
+            [
+              77.18536297302285,
+              28.646345613359415
+            ],
+            [
+              77.20017397974544,
+              28.642038083790567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kasturba Nagar (general supply)",
+        "theme": "water",
+        "claim": "Defence Colony, Lajpat Nagar-1, Kotla Village, and Aliganj get ~5 hrs/day (4-7 AM + 5-7 PM); NDSE-2 gets ~3 hrs/day (3-6 AM), per DJB's 2026 summer plan.",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Kasturba Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_42_kasturba_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.24499052839025,
+              28.591161214318618
+            ],
+            [
+              77.24904786656583,
+              28.57719663062005
+            ],
+            [
+              77.23875691989599,
+              28.56770955735027
+            ],
+            [
+              77.25471884659754,
+              28.563862493259535
+            ],
+            [
+              77.25402618875768,
+              28.55657746397884
+            ],
+            [
+              77.24724229769396,
+              28.55340858134099
+            ],
+            [
+              77.23274697729124,
+              28.55705785393684
+            ],
+            [
+              77.22953217886703,
+              28.55130106958876
+            ],
+            [
+              77.21277563368858,
+              28.548265658033756
+            ],
+            [
+              77.22333714049671,
+              28.557586228121977
+            ],
+            [
+              77.21731947361485,
+              28.56424354500365
+            ],
+            [
+              77.22204529945105,
+              28.573317680166838
+            ],
+            [
+              77.21111020077518,
+              28.571775917524633
+            ],
+            [
+              77.21138173397992,
+              28.576636901571817
+            ],
+            [
+              77.22851703673194,
+              28.577758494658838
+            ],
+            [
+              77.22883181203855,
+              28.587471109803914
+            ],
+            [
+              77.24499052839025,
+              28.591161214318618
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R.K. Puram (general supply)",
+        "theme": "water",
+        "claim": "Supply windows range ~1.5-6 hrs/day and include odd late-night/midday slots (e.g. Mohammadpur village and Sectors 1-5 get 12 AM-3 AM plus 12 PM-3 PM), per DJB's 2026 summer plan.",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC R.K. Puram",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_44_r_k_puram_1.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.16919907207955,
+              28.59414730795197
+            ],
+            [
+              77.18137036984677,
+              28.570880118123
+            ],
+            [
+              77.19111463932921,
+              28.56829004005334
+            ],
+            [
+              77.19617358214515,
+              28.56536785494262
+            ],
+            [
+              77.18322113414808,
+              28.550445725290047
+            ],
+            [
+              77.17562353649708,
+              28.54820826060279
+            ],
+            [
+              77.1683962913558,
+              28.5516951884822
+            ],
+            [
+              77.16246389459315,
+              28.544232243623185
+            ],
+            [
+              77.1573853231742,
+              28.54829327711309
+            ],
+            [
+              77.16027185466243,
+              28.552215190878428
+            ],
+            [
+              77.1529571189759,
+              28.55622881031138
+            ],
+            [
+              77.1545024051619,
+              28.57269556874553
+            ],
+            [
+              77.16085200821368,
+              28.574304074573433
+            ],
+            [
+              77.16901143033328,
+              28.594059025104002
+            ],
+            [
+              77.16919907207955,
+              28.59414730795197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greater Kailash (general supply)",
+        "theme": "water",
+        "claim": "GK-Enclave-I, Kalkaji, CR Park pockets, NRI Colony, and Aravali Apartment get roughly 2-3 hrs/day across ~7 named colony pockets, per DJB's 2026 summer plan.",
+        "status_tag": "limited_supply",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry is the AC boundary (real) standing in for a colony-by-colony water-supply map; the source PDF has finer per-colony/per-JJC detail than shown here."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.21277563368858,
+              28.548265658033756
+            ],
+            [
+              77.22953217886703,
+              28.55130106958876
+            ],
+            [
+              77.23274697729124,
+              28.55705785393684
+            ],
+            [
+              77.24724229769396,
+              28.55340858134099
+            ],
+            [
+              77.25666269252929,
+              28.548469010936174
+            ],
+            [
+              77.25502538411422,
+              28.54336537990838
+            ],
+            [
+              77.24622015073942,
+              28.5400719483618
+            ],
+            [
+              77.25712428215996,
+              28.530334895039402
+            ],
+            [
+              77.25595998116825,
+              28.522542112128804
+            ],
+            [
+              77.24607564947172,
+              28.513667893558477
+            ],
+            [
+              77.24199697218256,
+              28.51940678589449
+            ],
+            [
+              77.23129417918307,
+              28.526087952796843
+            ],
+            [
+              77.21808884632327,
+              28.52578645777885
+            ],
+            [
+              77.21777855773433,
+              28.535377901868742
+            ],
+            [
+              77.20961879117431,
+              28.539178336111377
+            ],
+            [
+              77.21277563368858,
+              28.548265658033756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gali 49, Karol Bagh",
+        "theme": "water",
+        "claim": "100mm-dia water line blocked by leaks; replacement work targeted for completion 31 Mar 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Karol Bagh",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_23_karol_bagh_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "no specific-enough OSM match for 'Gali 49' -- placed at the Karol Bagh AC centroid as an honest placeholder, not a real location fix."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.19634406392747,
+          28.650238272448366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "53 Regharpura, Karol Bagh",
+        "theme": "water",
+        "claim": "100mm-dia water line blocked by leaks; replacement work targeted for completion 31 Mar 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Karol Bagh",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_23_karol_bagh_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1860862,
+          28.6486581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baljeet Nagar, Nehru Nagar, Punjabi Basti, Baba Farid Puri, Gayatri Colony, Than Singh Nagar (tail-end, JICA area)",
+        "theme": "water",
+        "claim": "Tail-end areas of the JICA-assisted water network upgrade; new/replaced mains in progress, targeted completion Dec 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Patel Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_24_patel_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "combined multi-colony DJB table row; point placed at 'Baljeet Nagar', the first-named locality, as a representative anchor."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1605162,
+          28.6563217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kirti Nagar N Block",
+        "theme": "water",
+        "claim": "172m of water line being replaced; targeted completion 31 Mar 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Moti Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_25_moti_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1417729,
+          28.6532807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Avenue Road, Punjabi Bagh",
+        "theme": "water",
+        "claim": "Water line replacement work in progress; targeted completion 31 Mar 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Moti Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_25_moti_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "anchored to the 'Punjabi Bagh West' OSM neighbourhood node, not the specific road."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1420875,
+          28.6703201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashoka Park Extension",
+        "theme": "water",
+        "claim": "Water line replacement at tender stage; targeted completion 31 May 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Moti Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_25_moti_nagar_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1569775,
+          28.671984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Naraina Village, Todapur Village, Dasghara Village (tail-end, JICA area)",
+        "theme": "water",
+        "claim": "Tail-end areas of the JICA-assisted water network upgrade; targeted completion Dec 2026. Tankers sent on demand in the interim.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Rajinder Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_39_rajinder_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "combined multi-village DJB table row; point placed at 'Naraina Village', the first-named locality."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1386441,
+          28.6220547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Extension Part-2",
+        "theme": "water",
+        "claim": "New GI water line being laid; targeted completion 31 Mar 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Kasturba Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_42_kasturba_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "anchored to the 'South Extension I' OSM node (nearest named match); the DJB table specifically names 'Part-2'."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2203844,
+          28.5705664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Double Storey flats, Amar Colony",
+        "theme": "water",
+        "claim": "Water line replacement out to tender; targeted completion 31 Mar 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Kasturba Nagar",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_42_kasturba_nagar.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2431499,
+          28.5615391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Budh Vihar, Munirka",
+        "theme": "water",
+        "claim": "Water line replacement in progress to address contamination complaints; targeted completion 31 Mar 2026.",
+        "status_tag": "vulnerable_contamination",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC R.K. Puram",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_44_r_k_puram_1.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "anchored to the 'Munirka' OSM locality node; Budh Vihar is a sub-pocket not separately mapped in OSM."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1710841,
+          28.554886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Munirka Village",
+        "theme": "water",
+        "claim": "Water line replacement in progress to address contamination complaints; targeted completion 31 Mar 2026.",
+        "status_tag": "vulnerable_contamination",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC R.K. Puram",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_44_r_k_puram_1.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1710841,
+          28.554886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "C.R. Park I-Block (house nos. 1760-1784, 1736-1747)",
+        "theme": "water",
+        "claim": "Old/damaged water line replacement awarded; targeted completion 30 Apr 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "anchored to the 'Chittaranjan Park' OSM suburb node, not the specific block."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2516536,
+          28.5376883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sant Nagar (near H.No. 326)",
+        "theme": "water",
+        "claim": "New water line to be laid; targeted completion 28 Feb 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2495194,
+          28.5548352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GK Enclave-I",
+        "theme": "water",
+        "claim": "New water line to be laid; targeted completion 30 Apr 2026.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "anchored to the 'Greater Kailash I' OSM neighbourhood node."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2360199,
+          28.5512676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chirag Delhi Village (elevated/tail-end areas)",
+        "theme": "water",
+        "claim": "Part of the Malviya Nagar Water Supply (MNWS) PPP zone: total availability (~62 MLD) falls short of the ~88 MLD agreed demand at Malviya Nagar UGR, so elevated/tail-end houses here go short. Valve regulation + additional tankers deployed as interim measures.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2280694,
+          28.5381411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khirki Extension / Panchsheel Vihar (tail-end, MNWS PPP)",
+        "theme": "water",
+        "claim": "Part of the Malviya Nagar Water Supply (MNWS) PPP zone: total availability (~62 MLD) falls short of the ~88 MLD agreed demand at Malviya Nagar UGR, so tail-end houses here go short. Valve regulation + additional tankers deployed as interim measures.",
+        "status_tag": "vulnerable_deficit",
+        "confidence": "high",
+        "geometry_basis": "surveyed",
+        "_source": "DJB Summer Action Plan 2026 -- AC Greater Kailash",
+        "_source_url": "https://delhijalboard.delhi.gov.in/sites/default/files/inline-files/ac_50_greater_kailash_0.pdf",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok",
+        "_note": "Geometry reused from the Khirki Extension polygon in land_housing.geojson (same real-world place; this DJB table item spans the Malviya Nagar/Greater Kailash AC boundary)."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2198147,
+              28.5323123
+            ],
+            [
+              77.2194622,
+              28.5332655
+            ],
+            [
+              77.2185393,
+              28.5338546
+            ],
+            [
+              77.2173985,
+              28.5338546
+            ],
+            [
+              77.2164756,
+              28.5332655
+            ],
+            [
+              77.2161231,
+              28.5323123
+            ],
+            [
+              77.2164756,
+              28.5313591
+            ],
+            [
+              77.2173985,
+              28.53077
+            ],
+            [
+              77.2185393,
+              28.53077
+            ],
+            [
+              77.2194622,
+              28.5313591
+            ],
+            [
+              77.2198147,
+              28.5323123
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi Cantt (no DJB data)",
+        "theme": "water",
+        "claim": "No DJB Summer Action Plan was found for this segment -- consistent with it being outside DJB's direct distribution (Cantonment Board / NDMC buy DJB bulk supply and distribute independently). No public equivalent plan was found for the distributing body.",
+        "status_tag": "data_unavailable",
+        "confidence": "low",
+        "geometry_basis": "surveyed",
+        "_source": "searched delhijalboard.delhi.gov.in for an AC-level Summer Action Plan; none exists for this segment",
+        "_source_url": "https://delhijalboard.delhi.gov.in/",
+        "_fetched_at": "2026-07-12",
+        "_status": "unavailable"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                77.19357156827334,
+                28.604811414815003
+              ],
+              [
+                77.20248564479675,
+                28.581626182902085
+              ],
+              [
+                77.19249644855233,
+                28.579303974199092
+              ],
+              [
+                77.19111463932921,
+                28.56829004005334
+              ],
+              [
+                77.18137036984677,
+                28.570880118123
+              ],
+              [
+                77.16919907207955,
+                28.59414730795197
+              ],
+              [
+                77.19357156827334,
+                28.604811414815003
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                77.13974380013633,
+                28.617784383542528
+              ],
+              [
+                77.15421844152792,
+                28.625995588625585
+              ],
+              [
+                77.16572709183185,
+                28.619920549493827
+              ],
+              [
+                77.15760522180358,
+                28.60838137619959
+              ],
+              [
+                77.16017587451705,
+                28.602656848734625
+              ],
+              [
+                77.17175714147896,
+                28.602613147079126
+              ],
+              [
+                77.16901143033328,
+                28.594059025104002
+              ],
+              [
+                77.16085200821368,
+                28.574304074573433
+              ],
+              [
+                77.1545024051619,
+                28.57269556874553
+              ],
+              [
+                77.1529571189759,
+                28.55622881031138
+              ],
+              [
+                77.13412160922496,
+                28.55474190181735
+              ],
+              [
+                77.13125477738612,
+                28.549406626114944
+              ],
+              [
+                77.11712056356322,
+                28.540894978220706
+              ],
+              [
+                77.1059298307971,
+                28.545221470894205
+              ],
+              [
+                77.1016768415131,
+                28.55248647497092
+              ],
+              [
+                77.08080713634035,
+                28.55067831245418
+              ],
+              [
+                77.07448593208017,
+                28.560019638895255
+              ],
+              [
+                77.08446281120985,
+                28.572394703252996
+              ],
+              [
+                77.10365688515719,
+                28.593908783463633
+              ],
+              [
+                77.11101020175948,
+                28.602497604880625
+              ],
+              [
+                77.134393509353,
+                28.63081379821824
+              ],
+              [
+                77.13450330038705,
+                28.630998397558074
+              ],
+              [
+                77.13974380013633,
+                28.617784383542528
+              ]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Delhi (no DJB data)",
+        "theme": "water",
+        "claim": "No DJB Summer Action Plan was found for this segment -- consistent with it being outside DJB's direct distribution (Cantonment Board / NDMC buy DJB bulk supply and distribute independently). No public equivalent plan was found for the distributing body.",
+        "status_tag": "data_unavailable",
+        "confidence": "low",
+        "geometry_basis": "surveyed",
+        "_source": "searched delhijalboard.delhi.gov.in for an AC-level Summer Action Plan; none exists for this segment",
+        "_source_url": "https://delhijalboard.delhi.gov.in/",
+        "_fetched_at": "2026-07-12",
+        "_status": "unavailable"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2211257696386,
+              28.639874769105347
+            ],
+            [
+              77.2239839922675,
+              28.633543317070462
+            ],
+            [
+              77.24459794194155,
+              28.62313498549122
+            ],
+            [
+              77.24255161016873,
+              28.60272331313047
+            ],
+            [
+              77.24872406476385,
+              28.592369189086867
+            ],
+            [
+              77.24499052839025,
+              28.591161214318618
+            ],
+            [
+              77.22883181203855,
+              28.587471109803914
+            ],
+            [
+              77.22851703673194,
+              28.577758494658838
+            ],
+            [
+              77.21138173397992,
+              28.576636901571817
+            ],
+            [
+              77.21111020077518,
+              28.571775917524633
+            ],
+            [
+              77.22204529945105,
+              28.573317680166838
+            ],
+            [
+              77.21731947361485,
+              28.56424354500365
+            ],
+            [
+              77.21185326921307,
+              28.558453330157135
+            ],
+            [
+              77.20357893801764,
+              28.559216555099965
+            ],
+            [
+              77.2018719474325,
+              28.567859161371246
+            ],
+            [
+              77.19617358214515,
+              28.56536785494262
+            ],
+            [
+              77.19111463932921,
+              28.56829004005334
+            ],
+            [
+              77.19249644855233,
+              28.579303974199092
+            ],
+            [
+              77.20248564479675,
+              28.581626182902085
+            ],
+            [
+              77.19357156827334,
+              28.604811414815003
+            ],
+            [
+              77.16919907207955,
+              28.59414730795197
+            ],
+            [
+              77.16901143033328,
+              28.594059025104002
+            ],
+            [
+              77.17175714147896,
+              28.602613147079126
+            ],
+            [
+              77.20017397974544,
+              28.642038083790567
+            ],
+            [
+              77.21675597101131,
+              28.633783382996796
+            ],
+            [
+              77.21948112815159,
+              28.64000446213629
+            ],
+            [
+              77.2211257696386,
+              28.639874769105347
+            ]
+          ]
+        ]
+      }
     }
   ]
 }

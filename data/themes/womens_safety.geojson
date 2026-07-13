@@ -1,0 +1,5 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "_theme_note": "No public dataset of harassment hotspots, unlit stretches, or unsafe bus stops exists for this constituency. NCW's NARI 2025 index and Safetipin's Delhi safety audits are the relevant sources, but neither publishes a downloadable, feature-level dataset -- Safetipin's audit data would need a direct collaboration/data-sharing agreement. This file is a scaffold: the moment real point-level data (from a Safetipin partnership or field survey) exists, it goes here in the same schema as the other themes, and the layer/legend appear automatically."
+}

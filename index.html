@@ -135,9 +135,16 @@ const THEME_COLORS = {
   water: {
     pilot_working: "#2f9e9e",
     pilot_incomplete: "#c98a3a",
+    limited_supply: "#b08a3a",
+    vulnerable_deficit: "#c94f4f",
+    vulnerable_contamination: "#8b3a62",
+    data_unavailable: "#999999",
   },
   sanitation: {
     sewer_gap: "#a0522d",
+  },
+  waterlogging: {
+    waterlogging_hotspot: "#3a7ab5",
   },
   air: {
     aq_station: "#e05b5b",
@@ -238,23 +245,50 @@ async function main() {
 
   const overlays = {};
 
-  // --- Boundary --------------------------------------------------------
+  // --- Boundary: New Delhi PC outline + its 10 assembly constituencies, --
+  // --- each individually toggleable ---------------------------------------
+  const CIVIC_BODY_COLORS = { MCD: "#8b2f2f", NDMC: "#1f6f8b", "Cantonment Board": "#6b4d2d" };
   try {
     const boundary = await loadJSON("data/boundary.geojson");
-    const layer = L.geoJSON(boundary, {
-      style: { color: "#8b2f2f", weight: 3, fill: true, fillOpacity: 0.03 },
-      onEachFeature: (f, l) => {
-        const extra = propsTable(f.properties, PROV_KEYS);
-        l.bindPopup(`<b>${escapeHtml(f.properties.AC_NAME || "AC boundary")}</b>` + provenancePopup(f.properties, extra));
-      },
-    }).addTo(map);
-    overlays["AC-43 Boundary"] = layer;
-    map.fitBounds(layer.getBounds(), { padding: [20, 20] });
+    const acFeatures = boundary.features
+      .filter(f => f.properties.feature_type === "assembly_constituency")
+      .sort((a, b) => a.properties.AC_NAME.localeCompare(b.properties.AC_NAME));
+    const pcFeature = boundary.features.find(f => f.properties.feature_type === "parliamentary_constituency");
+
+    const boundaryLayers = [];
+    acFeatures.forEach(f => {
+      const color = CIVIC_BODY_COLORS[f.properties.civic_body] || "#8b2f2f";
+      const layer = L.geoJSON(f, {
+        style: { color, weight: 1.5, fill: true, fillColor: color, fillOpacity: 0.05 },
+        onEachFeature: (feat, l) => {
+          const extra = propsTable(feat.properties, PROV_KEYS.concat(["feature_type"]));
+          const label = `${escapeHtml(feat.properties.AC_NAME)} &mdash; ${escapeHtml(feat.properties.civic_body || "")}`;
+          const extraInfo = `<div class="note-text">Water: ${escapeHtml(feat.properties.water_distributor || "")}</div>`;
+          l.bindPopup(`<b>${label}</b>` + extraInfo + provenancePopup(feat.properties, extra));
+        },
+      }).addTo(map);
+      overlays[`AC: ${f.properties.AC_NAME}`] = layer;
+      boundaryLayers.push(layer);
+    });
+
+    if (pcFeature) {
+      const pcLayer = L.geoJSON(pcFeature, {
+        style: { color: "#2a2a28", weight: 3, fill: false },
+        onEachFeature: (feat, l) => {
+          const extra = propsTable(feat.properties, PROV_KEYS.concat(["feature_type"]));
+          l.bindPopup(`<b>${escapeHtml(feat.properties.PC_NAME || "New Delhi PC")}</b>` + provenancePopup(feat.properties, extra));
+        },
+      }).addTo(map);
+      overlays["New Delhi PC outline"] = pcLayer;
+      boundaryLayers.push(pcLayer);
+    }
+
+    map.fitBounds(L.featureGroup(boundaryLayers).getBounds(), { padding: [20, 20] });
   } catch (e) {
     console.error("boundary layer failed to load", e);
   }
 
-  // --- Roads -------------------------------------------------------------
+  // --- Roads (PC-wide, ~28k segments -- off by default to keep first paint fast) ---
   try {
     const roads = await loadJSON("data/osm_roads.geojson");
     const layer = L.geoJSON(roads, {
@@ -267,7 +301,7 @@ async function main() {
         const extra = propsTable(f.properties, PROV_KEYS);
         l.bindPopup(`<b>${escapeHtml(f.properties.name || f.properties.highway || "Road")}</b>` + provenancePopup(f.properties, extra));
       },
-    }).addTo(map);
+    });
     overlays["Roads (" + roads.features.length + ")"] = layer;
   } catch (e) {
     console.error("roads layer failed to load", e);
@@ -290,30 +324,38 @@ async function main() {
     console.error("metro layer failed to load", e);
   }
 
-  // --- Civic assets ----------------------------------------------------
+  // --- Civic assets (PC-wide), split into one toggle per category --------
+  // --- so amenities can be shown/hidden independently (e.g. just hospitals) ---
   try {
     const civic = await loadJSON("data/osm_civic.geojson");
-    const layer = L.geoJSON(civic, {
-      pointToLayer: (f, latlng) => L.circleMarker(latlng, {
-        radius: 5, color: "#fff", weight: 1, fillColor: civicColor(f.properties), fillOpacity: 0.9,
-      }),
-      style: f => ({ color: civicColor(f.properties), weight: 1.5, fillOpacity: 0.15 }),
-      onEachFeature: (f, l) => {
-        const extra = propsTable(f.properties, PROV_KEYS);
-        const label = f.properties.name || civicCategory(f.properties);
-        l.bindPopup(`<b>${escapeHtml(label)}</b><div style="color:#777;font-size:11px;margin-bottom:4px;">${escapeHtml(civicCategory(f.properties))}</div>` + provenancePopup(f.properties, extra));
-      },
+    const byCategory = {};
+    civic.features.forEach(f => {
+      const cat = civicCategory(f.properties);
+      (byCategory[cat] = byCategory[cat] || []).push(f);
     });
-    overlays["Civic Assets (" + civic.features.length + ")"] = layer;
 
     const legendEl = document.getElementById("legendPanel");
-    const seen = new Set();
-    civic.features.forEach(f => seen.add(civicCategory(f.properties)));
     const colorByLabel = {};
     civic.features.forEach(f => { colorByLabel[civicCategory(f.properties)] = civicColor(f.properties); });
-    legendEl.innerHTML = [...seen].sort().map(label =>
-      `<div class="legend-item"><span class="legend-swatch" style="background:${colorByLabel[label]}"></span>${escapeHtml(label)}</div>`
+    legendEl.innerHTML = Object.keys(byCategory).sort().map(label =>
+      `<div class="legend-item"><span class="legend-swatch" style="background:${colorByLabel[label]}"></span>${escapeHtml(label)} (${byCategory[label].length})</div>`
     ).join("");
+
+    Object.keys(byCategory).sort().forEach(cat => {
+      const catFc = { type: "FeatureCollection", features: byCategory[cat] };
+      const layer = L.geoJSON(catFc, {
+        pointToLayer: (f, latlng) => L.circleMarker(latlng, {
+          radius: 5, color: "#fff", weight: 1, fillColor: civicColor(f.properties), fillOpacity: 0.9,
+        }),
+        style: f => ({ color: civicColor(f.properties), weight: 1.5, fillOpacity: 0.15 }),
+        onEachFeature: (f, l) => {
+          const extra = propsTable(f.properties, PROV_KEYS);
+          const label = f.properties.name || cat;
+          l.bindPopup(`<b>${escapeHtml(label)}</b><div style="color:#777;font-size:11px;margin-bottom:4px;">${escapeHtml(cat)}</div>` + provenancePopup(f.properties, extra));
+        },
+      });
+      overlays[`Amenity: ${cat} (${byCategory[cat].length})`] = layer;
+    });
   } catch (e) {
     console.error("civic layer failed to load", e);
   }

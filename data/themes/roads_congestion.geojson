@@ -1,0 +1,5 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "_theme_note": "TomTom's Traffic Index gives a city-wide average (rush-hour hours lost) but no per-junction breakdown. No public dataset of specific jam points, their causes (bottleneck / illegal parking / encroachment / missing signal), or dangerous school crossings was found for this constituency -- these are explicitly field-survey targets in the source notes. This file is a scaffold pending that survey."
+}

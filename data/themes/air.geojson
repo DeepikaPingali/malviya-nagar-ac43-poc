@@ -22,6 +22,73 @@
           28.531
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandir Marg CAAQMS",
+        "theme": "air",
+        "claim": "DPCC continuous monitor (CPCB station 17 of the Delhi-NCR CAAQMS network) in the New Delhi assembly segment.",
+        "status_tag": "aq_station",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "AQICN / CPCB CAAQM station list (Delhi-NCR)",
+        "_source_url": "https://aqicn.org/city/delhi/mandir-marg/",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2005,
+          28.6341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lodhi Road CAAQMS",
+        "theme": "air",
+        "claim": "IMD continuous monitor (CPCB station 35 of the Delhi-NCR CAAQMS network), at Mausam Bhawan, Lodhi Road, near India Habitat Centre/Lodhi Garden, in the New Delhi assembly segment.",
+        "status_tag": "aq_station",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "AQICN / IMD CAAQM station list (Delhi-NCR)",
+        "_source_url": "https://aqicn.org/city/delhi/lodhi-road/",
+        "_fetched_at": "2026-07-12",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.22731,
+          28.591824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R.K. Puram CAAQMS",
+        "theme": "air",
+        "claim": "DPCC continuous monitor (CPCB station 25 of the Delhi-NCR CAAQMS network) in the R.K. Puram assembly segment -- a distinct station from Sri Aurobindo Marg, not a duplicate of it.",
+        "status_tag": "aq_station",
+        "confidence": "medium",
+        "geometry_basis": "point",
+        "_source": "AQICN / DPCC CAAQM station list (Delhi-NCR)",
+        "_source_url": "https://aqicn.org/city/delhi/r.k.-puram/",
+        "_fetched_at": "2026-07-12",
+        "_status": "needs_verification",
+        "_note": "exact station address/coordinates weren't published on the sources checked (AQICN page, CPCB station list PDFs) -- placed at the R.K. Puram AC centroid as an honest placeholder pending a precise address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17011611550636,
+          28.5656806662498
+        ]
+      }
     }
   ]
 }
