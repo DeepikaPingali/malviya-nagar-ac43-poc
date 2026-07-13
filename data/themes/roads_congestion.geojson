@@ -1,5 +1,211 @@
 {
   "type": "FeatureCollection",
-  "features": [],
-  "_theme_note": "TomTom's Traffic Index gives a city-wide average (rush-hour hours lost) but no per-junction breakdown. No public dataset of specific jam points, their causes (bottleneck / illegal parking / encroachment / missing signal), or dangerous school crossings was found for this constituency -- these are explicitly field-survey targets in the source notes. This file is a scaffold pending that survey."
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punjabi Bagh Club Road congestion (Moti Nagar Flyover construction)",
+        "theme": "roads_congestion",
+        "claim": "Traffic congestion below the Moti Nagar flyover and on Punjabi Bagh Club Road, worsened by construction and parked-vehicle obstruction. Concerned: Delhi Traffic Police, PWD.",
+        "status_tag": "congestion",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1420875,
+          28.6703201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Potholes/road dust, Road No. 77 & Club Road, west Punjabi Bagh",
+        "theme": "roads_congestion",
+        "claim": "Potholes and road dust at various stretches (unpaved Road No. 77 and Club Road). Concerned: PWD, MCD.",
+        "status_tag": "road_quality",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1420875,
+          28.6703201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarojini Nagar Bus Depot exit -- road repair needed",
+        "theme": "roads_congestion",
+        "claim": "Road repair needed at the exit point of Sarojini Nagar (S.N.) Bus Depot; broken patches also found at Church Road, R.K. Puram. Concerned dept: MCD.",
+        "status_tag": "road_quality",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1899867,
+          28.5734543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sarojini Nagar Bus Depot exit + Africa Avenue/Outer Ring Road congestion",
+        "theme": "roads_congestion",
+        "claim": "Traffic congestion at the Sarojini Nagar Bus Depot exit; Africa Avenue Road and Outer Ring Road heavily congested, adjacent to the R.K. Puram CAAQMS hotspot. Concerned: Delhi Traffic Police.",
+        "status_tag": "congestion",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.176309,
+          28.5669356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DMS Campus to Girdhari Lal Chowk congestion (Shadipur hotspot)",
+        "theme": "roads_congestion",
+        "claim": "Traffic congestion from DMS Campus to Girdhari Lal Chowk. Concerned dept: Delhi Traffic Police.",
+        "status_tag": "congestion",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1536389,
+          28.6526021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Potholes/road dust, Main Mathura Marg & Goswami Girdhari Lal Marg (Shadipur hotspot)",
+        "theme": "roads_congestion",
+        "claim": "Major potholes and road dust on Main Mathura Marg and Goswami Girdhari Lal Marg. Concerned dept: PWD.",
+        "status_tag": "road_quality",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1536389,
+          28.6526021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vehicle parking in front of the Sirifort monitoring station",
+        "theme": "roads_congestion",
+        "claim": "Vehicle parking obstruction directly in front of the CAQM station. Concerned dept: MCD.",
+        "status_tag": "congestion",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2247,
+          28.55215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Traffic signal congestion at NITRD entry gate (Sri Aurobindo Marg hotspot)",
+        "theme": "roads_congestion",
+        "claim": "Traffic congestion at the signal near the entry gate of NITRD. Concerned dept: Delhi Traffic Police.",
+        "status_tag": "congestion",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.194,
+          28.531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Traffic congestion near Mausam Bhawan (Lodhi Road hotspot)",
+        "theme": "roads_congestion",
+        "claim": "Traffic congestion at Lodhi Road, near Mausam Bhawan. Concerned dept: Delhi Traffic Police.",
+        "status_tag": "congestion",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.22731,
+          28.591824
+        ]
+      }
+    }
+  ],
+  "_theme_note": "Populated from DPCC's 2023 point-source inventory (the same document behind several air.geojson and solid_waste.geojson entries) -- these are the traffic-congestion and road-quality items DPCC flagged as air-pollution contributors near its monitoring hotspots, not a general citywide jam-point survey. A broader, independently field-verified congestion/crossing/footpath survey (per the original brief) is still outstanding."
 }

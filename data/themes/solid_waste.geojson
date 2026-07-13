@@ -1,5 +1,29 @@
 {
   "type": "FeatureCollection",
-  "features": [],
-  "_theme_note": "No public black-spot list (chronic dumping corners, illegal C&D waste dumping, drain-mouth dumping) exists for this constituency. MCD/NDMC publish collection-frequency targets but not an itemized dumping-spot dataset. Comparable crowd-sourced data may exist on platforms like Samaaj Data (samaajdata.org) but wasn't confirmed as fetchable at time of writing. This file is a scaffold pending field survey or a confirmed public source."
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Illegal C&D waste dumping, Rohtak Road (Madipur to Shivaji Park metro stretch)",
+        "theme": "solid_waste",
+        "claim": "Illegal dumping of construction and demolition waste on vacant lands and along the Rohtak Road stretch between Madipur metro station and Shivaji Park metro station. Concerned: PWD, Indian Railways, MCD.",
+        "status_tag": "illegal_dumping",
+        "confidence": "high",
+        "geometry_basis": "point",
+        "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
+        "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
+        "_fetched_at": "2026-07-13",
+        "_status": "ok",
+        "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1420875,
+          28.6703201
+        ]
+      }
+    }
+  ],
+  "_theme_note": "Populated from DPCC's 2023 point-source inventory (same document behind several air.geojson and roads_congestion.geojson entries) -- this is the one illegal-dumping item DPCC flagged as an air-pollution contributor near a monitoring hotspot in this PC, not a general dumping black-spot survey. A broader, independently field-verified black-spot survey (per the original brief) is still outstanding."
 }
