@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""fetch_osm.py
+"""fetch_osm.py -- shared, PC-agnostic
 
-Pulls OpenStreetMap data for the full New Delhi PC (all 10 assembly
-segments, not just Malviya Nagar) via the Overpass API and writes three
+Pulls OpenStreetMap data for a PC via the Overpass API and writes three
 toggleable layers:
 
     data/osm_roads.geojson   -- all highway=* ways
@@ -13,16 +12,20 @@ toggleable layers:
                                 not unfiltered amenity=*, which is dominated
                                 by restaurants and ATMs)
 
+Usage: python3 fetch_osm.py --out-dir pcs/new-delhi
+
 The query area is the actual PC polygon (Overpass "poly" filter), not its
 bounding-box rectangle -- derived from the parliamentary_constituency
-feature in data/boundary.geojson (not hardcoded), so results don't spill
-into neighbouring constituencies and stay correct if the boundary is ever
-replaced with a more authoritative source.
+feature in <out-dir>/data/boundary.geojson (not hardcoded), so results
+don't spill into neighbouring constituencies and stay correct if the
+boundary is ever replaced with a more authoritative source. Run
+fetch_boundary_pc.py first.
 
 Only stdlib is used (no requests/overpy available on this machine) --
 urllib.request talks to the Overpass API directly and a small hand-rolled
 converter turns the response into GeoJSON.
 """
+import argparse
 import json
 import os
 import sys
@@ -34,10 +37,9 @@ import urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib_provenance import stamp_feature_collection, now_iso, STATUS_OK, STATUS_UNAVAILABLE
 
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(ROOT_DIR, "data")
-RAW_DIR = os.path.join(DATA_DIR, "raw")
-BOUNDARY_PATH = os.path.join(DATA_DIR, "boundary.geojson")
+DATA_DIR = None
+RAW_DIR = None
+BOUNDARY_PATH = None
 
 OVERPASS_MIRRORS = [
     "https://overpass-api.de/api/interpreter",
@@ -176,6 +178,14 @@ def fetch_layer(name, query, out_filename):
 
 
 def main():
+    global DATA_DIR, RAW_DIR, BOUNDARY_PATH
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--out-dir", required=True, help="PC folder, e.g. pcs/new-delhi")
+    args = ap.parse_args()
+    DATA_DIR = os.path.join(os.path.abspath(args.out_dir), "data")
+    RAW_DIR = os.path.join(DATA_DIR, "raw")
+    BOUNDARY_PATH = os.path.join(DATA_DIR, "boundary.geojson")
+
     poly = load_pc_poly()
     log(f"New Delhi PC polygon filter (derived from boundary.geojson, {len(poly.split())//2} vertices)")
 

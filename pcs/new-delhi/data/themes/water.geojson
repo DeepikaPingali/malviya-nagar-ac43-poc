@@ -1224,7 +1224,8 @@
         "_source": "searched delhijalboard.delhi.gov.in for an AC-level Summer Action Plan; none exists for this segment",
         "_source_url": "https://delhijalboard.delhi.gov.in/",
         "_fetched_at": "2026-07-12",
-        "_status": "unavailable"
+        "_status": "unavailable",
+        "_note": "Geometry reuses the AC polygon itself (real, from the shapefile) as a stand-in since there is no DJB-equivalent water plan for this segment -- see claim for why."
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1372,7 +1373,8 @@
         "_source": "searched delhijalboard.delhi.gov.in for an AC-level Summer Action Plan; none exists for this segment",
         "_source_url": "https://delhijalboard.delhi.gov.in/",
         "_fetched_at": "2026-07-12",
-        "_status": "unavailable"
+        "_status": "unavailable",
+        "_note": "Geometry reuses the AC polygon itself (real, from the shapefile) as a stand-in since there is no DJB-equivalent water plan for this segment -- see claim for why."
       },
       "geometry": {
         "type": "Polygon",

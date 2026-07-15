@@ -1,0 +1,19 @@
+# Default: everything not otherwise matched below requires the repo owner's review.
+*                       @DeepikaPingali
+
+# Per-PC review delegation: as a new PC gets a dedicated maintainer, add a
+# line scoping their review to just that PC's folder, e.g.:
+#
+#   /pcs/mumbai-north/   @some-mumbai-maintainer
+#
+# so their PRs route to someone who actually knows that city, not the
+# New Delhi maintainer by default. Until a PC has its own line here, its
+# PRs fall through to the default rule above.
+/pcs/new-delhi/          @DeepikaPingali
+
+# Shared code/schema changes always need the repo owner's review regardless
+# of which PC a contributor is otherwise focused on -- these affect every
+# PC at once.
+/scripts/                @DeepikaPingali
+/schema/                 @DeepikaPingali
+/index.html              @DeepikaPingali

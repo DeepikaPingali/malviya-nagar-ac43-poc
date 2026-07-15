@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/land_housing.schema.json",
+  "title": "land_housing -- additional structured fields",
+  "description": "Recommended, not required by CI -- but strongly preferred over folding all of this into the claim text. These are universal across every PC; status_tag values (the local scheme names) are NOT -- those live in each PC's theme_colors.json.",
+  "type": "object",
+  "properties": {
+    "regularization_scheme_status": {
+      "enum": ["notified", "not_notified", "unknown"],
+      "description": "Is this colony/area notified under whatever local regularisation scheme applies (e.g. Delhi's PM-UDAY)?"
+    },
+    "title_or_deed_issued": {
+      "enum": ["yes", "no", "partial", "unknown"],
+      "description": "Have residents actually received ownership documents, not just scheme eligibility?"
+    },
+    "building_plan_sanctionable": {
+      "enum": ["yes", "no", "unknown"],
+      "description": "Can a resident get a building plan legally approved here?"
+    },
+    "demolition_notice_active": {
+      "type": "boolean",
+      "description": "Is there a current, active demolition/sealing notice on record?"
+    }
+  }
+}

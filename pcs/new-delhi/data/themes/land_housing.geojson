@@ -663,28 +663,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Basai Darapur",
-        "theme": "land_housing",
-        "claim": "Urban village pocket in Moti Nagar; notified under DDA's PM-UDAY list as 'Extended Abadi of Village, Basai Dara Pur', eligible for ownership rights under the 2019 Act.",
-        "status_tag": "unauthorised_colony",
-        "confidence": "high",
-        "geometry_basis": "point",
-        "_source": "DDA PM-UDAY notified list of 1,731 unauthorised colonies",
-        "_source_url": "https://dda.gov.in/sites/default/files/pmuday/1731_uc.pdf",
-        "_fetched_at": "2026-07-13",
-        "_status": "ok"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.1327816,
-          28.6572257
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Anand Parbat",
         "theme": "land_housing",
         "claim": "Unauthorised colony pocket at the Moti Nagar/Karol Bagh boundary; notified under DDA's PM-UDAY list ('Anand Parbat Delhi').",

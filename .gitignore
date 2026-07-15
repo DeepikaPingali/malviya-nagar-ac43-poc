@@ -1,4 +1,4 @@
-data/raw/
+pcs/*/data/raw/
 .DS_Store
 
 # Sibling working folders not part of this pipeline's repo

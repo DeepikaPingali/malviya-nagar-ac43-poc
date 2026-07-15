@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Malviya Nagar (AC-43) — Civic Data POC</title>
+<title id="pageTitle">Civic Data POC</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 <style>
@@ -59,8 +59,9 @@
 <body>
 <div id="app">
   <aside id="sidebar">
-    <h1>Malviya Nagar &mdash; AC-43</h1>
-    <div class="subtitle">South Delhi &middot; New Delhi Lok Sabha constituency &middot; static POC, all data via <code>/scripts</code> fetchers</div>
+    <h1 id="pcHeading">Loading&hellip;</h1>
+    <div class="subtitle" id="pcSubtitle">static POC, all data via <code>/scripts</code> fetchers</div>
+    <div id="pcPicker" style="margin-bottom:14px;"></div>
 
     <div id="pipelineStatus" class="card">Loading pipeline status&hellip;</div>
 
@@ -123,44 +124,13 @@ function civicCategory(props) {
 }
 
 // Central color map for thematic civic-issues layers: theme -> status_tag -> color.
-// Adding a new /data/themes/<theme>.geojson requires adding its entry here to get
-// real colors (an unmapped status_tag falls back to grey with a console warning).
-const THEME_COLORS = {
-  land_housing: {
-    unauthorised_colony: "#d98a1f",
-    affluent_excluded: "#8b8b8b",
-    planned_regularised: "#3a8f4f",
-    urban_village: "#b5651d",
-  },
-  water: {
-    pilot_working: "#2f9e9e",
-    pilot_incomplete: "#c98a3a",
-    limited_supply: "#b08a3a",
-    vulnerable_deficit: "#c94f4f",
-    vulnerable_contamination: "#8b3a62",
-    data_unavailable: "#999999",
-  },
-  sanitation: {
-    sewer_gap: "#a0522d",
-  },
-  waterlogging: {
-    waterlogging_hotspot: "#3a7ab5",
-  },
-  air: {
-    aq_station: "#e05b5b",
-    pollution_source: "#b5533c",
-  },
-  enforcement: {
-    demolition_zone: "#7a3b3b",
-  },
-  roads_congestion: {
-    congestion: "#c9a227",
-    road_quality: "#8a6d3b",
-  },
-  solid_waste: {
-    illegal_dumping: "#6b5b3a",
-  },
-};
+// This is PC-specific (loaded at runtime from <pc>/theme_colors.json, not hardcoded
+// here) because status_tag vocabularies encode local government schemes -- Delhi's
+// land_housing tags come from PM-UDAY; another PC's would come from its own local
+// housing scheme and mean nothing here. An unmapped status_tag falls back to grey
+// with a console warning rather than breaking, so a new PC/theme always renders
+// something even before someone assigns it real colors.
+let THEME_COLORS = {};
 
 function themeStatusColor(theme, statusTag) {
   const color = (THEME_COLORS[theme] || {})[statusTag];
@@ -244,8 +214,53 @@ async function loadJSON(path) {
   return res.json();
 }
 
+// --- PC resolution: ?pc=<id> in the URL selects the constituency; with only --
+// --- one PC registered, that one loads by default with no query string needed ---
+async function resolvePc() {
+  const registry = await loadJSON("pcs/index.json");
+  const pcs = registry.pcs || [];
+  if (pcs.length === 0) throw new Error("pcs/index.json lists no constituencies");
+  const requested = new URLSearchParams(window.location.search).get("pc");
+  let entry = requested ? pcs.find(p => p.id === requested) : null;
+  if (requested && !entry) {
+    console.warn(`?pc=${requested} not found in pcs/index.json -- falling back to the first registered PC`);
+  }
+  if (!entry) entry = pcs[0];
+  const config = await loadJSON(`pcs/${entry.id}/config.json`);
+  return { registry, entry, config };
+}
+
+function renderPcPicker(registry, currentId) {
+  const el = document.getElementById("pcPicker");
+  const pcs = registry.pcs || [];
+  if (pcs.length <= 1) return; // nothing to switch between yet
+  const options = pcs.map(p =>
+    `<option value="${escapeHtml(p.id)}"${p.id === currentId ? " selected" : ""}>${escapeHtml(p.display_name)}</option>`
+  ).join("");
+  el.innerHTML = `<label style="font-size:12px;color:var(--muted);">Constituency:
+    <select id="pcSelect" style="margin-left:6px;">${options}</select></label>`;
+  document.getElementById("pcSelect").addEventListener("change", (ev) => {
+    window.location.search = `?pc=${encodeURIComponent(ev.target.value)}`;
+  });
+}
+
 async function main() {
-  const map = L.map("map", { zoomControl: true }).setView([28.5464, 77.1999], 14);
+  const { registry, entry: pc, config: pcConfig } = await resolvePc();
+  const PC_BASE = `pcs/${pc.id}/`;
+  const DATA_BASE = `${PC_BASE}data/`;
+
+  document.getElementById("pageTitle").textContent = `${pcConfig.display_name} — Civic Data POC`;
+  document.getElementById("pcHeading").textContent = pcConfig.display_name;
+  document.getElementById("pcSubtitle").innerHTML =
+    `${escapeHtml(pc.state || "")} &middot; static POC, all data via <code>/scripts</code> fetchers`;
+  renderPcPicker(registry, pc.id);
+
+  THEME_COLORS = await loadJSON(`${PC_BASE}theme_colors.json`).catch(e => {
+    console.error("theme_colors.json failed to load -- all thematic layers will render grey", e);
+    return {};
+  });
+
+  const map = L.map("map", { zoomControl: true }).setView(pcConfig.map_center || [20.5, 78.9], pcConfig.map_zoom || 12);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
     maxZoom: 20,
@@ -253,11 +268,11 @@ async function main() {
 
   const overlays = {};
 
-  // --- Boundary: New Delhi PC outline + its 10 assembly constituencies, --
-  // --- each individually toggleable ---------------------------------------
+  // --- Boundary: the PC outline + its assembly constituencies, each -------
+  // --- individually toggleable ---------------------------------------------
   const CIVIC_BODY_COLORS = { MCD: "#8b2f2f", NDMC: "#1f6f8b", "Cantonment Board": "#6b4d2d" };
   try {
-    const boundary = await loadJSON("data/boundary.geojson");
+    const boundary = await loadJSON(`${DATA_BASE}boundary.geojson`);
     const acFeatures = boundary.features
       .filter(f => f.properties.feature_type === "assembly_constituency")
       .sort((a, b) => a.properties.AC_NAME.localeCompare(b.properties.AC_NAME));
@@ -284,10 +299,10 @@ async function main() {
         style: { color: "#2a2a28", weight: 3, fill: false },
         onEachFeature: (feat, l) => {
           const extra = propsTable(feat.properties, PROV_KEYS.concat(["feature_type"]));
-          l.bindPopup(`<b>${escapeHtml(feat.properties.PC_NAME || "New Delhi PC")}</b>` + provenancePopup(feat.properties, extra));
+          l.bindPopup(`<b>${escapeHtml(feat.properties.PC_NAME || pcConfig.display_name)}</b>` + provenancePopup(feat.properties, extra));
         },
       }).addTo(map);
-      overlays["New Delhi PC outline"] = pcLayer;
+      overlays[`${pcConfig.display_name} PC outline`] = pcLayer;
       boundaryLayers.push(pcLayer);
     }
 
@@ -298,7 +313,7 @@ async function main() {
 
   // --- Roads (PC-wide, ~28k segments -- off by default to keep first paint fast) ---
   try {
-    const roads = await loadJSON("data/osm_roads.geojson");
+    const roads = await loadJSON(`${DATA_BASE}osm_roads.geojson`);
     const layer = L.geoJSON(roads, {
       style: f => {
         const hw = f.properties.highway;
@@ -317,7 +332,7 @@ async function main() {
 
   // --- Metro ---------------------------------------------------------------
   try {
-    const metro = await loadJSON("data/osm_metro.geojson");
+    const metro = await loadJSON(`${DATA_BASE}osm_metro.geojson`);
     const layer = L.geoJSON(metro, {
       pointToLayer: (f, latlng) => L.circleMarker(latlng, {
         radius: 6, color: "#fff", weight: 1.5, fillColor: "#7b2d8e", fillOpacity: 1,
@@ -335,7 +350,7 @@ async function main() {
   // --- Civic assets (PC-wide), split into one toggle per category --------
   // --- so amenities can be shown/hidden independently (e.g. just hospitals) ---
   try {
-    const civic = await loadJSON("data/osm_civic.geojson");
+    const civic = await loadJSON(`${DATA_BASE}osm_civic.geojson`);
     const byCategory = {};
     civic.features.forEach(f => {
       const cat = civicCategory(f.properties);
@@ -372,13 +387,13 @@ async function main() {
   // --- /data/themes/<theme>.geojson, discovered via data/themes/index.json) ---
   const themeLegendEls = {}; // theme key -> legend <div>
   try {
-    const themeIndex = await loadJSON("data/themes/index.json");
+    const themeIndex = await loadJSON(`${DATA_BASE}themes/index.json`);
     const legendsContainer = document.getElementById("themeLegends");
 
     for (const filename of themeIndex.files || []) {
       const theme = filename.replace(/\.geojson$/, "");
       try {
-        const themeGj = await loadJSON(`data/themes/${filename}`);
+        const themeGj = await loadJSON(`${DATA_BASE}themes/${filename}`);
         const label = humanizeThemeName(theme);
 
         const layer = L.geoJSON(themeGj, {
@@ -426,7 +441,7 @@ async function main() {
 
   // --- Election results panel (non-spatial: no ward/AC geometry to plot beyond the boundary) ---
   try {
-    const results = await loadJSON("data/results.json");
+    const results = await loadJSON(`${DATA_BASE}results.json`);
     const el = document.getElementById("resultsPanel");
     const mla = results.current_mla || {};
     let html = `<div class="card">`;
@@ -453,7 +468,7 @@ async function main() {
 
   // --- MCD wards panel (non-spatial: no authoritative ward-boundary polygons exist) ---
   try {
-    const wards = await loadJSON("data/mcd_wards.json");
+    const wards = await loadJSON(`${DATA_BASE}mcd_wards.json`);
     const el = document.getElementById("wardsPanel");
     let html = `<div class="card"><div class="card-title"><span>2022 MCD Ward Councillors</span>${statusBadge(wards._status)}</div>`;
     html += `<table><tr><th>Ward</th><th>Winner</th><th>Party</th><th>Cases</th><th>Assets (Rs)</th></tr>`;
@@ -475,7 +490,7 @@ async function main() {
 
   // --- Pipeline / manifest status ---------------------------------------
   try {
-    const manifest = await loadJSON("data/manifest.json");
+    const manifest = await loadJSON(`${DATA_BASE}manifest.json`);
     const el = document.getElementById("pipelineStatus");
     el.innerHTML = `<div class="card-title"><span>Pipeline status</span>${statusBadge(manifest.overall_status)}</div><div class="note-text">Last run: ${escapeHtml(manifest.pipeline_run_at)}</div>`;
 

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/roads_congestion.schema.json",
+  "title": "roads_congestion -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "issue_type": { "enum": ["congestion", "pothole", "no_signal", "encroached_footpath", "no_crossing"] },
+    "near_school": { "type": "boolean" },
+    "peak_hours": { "type": "string", "description": "e.g. '8-10am, 6-8pm' -- free text." }
+  }
+}

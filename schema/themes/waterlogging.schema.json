@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/waterlogging.schema.json",
+  "title": "waterlogging -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "depth_cm": { "type": "number", "minimum": 0 },
+    "duration_hours": { "type": "number", "minimum": 0 },
+    "drain_responsible": {
+      "type": "string",
+      "description": "Which drain is supposed to carry this away -- a flooding point is only fixable once you know the drain."
+    },
+    "frequency": { "enum": ["every_monsoon", "occasional", "one_time"] }
+  }
+}

@@ -12,7 +12,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -35,7 +35,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -58,7 +58,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -81,7 +81,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -104,7 +104,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -127,7 +127,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -150,7 +150,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok",
         "_note": "point placed at the hotspot's OSM-geocoded anchor, not an independently geocoded address -- DPCC's own document describes several of these sources by aerial distance from the hotspot rather than a separate address."
       },
@@ -173,7 +173,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok"
       },
       "geometry": {
@@ -195,7 +195,7 @@
         "geometry_basis": "point",
         "_source": "DPCC 'Inventory of major point air pollution sources in Delhi: Hotspots and other priority areas' (2023)",
         "_source_url": "https://www.dpcc.delhigovt.nic.in/uploads/news/ae9ce818bf8b9e12ddb90177ce3108c7.pdf",
-        "_fetched_at": "2026-07-13",
+        "_fetched_at": "2026-07-15T07:51:59Z",
         "_status": "ok"
       },
       "geometry": {

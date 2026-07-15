@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "EXAMPLE -- Safdarjung Hospital (replace before submitting)",
+        "theme": "public_health",
+        "claim": "EXAMPLE CLAIM -- replace with a real, one-line, sourced statement before submitting a PR.",
+        "status_tag": "facility_functional",
+        "confidence": "low",
+        "geometry_basis": "point",
+        "_source": "EXAMPLE -- replace with where your claim actually comes from (a document, article, or 'Field observation by <name>, <date>')",
+        "_source_url": "https://example.com/replace-with-a-real-source-url",
+        "_fetched_at": "2026-07-15T10:49:25Z",
+        "_status": "needs_verification",
+        "facility_type": "hospital",
+        "doctor_present": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2046091,
+          28.5697575
+        ]
+      }
+    }
+  ],
+  "_theme_note": "This is a TEACHING EXAMPLE, not real public_health data -- see fetch_example.py and README.md in this directory."
+}

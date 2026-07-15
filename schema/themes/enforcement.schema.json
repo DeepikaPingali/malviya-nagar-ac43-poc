@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/enforcement.schema.json",
+  "title": "enforcement -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "action_type": { "enum": ["demolition", "sealing", "notice_only"] },
+    "date_of_action": { "type": "string", "description": "ISO date, if known." },
+    "frequency": { "enum": ["one_time", "recurring"] }
+  }
+}

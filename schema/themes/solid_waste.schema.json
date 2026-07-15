@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/solid_waste.schema.json",
+  "title": "solid_waste -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "waste_type": { "enum": ["household", "construction_demolition", "e_waste"] },
+    "nearest_bin_distance_m": { "type": "number", "minimum": 0 }
+  }
+}

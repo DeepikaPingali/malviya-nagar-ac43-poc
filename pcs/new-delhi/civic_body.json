@@ -1,0 +1,42 @@
+{
+  "Karol Bagh": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Patel Nagar": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Moti Nagar": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Rajinder Nagar": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Kasturba Nagar": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Malviya Nagar": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "R.K. Puram": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Greater Kailash": {
+    "civic_body": "MCD",
+    "water_distributor": "DJB (direct distribution)"
+  },
+  "Delhi Cantt": {
+    "civic_body": "Cantonment Board",
+    "water_distributor": "Cantonment Board (buys DJB bulk supply; not a DJB distribution zone)"
+  },
+  "New Delhi": {
+    "civic_body": "NDMC",
+    "water_distributor": "NDMC (buys DJB bulk supply; not a DJB distribution zone)"
+  }
+}

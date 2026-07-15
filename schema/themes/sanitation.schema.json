@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/sanitation.schema.json",
+  "title": "sanitation -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "sewer_connected": { "enum": ["yes", "no", "partial", "unknown"] },
+    "open_drain_present": { "type": "boolean" },
+    "manual_scavenging_observed": {
+      "type": "boolean",
+      "description": "Manual sewer/septic-tank cleaning without protective gear is banned in major metros (Supreme Court, Jan 2025). A 'true' here is a legal-violation flag, handle with care."
+    },
+    "nearest_public_toilet_functional": { "type": "boolean" }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "land_housing": {
+    "unauthorised_colony": "#d98a1f",
+    "affluent_excluded": "#8b8b8b",
+    "planned_regularised": "#3a8f4f",
+    "urban_village": "#b5651d"
+  },
+  "water": {
+    "pilot_working": "#2f9e9e",
+    "pilot_incomplete": "#c98a3a",
+    "limited_supply": "#b08a3a",
+    "vulnerable_deficit": "#c94f4f",
+    "vulnerable_contamination": "#8b3a62",
+    "data_unavailable": "#999999"
+  },
+  "sanitation": {
+    "sewer_gap": "#a0522d"
+  },
+  "waterlogging": {
+    "waterlogging_hotspot": "#3a7ab5"
+  },
+  "air": {
+    "aq_station": "#e05b5b",
+    "pollution_source": "#b5533c"
+  },
+  "enforcement": {
+    "demolition_zone": "#7a3b3b"
+  },
+  "roads_congestion": {
+    "congestion": "#c9a227",
+    "road_quality": "#8a6d3b"
+  },
+  "solid_waste": {
+    "illegal_dumping": "#6b5b3a"
+  },
+  "public_health": {
+    "facility_functional": "#3a8f6f",
+    "facility_partial": "#c98a3a",
+    "facility_non_functional": "#a33a3a"
+  }
+}

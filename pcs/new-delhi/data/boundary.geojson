@@ -20,11 +20,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -105,11 +105,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -198,11 +198,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -271,11 +271,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -368,11 +368,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "NDMC",
         "water_distributor": "NDMC (buys DJB bulk supply; not a DJB distribution zone)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -509,11 +509,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "Cantonment Board",
         "water_distributor": "Cantonment Board (buys DJB bulk supply; not a DJB distribution zone)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -668,11 +668,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -761,11 +761,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -862,11 +862,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -955,11 +955,11 @@
         "feature_type": "assembly_constituency",
         "civic_body": "MCD",
         "water_distributor": "DJB (direct distribution)",
-        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
+        "_civic_body_note": "civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed.",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -1043,9 +1043,9 @@
         "Res": "GEN",
         "feature_type": "parliamentary_constituency",
         "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-        "_fetched_at": "2026-07-12T15:10:05Z",
+        "_fetched_at": "2026-07-15T06:01:22Z",
         "_status": "needs_verification",
-        "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+        "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
       },
       "geometry": {
         "type": "Polygon",
@@ -1881,7 +1881,7 @@
     }
   ],
   "_source": "datameet/maps assembly-constituencies/India_AC.shp + parliamentary-constituencies/india_pc_2019.shp (github.com/datameet/maps) @ b3fbbde",
-  "_fetched_at": "2026-07-12T15:10:05Z",
+  "_fetched_at": "2026-07-15T06:01:22Z",
   "_status": "needs_verification",
-  "_note": "Expanded from single-AC (Malviya Nagar) to all 10 segments of the New Delhi PC + PC outline. civic_body / water_distributor are not from the source shapefile -- manually assigned from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
+  "_note": "10 assembly segments + 1 PC outline for NEW DELHI. civic_body / water_distributor are not from the source shapefile -- manually assigned in civic_body.json from field notes on which body governs/distributes water in each segment. Geometry provenance is the shapefile; these two fields should be spot-checked, not treated as surveyed."
 }

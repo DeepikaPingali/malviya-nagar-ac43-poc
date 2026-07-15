@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/water.schema.json",
+  "title": "water -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "supply_hours_per_day": { "type": "number", "minimum": 0, "maximum": 24 },
+    "supply_reliable": { "type": "boolean", "description": "Does it actually come every day, or is it unpredictable?" },
+    "tanker_dependent": { "type": "boolean" },
+    "tanker_cost_per_week_inr": { "type": "number", "minimum": 0 },
+    "water_quality": { "enum": ["none", "discoloured", "foul_smelling", "contaminated"] },
+    "borewell_present": { "type": "boolean" },
+    "distributor": {
+      "type": "string",
+      "description": "The actual utility/agency name -- varies per city (DJB/NDMC/Cantonment in Delhi, BMC in Mumbai, etc.), so this is free text, not an enum."
+    }
+  }
+}

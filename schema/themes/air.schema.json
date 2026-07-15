@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/air.schema.json",
+  "title": "air -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "source_type": { "enum": ["construction", "burning", "traffic", "dust", "industrial", "monitoring_station"] },
+    "mitigation_observed": { "type": "boolean", "description": "e.g. dust screens, water sprinkling, covered material at a construction site." }
+  }
+}

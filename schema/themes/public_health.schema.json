@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "civic-map/themes/public_health.schema.json",
+  "title": "public_health -- additional structured fields",
+  "type": "object",
+  "properties": {
+    "facility_type": { "enum": ["mohalla_clinic", "dispensary", "hospital", "other"] },
+    "days_open_per_week": { "type": "number", "minimum": 0, "maximum": 7 },
+    "doctor_present": { "type": "boolean" },
+    "medicines_available": { "type": "boolean" }
+  }
+}
